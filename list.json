@@ -1,5 +1,1385 @@
 [
   {
+  "OrganisationId": "b8d20b1b-e8a7-5099-8174-05ea48bcb566",
+  "Status": "Active",
+  "OrganisationName": "BCO SANTANDER (BRASIL) S.A.",
+  "CreatedOn": "2021-01-11T17:13:37.474Z",
+  "LegalEntityName": "BANCO SANTANDER (BRASIL) S.A.",
+  "CountryOfRegistration": "BR",
+  "CompanyRegister": "Cadastro Nacional da Pessoa Jurídica",
+  "Tag": [
+    "Instituições Bancárias"
+  ],
+  "Size": null,
+  "RegistrationNumber": "90400888000142",
+  "RegistrationId": "90400888",
+  "RegisteredName": "BANCO SANTANDER (BRASIL) S.A.",
+  "AddressLine1": "Rua Amador Bueno 474, ",
+  "AddressLine2": "SANTO AMARO",
+  "City": "SAO PAULO, SP",
+  "Postcode": "04752-005",
+  "Country": "BR",
+  "ParentOrganisationReference": "",
+  "AuthorisationServers": [
+    {
+      "AuthorisationServerId": "aaacb9cf-e8c3-402b-93b8-cf4d3e2ec497",
+      "AutoRegistrationSupported": true,
+      "AutoRegistrationNotificationWebhook": null,
+      "SupportsCiba": false,
+      "SupportsDCR": true,
+      "SupportsRedirect": true,
+      "ApiResources": [
+        {
+          "ApiResourceId": "b96e6b40-2174-409b-9bbe-1569acb80e6d",
+          "ApiVersion": "1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "3e77fa39-5f44-443d-b8db-5d2c1f25fbc2",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/personal-accounts"
+            },
+            {
+              "ApiDiscoveryId": "3484e447-9da0-426e-abeb-85b49b91d731",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/business-invoice-financings"
+            },
+            {
+              "ApiDiscoveryId": "8bade712-228d-4451-b054-4eec6fc2a081",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/business-financings"
+            },
+            {
+              "ApiDiscoveryId": "ccde94ce-51cf-400b-bc03-aa87ff1243c0",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/personal-credit-cards"
+            },
+            {
+              "ApiDiscoveryId": "7b6054dd-8173-4491-8763-cf38ad790b3b",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/business-credit-cards"
+            },
+            {
+              "ApiDiscoveryId": "0c37fa73-b169-403f-8376-cc030f6d3b1a",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+            },
+            {
+              "ApiDiscoveryId": "e8ec6255-b632-4341-8068-63639dd38b47",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/business-accounts"
+            },
+            {
+              "ApiDiscoveryId": "970169bd-1241-4c98-af22-1df042611382",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/personal-loans"
+            },
+            {
+              "ApiDiscoveryId": "d860d952-db1b-4c9a-950f-2bbb56be4aca",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/business-loans"
+            },
+            {
+              "ApiDiscoveryId": "8747c844-cd81-4d5c-b6db-c76e16bbd3a4",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/personal-invoice-financings"
+            },
+            {
+              "ApiDiscoveryId": "1c9c9360-cacc-437b-89d3-09037cba6c0a",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+            },
+            {
+              "ApiDiscoveryId": "e3664e93-efe3-49bf-992e-66055c330dde",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/products-services/v1/personal-financings"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "products-services"
+        },
+        {
+          "ApiResourceId": "15626ca5-4b4a-4c69-aa22-28f4162b7ae2",
+          "ApiVersion": "1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "d41781a9-0071-43d1-bef4-37297ef86466",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/discovery/v1/status"
+            },
+            {
+              "ApiDiscoveryId": "afe8fc6d-026e-4ee1-a3dd-438fa671b105",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/discovery/v1/outages"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "discovery"
+        },
+        {
+          "ApiResourceId": "d7ebe673-4ec8-40e2-ac14-8dc22b4772db",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "77b0d24f-ca41-41d9-8575-5083fbdef2a0",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/opendata-exchange/v1/vet-values"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=ZkfwGyPvyIYKJ&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "29/04/2023",
+          "CertificationExpirationDate": "28/04/2024",
+          "ApiFamilyType": "opendata-exchange_vet-values"
+        },
+        {
+          "ApiResourceId": "b21c0d59-4e95-4c7d-bba9-225a42e4e8cc",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "24670d61-9668-4549-ab8c-14bf07102b70",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/customers/v2/personal/identifications"
+            },
+            {
+              "ApiDiscoveryId": "8503132d-384e-4069-911a-4a1ea1f2f98e",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/customers/v2/personal/qualifications"
+            },
+            {
+              "ApiDiscoveryId": "531cceb2-9695-4a5f-a7a8-ad5af52a8a15",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/customers/v2/personal/financial-relations"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_personal_v2-OL_29-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "customers-personal"
+        },
+        {
+          "ApiResourceId": "22ed1878-cc8a-4ca4-97f2-9dbc3531a419",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "b947615b-22cf-4f21-a3e0-8e242731dcb0",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts"
+            },
+            {
+              "ApiDiscoveryId": "4fa23e41-e0e1-4cc1-983f-a9e7d791c1c6",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+            },
+            {
+              "ApiDiscoveryId": "5440e3eb-40df-4758-bdb0-3b8a0c6f163a",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+            },
+            {
+              "ApiDiscoveryId": "48ef93b8-071c-423f-b21e-207e4fc69fee",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+            },
+            {
+              "ApiDiscoveryId": "98fcf157-ef56-43d7-838b-6aa5cb7e6764",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+            },
+            {
+              "ApiDiscoveryId": "a0609aaa-c40f-4b30-bf74-f5146da57bd5",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+            },
+            {
+              "ApiDiscoveryId": "5cced65d-8f36-404a-b235-df59e5c69519",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_credit-card_v2-OL_08-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "credit-cards-accounts"
+        },
+        {
+          "ApiResourceId": "59136ff0-1ac1-411f-9ead-8d516b4d6eba",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "b662c3f4-83eb-4a8b-9220-2bedbe5b0302",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/opendata-investments/v1/credit-fixed-incomes"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=JlAl2WfTceivY&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "29/04/2023",
+          "CertificationExpirationDate": "28/04/2024",
+          "ApiFamilyType": "opendata-investments_credit-fixed-incomes"
+        },
+        {
+          "ApiResourceId": "267714f7-8998-4e26-87d0-cc68b67160a5",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "60adb934-56b9-47a1-97c1-d364268f5b19",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/invoice-financings/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "fddebc45-76f4-4f23-af0c-1d231cfd42dc",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "447d9328-6a25-4567-9753-39736622fb55",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "70c0fe16-478f-4f29-aa75-919baee5fc39",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+            },
+            {
+              "ApiDiscoveryId": "9360c9e2-5580-4a3f-a089-3d472d015739",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_invoice-financings_v2-OL_29-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "invoice-financings"
+        },
+        {
+          "ApiResourceId": "c7041a60-f638-45e7-8187-449420d88d43",
+          "ApiVersion": "1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "a5ef340a-6284-4f3d-a3d1-084b201e8ef3",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/channels/v1/branches"
+            },
+            {
+              "ApiDiscoveryId": "99b99273-bd22-43f6-ad34-be268a244c84",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/channels/v1/banking-agents"
+            },
+            {
+              "ApiDiscoveryId": "03adaf7a-9fb7-4125-b30f-fff9d9f7eb77",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/channels/v1/phone-channels"
+            },
+            {
+              "ApiDiscoveryId": "0cf0205e-951d-4561-a8f2-cdcd28a7a989",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/channels/v1/electronic-channels"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "channels"
+        },
+        {
+          "ApiResourceId": "8c91c49d-0bb7-43d7-b2e7-aeb9c7c34d02",
+          "ApiVersion": "1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "8d9a00b1-d268-4e20-aac2-edb0966c18f1",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/admin/v1/metrics"
+            }
+          ],
+          "FamilyComplete": false,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "admin"
+        },
+        {
+          "ApiResourceId": "f4e722b3-46d1-43b5-a4c6-232c65604235",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "0be6ccba-e9f2-4877-9fcc-91df568547e1",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/accounts/v2/accounts"
+            },
+            {
+              "ApiDiscoveryId": "f874a5d1-ee17-4770-b3ab-3c06c1090ad6",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}"
+            },
+            {
+              "ApiDiscoveryId": "851a953d-be0f-4588-b2df-27fb1d918518",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+            },
+            {
+              "ApiDiscoveryId": "6df1790b-906d-434e-86b8-4563141430d8",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+            },
+            {
+              "ApiDiscoveryId": "a5e88796-1cc8-483d-b4f8-0d07d57d853a",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+            },
+            {
+              "ApiDiscoveryId": "f234eba3-0c35-4ddb-a256-286f9a90a2b5",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_accounts_v2-OL_29-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "accounts"
+        },
+        {
+          "ApiResourceId": "c5f3a615-11b9-4372-a5f7-89cf043c84c2",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "5e7634d0-9209-4b64-905c-b6fcb43346f8",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/loans/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "a927fdd1-057c-4451-b6b4-4b6cf8ca6632",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/loans/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "5364d2fa-421d-46c7-97e5-2f894513984c",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "394883e2-26da-47ae-ae6b-442b3dc5f3f1",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+            },
+            {
+              "ApiDiscoveryId": "90cbac60-c86b-4577-a804-265338564e5e",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_loans_v2-OL_30-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "loans"
+        },
+        {
+          "ApiResourceId": "3cc248a4-fae8-49f5-86ce-adafdcf4624d",
+          "ApiVersion": "2.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "e365b6b0-d84b-4f77-8e1c-12e9e6770c1a",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/payments/v2/pix/payments"
+            },
+            {
+              "ApiDiscoveryId": "d269a9f2-7110-4872-bab8-b7a61d0e89b3",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/90400888_Open%20Banking%20Brazil%20v2.0.0_payments_v2_31-01-2023.json",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "15/02/2023",
+          "CertificationExpirationDate": "15/02/2024",
+          "ApiFamilyType": "payments-pix"
+        },
+        {
+          "ApiResourceId": "54226a8d-10e5-44ed-ba30-859ceba3a35c",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "27ee6893-98ce-4240-9fb6-404615b105c4",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/opendata-investments/v1/bank-fixed-incomes"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=souPAPeCZXtGU&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "30/04/2023",
+          "CertificationExpirationDate": "29/04/2024",
+          "ApiFamilyType": "opendata-investments_bank-fixed-incomes"
+        },
+        {
+          "ApiResourceId": "53e560ad-169c-4f10-a7be-8ccf443f9916",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "eabf2b13-495d-48b0-a1a8-20aa97db5906",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/consents/v2/consents"
+            },
+            {
+              "ApiDiscoveryId": "19c669e7-0487-4183-9b61-c64d9268192b",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/consents/v2/consents/{consentId}"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_consents_v2-OL_30-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "consents"
+        },
+        {
+          "ApiResourceId": "d878d277-a85e-44f4-b07a-1479324eb08e",
+          "ApiVersion": "2.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "572998c7-94eb-4fac-b604-f343f67fc051",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/payments/v2/consents"
+            },
+            {
+              "ApiDiscoveryId": "16e59306-771b-4483-86e6-75171a1f5208",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/payments/v2/consents/{consentId}"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/90400888_Open%20Banking%20Brazil%20v2.0.0_payments_v2_31-01-2023.json",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "15/02/2023",
+          "CertificationExpirationDate": "15/02/2024",
+          "ApiFamilyType": "payments-consents"
+        },
+        {
+          "ApiResourceId": "a4488a7a-81a1-4222-9ec1-5bd6098d56b0",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "0ef848d7-1875-479d-a206-fa9aae08cfa5",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/financings/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "1bc30252-fbf7-4eae-87af-7ca8dd96e583",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "eb645a0d-41b6-4b5b-81f1-307572a8e2dd",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "2fd79cb1-12ad-4e0a-a8a5-8a3316213ab7",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+            },
+            {
+              "ApiDiscoveryId": "0d808003-85fe-460d-a24f-66111f64b6c0",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_financings_v2-OL_29-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "financings"
+        },
+        {
+          "ApiResourceId": "53ad7d67-9c5a-4064-ae83-0bd0fa847d3a",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "94f90607-0c78-4a31-ac03-c9711cef7c5d",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/opendata-investments/v1/funds"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=5u3LYkGm02ccH&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "29/04/2023",
+          "CertificationExpirationDate": "28/04/2024",
+          "ApiFamilyType": "opendata-investments_funds"
+        },
+        {
+          "ApiResourceId": "c17a3c7c-e614-4728-8667-6b9238aa88b5",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "545f0681-e153-4412-b5bc-43101b8120a2",
+              "ApiEndpoint": "https://openbanking.api.santander.com.br/open-banking/opendata-exchange/v1/online-rates"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=C8L1uTUvVJrbO&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "29/04/2023",
+          "CertificationExpirationDate": "28/04/2024",
+          "ApiFamilyType": "opendata-exchange_online-rates"
+        },
+        {
+          "ApiResourceId": "01434422-f7ef-492d-b819-8e49eb038fd2",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "22456711-7f73-4687-a879-6cc70312827b",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/resources/v2/resources"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_resources_v2-OL_30-09-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "resources"
+        },
+        {
+          "ApiResourceId": "77807d44-5fcb-46a3-90ea-135270ef93a4",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "e49f5e2d-cde0-4dbc-8864-cd67b6bc1bc2",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "5996467c-1b0d-403f-a55d-dd587cb264e0",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "ab2063fc-3021-412d-a846-85088b5fe144",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "3365f4e4-376f-4474-af52-bbb94a92969f",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+            },
+            {
+              "ApiDiscoveryId": "62f0490f-1ff4-4e89-ba5d-9b813fe53866",
+              "ApiEndpoint": "https://trust-openbanking.api.santander.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_unarranged-overdraft_v2-OL_03-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "unarranged-accounts-overdraft"
+        }
+      ],
+      "AuthorisationServerCertifications": [
+        {
+          "CertificationStartDate": "06/07/2021",
+          "CertificationExpirationDate": "06/07/2022",
+          "CertificationId": "b710b383-ddf7-40e6-b2a0-c1f28a5f29a4",
+          "AuthorisationServerId": "aaacb9cf-e8c3-402b-93b8-cf4d3e2ec497",
+          "Status": "Self-Certified",
+          "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+          "ProfileType": "Redirect",
+          "ProfileVersion": 1,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_Santander_do_Brasil_S.A-Santander_Open_Banking_1.0.0-fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response.zip"
+        },
+        {
+          "CertificationStartDate": "18/11/2021",
+          "CertificationExpirationDate": "18/11/2022",
+          "CertificationId": "2f333de8-9bdb-4470-b26e-91b736e60762",
+          "AuthorisationServerId": "aaacb9cf-e8c3-402b-93b8-cf4d3e2ec497",
+          "Status": "Self-Certified",
+          "ProfileVariant": "DCR Unsigned payload- JSON",
+          "ProfileType": "DCR",
+          "ProfileVersion": 1,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BCO_SANTANDER_do_Brasil_S.A-FAPI_ADV_OP_DCR-18-November-2021.zip"
+        },
+        {
+          "CertificationStartDate": "07/11/2022",
+          "CertificationExpirationDate": "07/11/2023",
+          "CertificationId": "1dde562a-c022-4ad7-b4c9-33d734c1a83b",
+          "AuthorisationServerId": "aaacb9cf-e8c3-402b-93b8-cf4d3e2ec497",
+          "Status": "Self-Certified",
+          "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+          "ProfileType": "Redirect",
+          "ProfileVersion": 2,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+        },
+        {
+          "CertificationStartDate": "07/11/2022",
+          "CertificationExpirationDate": "07/11/2023",
+          "CertificationId": "3f3bdfa8-579a-49ec-aa66-8ac92e2f2eff",
+          "AuthorisationServerId": "aaacb9cf-e8c3-402b-93b8-cf4d3e2ec497",
+          "Status": "Self-Certified",
+          "ProfileVariant": "DCR Unsigned payload- JSON",
+          "ProfileType": "DCR",
+          "ProfileVersion": 2,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+        }
+      ],
+      "CustomerFriendlyDescription": "Santander Pessoa Física é a marca do Banco Santander para Pessoas. O Banco atua desde 1982 oferecendo um amplo portfólio de produtos e serviços em seus  canais.",
+      "CustomerFriendlyLogoUri": "https://cms.santander.com.br/sites/WPS/imagem/img-santander-chama/21-08-06_200409_P_santander_chama.svg",
+      "CustomerFriendlyName": "Banco Santander Pessoa Física",
+      "DeveloperPortalUri": "https://openbanking.api.santander.com.br/notavailabl",
+      "TermsOfServiceUri": "https://www.developers.instituicao.com.br/naoseaplica.html",
+      "NotificationWebhookAddedDate": null,
+      "OpenIDDiscoveryDocument": "https://openbanking.api.santander.com.br/open-banking/security/v2/santander-pf/.well-known/openid-configuration",
+      "Issuer": null,
+      "PayloadSigningCertLocationUri": "https://openbanking.api.santander.com.br/open-banking/security/v2/santander-pf/JWKS",
+      "CreatedAt": 1611590150,
+      "ParentAuthorisationServerId": null,
+      "DeprecatedDate": null,
+      "RetirementDate": null,
+      "SupersededByAuthorisationServerId": null
+    }
+  ],
+  "OrgDomainClaims": [
+    {
+      "AuthorisationDomainName": "Open Banking",
+      "AuthorityName": "Banco Central do Brasil",
+      "RegistrationId": "",
+      "Status": "Active"
+    }
+  ],
+  "OrgDomainRoleClaims": [
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "DADOS",
+      "Authorisations": [],
+      "RegistrationId": "90400888-OBB-DADOS",
+      "RoleType": "Federation",
+      "Metadata": []
+    },
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "CCORR",
+      "Authorisations": [],
+      "RegistrationId": "90400888-OBB-CCORR",
+      "RoleType": "Federation",
+      "Metadata": []
+    },
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "PAGTO",
+      "Authorisations": [],
+      "RegistrationId": "90400888-OBB-PAGTO",
+      "RoleType": "Federation",
+      "Metadata": []
+    },
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "CONTA",
+      "Authorisations": [],
+      "RegistrationId": "90400888-OBB-CONTA",
+      "RoleType": "Federation",
+      "Metadata": []
+    }
+  ]
+},
+{
+  "OrganisationId": "9c721898-9ce0-50f1-bf85-05075557850b",
+  "Status": "Active",
+  "OrganisationName": "ITAÚ UNIBANCO S.A.",
+  "CreatedOn": "2021-01-11T17:14:46.977Z",
+  "LegalEntityName": "ITAÚ UNIBANCO S.A.",
+  "CountryOfRegistration": "BR",
+  "CompanyRegister": "Cadastro Nacional da Pessoa Jurídica",
+  "Tag": [
+    "Instituições bancárias"
+  ],
+  "Size": "S1",
+  "RegistrationNumber": "60701190000104",
+  "RegistrationId": "60701190",
+  "RegisteredName": "ITAÚ UNIBANCO S.A.",
+  "AddressLine1": "PRAÇA ALFREDO EGYDIO DE SOUZA ARANHA 100",
+  "AddressLine2": "PARQUE JABAQUARA",
+  "City": "SÃO PAULO, SP",
+  "Postcode": "04344-902",
+  "Country": "BR",
+  "ParentOrganisationReference": "",
+  "AuthorisationServers": [
+    {
+      "AuthorisationServerId": "68308291-ec0d-4398-83ce-68b6b1087e49",
+      "AutoRegistrationSupported": true,
+      "AutoRegistrationNotificationWebhook": null,
+      "SupportsCiba": false,
+      "SupportsDCR": true,
+      "SupportsRedirect": true,
+      "ApiResources": [
+        {
+          "ApiResourceId": "616a9bef-2a24-4519-a9a9-56f0ffa963a6",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "efbbc9f7-3656-4cce-becc-ca5b1939968a",
+              "ApiEndpoint": "https://secure.opf.api.itau/itau/open-banking/consents/v2/consents"
+            },
+            {
+              "ApiDiscoveryId": "1bb7f7bf-d1ed-4d79-8057-6e12817bb5a5",
+              "ApiEndpoint": "https://secure.opf.api.itau/itau/open-banking/consents/v2/consents/{consentId}"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/60701190_Itau%20Unibanco%20Major_consents_v2-OL_07-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "consents"
+        },
+        {
+          "ApiResourceId": "2ed31dd4-b16f-4917-9ccf-b6703f9f7d12",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "05ba51b8-2af7-4008-9b26-455984c5d675",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-investments/v1/credit-fixed-incomes"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=pDvhdUxX3TC4t&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-investments_credit-fixed-incomes"
+        },
+        {
+          "ApiResourceId": "07615fad-a4b1-4539-bc4b-6c757e2139e8",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "acc16b2f-14ba-4fe8-a8f0-26cbb6569bf3",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-acquiring-services/v1/businesses"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=KRHGGfda7WOtt&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-acquiring-services_businesses"
+        },
+        {
+          "ApiResourceId": "94616510-3e4e-4f54-ab76-aed303a7da9f",
+          "ApiVersion": "2.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "63f9f284-34cf-480a-a9e6-17016132dac4",
+              "ApiEndpoint": "https://secure.opf.api.itau/itau-itau/open-banking/payments/v2/consents"
+            },
+            {
+              "ApiDiscoveryId": "7fdef4f7-5a10-46da-99d9-6420910256cc",
+              "ApiEndpoint": "https://secure.opf.api.itau/itau-itau/open-banking/payments/v2/consents/{consentId}"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/60701190_Open%20Banking%20Brazil%20Payments%20v2.0.0_payments_v2_31-01-2023.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "15/02/2023",
+          "CertificationExpirationDate": "15/02/2024",
+          "ApiFamilyType": "payments-consents"
+        },
+        {
+          "ApiResourceId": "8cbf27bf-3c4d-48ea-90b6-8c4656b71e66",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "b20f56b0-d3bb-4e7d-8bf1-d75226cfc051",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "67cc0c2b-24a7-4d57-b71a-c887d9d97d16",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "4c50eb69-010a-4fcc-acc2-33892f2658de",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+            },
+            {
+              "ApiDiscoveryId": "6a4b2319-2ad0-4c7a-9f24-bed756a0c9b6",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "6fa80b26-3197-496a-8aec-c33480105cf3",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}/payments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/60701190_Itau%20Unibanco%20Major_loans_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "loans"
+        },
+        {
+          "ApiResourceId": "c348c189-ffaa-45f3-b83e-c4c2008960a8",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "ee0e0ff9-6ae5-42ca-8881-d52f14d16ce4",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-investments/v1/bank-fixed-incomes"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=md40PgEAtxeXw&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-investments_bank-fixed-incomes"
+        },
+        {
+          "ApiResourceId": "6e82d7b2-2791-44b2-861c-eeff22b196a2",
+          "ApiVersion": "2.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "28e72cdd-cf24-462d-87b0-7fcae20f08dd",
+              "ApiEndpoint": "https://secure.opf.api.itau/itau-itau/open-banking/payments/v2/pix/payments"
+            },
+            {
+              "ApiDiscoveryId": "0ceee60f-0c03-4485-b58a-0cc2b5d069c4",
+              "ApiEndpoint": "https://secure.opf.api.itau/itau-itau/open-banking/payments/v2/pix/payments/{paymentId}"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/60701190_Open%20Banking%20Brazil%20Payments%20v2.0.0_payments_v2_31-01-2023.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "15/02/2023",
+          "CertificationExpirationDate": "15/02/2024",
+          "ApiFamilyType": "payments-pix"
+        },
+        {
+          "ApiResourceId": "a98870c8-d369-4dd9-8a93-d53663375e6e",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "da4082de-66f9-4790-85ca-4335a4a0c30b",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/unarranged-accounts-overdraft/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "befdad7a-6ec6-4a35-a8f8-eeeb1e078571",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "be436ac9-8823-466b-8551-cefba860ca16",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+            },
+            {
+              "ApiDiscoveryId": "733d332d-d177-4977-baa4-7a5ab90a8021",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "7de23172-4eab-4ba3-a20a-f88dbec1f427",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/unarranged-overdraft/2.0.1/60701190_Itau%20Unibanco%20Major_unarranged-overdraft_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "unarranged-accounts-overdraft"
+        },
+        {
+          "ApiResourceId": "94c435f8-badd-4be8-b314-277985c78ed8",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "45c10145-e64c-4885-a9af-f199a98bc1cb",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-accounts"
+            },
+            {
+              "ApiDiscoveryId": "2292e47b-ac2d-491b-ad1e-fe1ed830eee1",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-credit-cards"
+            },
+            {
+              "ApiDiscoveryId": "081b718b-3d97-45e1-9396-4db4106c5a62",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-credit-cards"
+            },
+            {
+              "ApiDiscoveryId": "24ff149c-970b-4f7a-8801-fbfd73404f58",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-loans"
+            },
+            {
+              "ApiDiscoveryId": "2e192b01-e5db-4ca6-882e-daee2f854c8b",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-loans"
+            },
+            {
+              "ApiDiscoveryId": "902d335a-a91c-4e13-9ea9-837185b60bd7",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+            },
+            {
+              "ApiDiscoveryId": "9774136e-ad52-4dd8-9ac2-d1b5607fdd54",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-unarranged-account-overdraft"
+            },
+            {
+              "ApiDiscoveryId": "392e4a8c-f882-47d0-a754-96c7c8af566a",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-financings"
+            },
+            {
+              "ApiDiscoveryId": "f2540bdf-74ff-4815-a012-17bbc9d2f9f6",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-financings"
+            },
+            {
+              "ApiDiscoveryId": "28251ada-2454-44f3-9063-a3ba9a0c54c7",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-invoice-financings"
+            },
+            {
+              "ApiDiscoveryId": "658a0b8a-29de-4834-8a37-184cba4ec37a",
+              "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-accounts"
+            }
+          ],
+          "FamilyComplete": false,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "products-services"
+        },
+        {
+          "ApiResourceId": "bced72de-a92a-41b8-b052-3fa840339305",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "90d63f9c-c1e0-48d0-a428-e9217fe2c423",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-exchange/v1/online-rates"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=JOEqYqCkJqYnc&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "29/04/2023",
+          "CertificationExpirationDate": "28/04/2024",
+          "ApiFamilyType": "opendata-exchange_online-rates"
+        },
+        {
+          "ApiResourceId": "4e41425f-8c4d-47c1-bfcf-3e89934c2e5f",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "8cb35f3f-0e54-49ac-92b2-b822d08b77ce",
+              "ApiEndpoint": "https://api.itau/open-banking/discovery/v1/status"
+            },
+            {
+              "ApiDiscoveryId": "3ce9d2ee-dbb0-4b1e-b3e7-785806580c05",
+              "ApiEndpoint": "https://api.itau/open-banking/discovery/v1/outages"
+            }
+          ],
+          "FamilyComplete": false,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "discovery"
+        },
+        {
+          "ApiResourceId": "55c8f7b7-fa5d-4f1b-96eb-cdc5d2e981e0",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "fb3db8bd-72bb-4784-b38c-e95e25421f3a",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/personal/identifications"
+            },
+            {
+              "ApiDiscoveryId": "39164dce-5181-497d-8f62-73ac49a7a473",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/personal/financial-relations"
+            },
+            {
+              "ApiDiscoveryId": "51fa42cf-624c-411d-b309-0ebd82af8d4c",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/personal/qualifications"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/60701190_Itau%20Unibanco%20Major_personal_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "customers-personal"
+        },
+        {
+          "ApiResourceId": "fe524f69-36cb-45c0-b20f-ece830855256",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "af198f90-301d-4a93-b47d-6f303bdf2747",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/invoice-financings/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "c98a2272-a8d5-490b-88b2-f0a062693d5a",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/invoice-financings/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "b7a17486-ef3a-49db-9109-f7d92c3a4c93",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "62a786e6-838e-4e13-8d98-b2804547d555",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+            },
+            {
+              "ApiDiscoveryId": "67920f5b-98fa-44c1-a943-a8294b51f51b",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/invoice-financings/2.0.1/60701190_Itau%20Unibanco%20Major_invoice-financings_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "invoice-financings"
+        },
+        {
+          "ApiResourceId": "c521745d-c74a-41f6-98b9-881221e8e9c0",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "672d54f7-81af-42fc-a2e5-c2b174544489",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts"
+            },
+            {
+              "ApiDiscoveryId": "8c883193-69b5-4190-ba26-e1feb70ee69b",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}"
+            },
+            {
+              "ApiDiscoveryId": "cea2195a-3e6c-4372-a70d-5d7c0b16b92b",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/transactions"
+            },
+            {
+              "ApiDiscoveryId": "b209ced1-1afb-49dc-a25e-5d02764029a1",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+            },
+            {
+              "ApiDiscoveryId": "75cbe121-91aa-4c9c-9c01-92b6022f525a",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+            },
+            {
+              "ApiDiscoveryId": "68bb048e-aaf7-497a-b6c1-76bcd8c2fe8e",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/balances"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/60701190_Itau%20Unibanco%20Major_accounts_v2-OL_13-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "accounts"
+        },
+        {
+          "ApiResourceId": "f4e62463-73a8-46e8-8677-6f207caf61b2",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "fd944a32-f1ec-496f-a3a5-213ed674e35d",
+              "ApiEndpoint": "https://api.itau/open-banking/admin/v1/metrics"
+            }
+          ],
+          "FamilyComplete": false,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "admin"
+        },
+        {
+          "ApiResourceId": "c32b832a-bef9-4986-bf11-804ae0270449",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "5f61b69c-1770-4e9f-938a-f8f73aca0545",
+              "ApiEndpoint": "https://api.itau/open-banking/channels/v1/branches"
+            },
+            {
+              "ApiDiscoveryId": "33fe51f4-4f0b-46cb-8da4-f825652af960",
+              "ApiEndpoint": "https://api.itau/open-banking/channels/v1/banking-agents"
+            },
+            {
+              "ApiDiscoveryId": "47a4701b-279a-4732-bd99-881b86d1b185",
+              "ApiEndpoint": "https://api.itau/open-banking/channels/v1/electronic-channels"
+            },
+            {
+              "ApiDiscoveryId": "17cefbf5-9783-4014-8609-b238586be87c",
+              "ApiEndpoint": "https://api.itau/open-banking/channels/v1/phone-channels"
+            }
+          ],
+          "FamilyComplete": false,
+          "ApiCertificationUri": null,
+          "CertificationStatus": null,
+          "CertificationStartDate": null,
+          "CertificationExpirationDate": null,
+          "ApiFamilyType": "channels"
+        },
+        {
+          "ApiResourceId": "572d7621-2e6f-4aa9-b679-5b2578739c78",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "40ed5cb5-91db-47dc-949c-7cef043019d3",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/business/qualifications"
+            },
+            {
+              "ApiDiscoveryId": "99fdabe0-d376-47dc-aebc-6b5e932d781a",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/business/financial-relations"
+            },
+            {
+              "ApiDiscoveryId": "77c54913-c402-4027-b233-bbbeb0b21b38",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/business/identifications"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/60701190_Itau%20Unibanco%20Major_business_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "customers-business"
+        },
+        {
+          "ApiResourceId": "e7b3557b-113c-4a21-9a08-deaee6e6a6c8",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "8a405fff-e4fb-46cc-90af-ace2b1a5c3c2",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-investments/v1/variable-incomes"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=NqzzeHsSCeRhV&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-investments_variable-incomes"
+        },
+        {
+          "ApiResourceId": "6ab31c7f-8c1c-4b32-a29d-ec156f88b1e4",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "9154cba3-964b-4c9d-b02c-49939cd7fdf7",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts"
+            },
+            {
+              "ApiDiscoveryId": "72795e66-1c93-4624-861b-03a0ab6dbadf",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}"
+            },
+            {
+              "ApiDiscoveryId": "fee7c42f-f6b9-4347-96e7-3bf8ab099211",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+            },
+            {
+              "ApiDiscoveryId": "a3606ff8-6fe3-4bd7-8dbc-122273ec4e1d",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}/warranties"
+            },
+            {
+              "ApiDiscoveryId": "4137bf4d-316c-4dd1-a0ab-d1f7dfb6be8b",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}/payments"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/60701190_Itau%20Unibanco%20Major_financings_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "financings"
+        },
+        {
+          "ApiResourceId": "228800c3-4b27-4c4e-bc11-2976fb704c24",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "8f18f946-6385-4f46-b97f-393d70f9cd3f",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/resources/v2/resources"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/60701190_Itau%20Unibanco%20Major_resources_v2-OL_06-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "resources"
+        },
+        {
+          "ApiResourceId": "a4e2482a-a1c9-4e00-83e5-8928662e1776",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "cdfcb326-d9b1-4d13-ad13-e9eb783bc940",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-investments/v1/funds"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=NfIjKft1roxl8&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-investments_funds"
+        },
+        {
+          "ApiResourceId": "31d116e6-9b79-4450-a8e6-ffc1ecd3a3dd",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "38a12b9e-7c1b-46cd-9df1-96e3587b587f",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-exchange/v1/vet-values"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=RR8UQEVzefXDq&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "29/04/2023",
+          "CertificationExpirationDate": "28/04/2024",
+          "ApiFamilyType": "opendata-exchange_vet-values"
+        },
+        {
+          "ApiResourceId": "d1591d8e-d7a8-4efb-8263-cea29c5ddd55",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "2b17d473-bd03-4487-984f-8271a0ff3420",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-investments/v1/treasure-titles"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=skN8USWp7IrZi&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-investments_treasure-titles"
+        },
+        {
+          "ApiResourceId": "b0d0b5ae-bd34-4356-a19f-c673a801dd44",
+          "ApiVersion": "2.0.1",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "4a478724-ac53-4c45-b3cb-ed3815f2b11f",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts"
+            },
+            {
+              "ApiDiscoveryId": "29fafd5b-4651-4bf5-8040-1741044288aa",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+            },
+            {
+              "ApiDiscoveryId": "1b80dfd3-2731-4e5c-853b-5065c70f9b12",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+            },
+            {
+              "ApiDiscoveryId": "60afc151-085c-4429-83d4-9deeed880963",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+            },
+            {
+              "ApiDiscoveryId": "fbf7d826-4894-46e1-8d06-49efd0d8641d",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+            },
+            {
+              "ApiDiscoveryId": "d9afa990-9e81-4018-8943-ad3c7c3a1b50",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+            },
+            {
+              "ApiDiscoveryId": "8de0102e-990f-4959-86b1-8d8b35e6d45e",
+              "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/60701190_Itau%20Unibanco%20Major_credit-card_v2-OL_13-10-2022.zip",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "31/10/2022",
+          "CertificationExpirationDate": "31/10/2023",
+          "ApiFamilyType": "credit-cards-accounts"
+        },
+        {
+          "ApiResourceId": "685c414f-e4ab-4393-8d7e-48e5758144a8",
+          "ApiVersion": "1.0.0",
+          "ApiDiscoveryEndpoints": [
+            {
+              "ApiDiscoveryId": "cef483d5-8a7f-4666-b4e4-9526b1be2ebe",
+              "ApiEndpoint": "https://api.itau/open-banking/opendata-acquiring-services/v1/personals"
+            }
+          ],
+          "FamilyComplete": true,
+          "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=a0tnRVmQsy0Xz&public=true",
+          "CertificationStatus": "Self-Certified",
+          "CertificationStartDate": "28/04/2023",
+          "CertificationExpirationDate": "27/04/2024",
+          "ApiFamilyType": "opendata-acquiring-services_personals"
+        }
+      ],
+      "AuthorisationServerCertifications": [
+        {
+          "CertificationStartDate": "19/11/2021",
+          "CertificationExpirationDate": "19/11/2022",
+          "CertificationId": "7276becc-fe55-4031-b402-34db9f0d3b60",
+          "AuthorisationServerId": "68308291-ec0d-4398-83ce-68b6b1087e49",
+          "Status": "Self-Certified",
+          "ProfileVariant": "DCR Signed payload - JWT",
+          "ProfileType": "DCR",
+          "ProfileVersion": 1,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Itau-FAPI-v4-Itau_Unibanco_S.A.-BR-OB-Adv.-OP-DCR-Private_Key-19-Nov-2021.zip"
+        },
+        {
+          "CertificationStartDate": "06/07/2021",
+          "CertificationExpirationDate": "06/07/2022",
+          "CertificationId": "d68afab4-c4a1-409d-b22a-8c510e422c6b",
+          "AuthorisationServerId": "68308291-ec0d-4398-83ce-68b6b1087e49",
+          "Status": "Self-Certified",
+          "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+          "ProfileType": "Redirect",
+          "ProfileVersion": 1,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Itau_Unibanco-Itau_Identity_v1.0.0-BR-OB-Adv-OP-Private_Key-PAR-06-Jul-2021.zip"
+        },
+        {
+          "CertificationStartDate": "09/11/2022",
+          "CertificationExpirationDate": "09/11/2023",
+          "CertificationId": "07f7da91-8ac8-4c0b-a269-c8cd4b4d2b06",
+          "AuthorisationServerId": "68308291-ec0d-4398-83ce-68b6b1087e49",
+          "Status": "Self-Certified",
+          "ProfileVariant": "DCR Signed payload - JWT",
+          "ProfileType": "DCR",
+          "ProfileVersion": 1,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/Itau_Unibanco_S._A.-Itau_CIAM_v2-BR-OB_Adv._OP_DCR-9-Nov-2022.zip"
+        },
+        {
+          "CertificationStartDate": "09/11/2022",
+          "CertificationExpirationDate": "09/11/2023",
+          "CertificationId": "1a1cfb67-5c47-4e2c-917d-f408fa22f389",
+          "AuthorisationServerId": "68308291-ec0d-4398-83ce-68b6b1087e49",
+          "Status": "Self-Certified",
+          "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+          "ProfileType": "Redirect",
+          "ProfileVersion": 1,
+          "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/Itau_Unibanco_S._A.-Itau_CIAM_v2-BR-OB_Adv._OP_Private_Key_PAR-9-Nov-2022.zip"
+        }
+      ],
+      "CustomerFriendlyDescription": "O Itaú é o maior banco privado do Brasil e está presente em diversos países, contando com empresas no grupo que oferecem crédito, financiamento, investimentos e muito mais. Aproveite o banco completo com soluções que sempre atendem suas necessidades.",
+      "CustomerFriendlyLogoUri": "https://www.itau.com.br/assets/dam/publisher/07_itau_empresas/13_open_banking/logos_regulatorio_bacen/opb_log_reg_bac_itau_img_01.svg",
+      "CustomerFriendlyName": "Itaú",
+      "DeveloperPortalUri": "https://developer.itau.com.br",
+      "TermsOfServiceUri": null,
+      "NotificationWebhookAddedDate": null,
+      "OpenIDDiscoveryDocument": "https://id.opf.itau.com.br/.well-known/openid-configuration",
+      "Issuer": null,
+      "PayloadSigningCertLocationUri": "https://id.itau.com.br/itau/jwks",
+      "CreatedAt": 1611857525,
+      "ParentAuthorisationServerId": null,
+      "DeprecatedDate": null,
+      "RetirementDate": null,
+      "SupersededByAuthorisationServerId": null
+    }
+  ],
+  "OrgDomainClaims": [
+    {
+      "AuthorisationDomainName": "Open Banking",
+      "AuthorityName": "Banco Central do Brasil",
+      "RegistrationId": "",
+      "Status": "Active"
+    }
+  ],
+  "OrgDomainRoleClaims": [
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "PAGTO",
+      "Authorisations": [],
+      "RegistrationId": "60701190-OBB-PAGTO",
+      "RoleType": "Federation",
+      "Metadata": []
+    },
+    {
+      "Status": "Inactive",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "CCORR",
+      "Authorisations": [],
+      "RegistrationId": "60701190-OBB-CCORR",
+      "RoleType": "Federation",
+      "Metadata": []
+    },
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "CONTA",
+      "Authorisations": [],
+      "RegistrationId": "60701190-OBB-CONTA",
+      "RoleType": "Federation",
+      "Metadata": []
+    },
+    {
+      "Status": "Active",
+      "AuthorisationDomain": "Open Banking",
+      "Role": "DADOS",
+      "Authorisations": [],
+      "RegistrationId": "60701190-OBB-DADOS",
+      "RoleType": "Federation",
+      "Metadata": []
+    }
+  ]
+},
+  {
    "OrganisationId":"8292c33e-d95a-5fe7-8f27-dd7a95c68b55",
    "Status":"Active",
    "OrganisationName":"BANCO GENIAL S.A.",
