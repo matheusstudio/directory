@@ -1,4 +1,4 @@
-[{{
+[{
    "OrganisationId":"c0f47d95-78e7-5f20-b0ea-ff8a75a44a76",
    "Status":"Active",
    "OrganisationName":"PICPAY",
@@ -721,7 +721,7 @@
          ]
       }
    ]
-},
+},{
   "OrganisationId": "e5a1c7ad-11d4-560d-914c-611003a39219",
   "Status": "Active",
   "OrganisationName": "MERCADO PAGO INSTITUICAO DE PAGAMENTO LTDA",
