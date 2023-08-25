@@ -1,4 +1,206 @@
 [{
+   "OrganisationId":"42609b73-82bc-5758-9c12-7e0bcc84885e",
+   "Status":"Active",
+   "OrganisationName":"MIDWAY S.A. - SCFI",
+   "CreatedOn":"2021-01-11T17:13:16.201Z",
+   "LegalEntityName":"MIDWAY S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO",
+   "CountryOfRegistration":"BR",
+   "CompanyRegister":"Cadastro Nacional da Pessoa Jurídica",
+   "Tag":[
+      "Outras Instituições de Crédito"
+   ],
+   "Size":null,
+   "RegistrationNumber":"09464032000112",
+   "RegistrationId":"09464032",
+   "RegisteredName":"MIDWAY S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO",
+   "AddressLine1":"AVENIDA CASA VERDE 327",
+   "AddressLine2":"CASA VERDE",
+   "City":"SAO PAULO, SP",
+   "Postcode":"02519-900",
+   "Country":"BR",
+   "ParentOrganisationReference":"",
+   "AuthorisationServers":[
+      {
+         "AuthorisationServerId":"7a7a9a8d-f086-44b6-b81e-215d516c27c1",
+         "AutoRegistrationSupported":true,
+         "AutoRegistrationNotificationWebhook":null,
+         "SupportsCiba":false,
+         "SupportsDCR":true,
+         "SupportsRedirect":true,
+         "CustomerFriendlyDescription":"A Midway é uma plataforma de bem estar financeiro. Através da conta digital gratuita, os consumidores podem ter acesso a empréstimos facilitados, seguros e assistências, ter seu dinheiro rendendo todo dia, sorteios mensais de R$ 10.000 e muito mais!",
+         "CustomerFriendlyLogoUri":"https://openfinance.midway.com.br/midway.svg",
+         "CustomerFriendlyName":"Midway",
+         "DeveloperPortalUri":null,
+         "TermsOfServiceUri":null,
+         "NotificationWebhookAddedDate":null,
+         "OpenIDDiscoveryDocument":"https://auth.openbanking.midway.com.br/.well-known/openid-configuration",
+         "Issuer":"https://auth.openbanking.midway.com.br",
+         "PayloadSigningCertLocationUri":"https://auth.openbanking.midway.com.br/auth/jwks",
+         "CreatedAt":1631716227.000000000,
+         "ParentAuthorisationServerId":null,
+         "DeprecatedDate":null,
+         "RetirementDate":null,
+         "SupersededByAuthorisationServerId":null,
+         "ApiResources":[
+            {
+               "ApiResourceId":"6abb67e4-fe8d-44dd-b128-5a31e29d924e",
+               "ApiVersion":"2.0.0",
+               "FamilyComplete":true,
+               "ApiCertificationUri":"https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/09464032_Midway%20-%20Open%20Banking%20Opus%20-%20Fase%203%20-%20v2_payments_v2_01-02-2023.json",
+               "CertificationStatus":"Self-Certified",
+               "CertificationStartDate":"15/02/2023",
+               "CertificationExpirationDate":"15/02/2024",
+               "ApiFamilyType":"payments-consents",
+               "ApiDiscoveryEndpoints":[
+                  {
+                     "ApiDiscoveryId":"6f670a22-d4f3-4880-863f-eaf0a598bfc1",
+                     "ApiEndpoint":"https://api.midway.com.br/open-banking/payments/v2/consents"
+                  },
+                  {
+                     "ApiDiscoveryId":"a126d7eb-dbfb-4220-a397-29bfb596880d",
+                     "ApiEndpoint":"https://api.midway.com.br/open-banking/payments/v2/consents/{consentId}"
+                  }
+               ]
+            },
+            {
+               "ApiResourceId":"c7d08e22-b65e-404f-8641-524d0f7ce424",
+               "ApiVersion":"1",
+               "FamilyComplete":true,
+               "ApiCertificationUri":null,
+               "CertificationStatus":null,
+               "CertificationStartDate":null,
+               "CertificationExpirationDate":null,
+               "ApiFamilyType":"admin",
+               "ApiDiscoveryEndpoints":[
+                  {
+                     "ApiDiscoveryId":"0e9163a0-df7b-4941-9ec5-6e37756d6f5f",
+                     "ApiEndpoint":"https://auth.openbanking.midway.com.br/open-banking/admin/v1/metrics"
+                  }
+               ]
+            },
+            {
+               "ApiResourceId":"601414db-de85-4676-a107-8e39efd58f1d",
+               "ApiVersion":"2.0.0",
+               "FamilyComplete":true,
+               "ApiCertificationUri":"https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/09464032_Midway%20-%20Open%20Banking%20Opus%20-%20Fase%203%20-%20v2_payments_v2_01-02-2023.json",
+               "CertificationStatus":"Self-Certified",
+               "CertificationStartDate":"15/02/2023",
+               "CertificationExpirationDate":"15/02/2024",
+               "ApiFamilyType":"payments-pix",
+               "ApiDiscoveryEndpoints":[
+                  {
+                     "ApiDiscoveryId":"c6296c27-98ec-4be5-b54b-3e15a2c25825",
+                     "ApiEndpoint":"https://api.midway.com.br/open-banking/payments/v2/pix/payments"
+                  },
+                  {
+                     "ApiDiscoveryId":"4ef572c5-8873-468a-baef-94e536eb0fd3",
+                     "ApiEndpoint":"https://api.midway.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+                  }
+               ]
+            },
+            {
+               "ApiResourceId":"5b2b0568-a80a-497d-a572-522d91f6215f",
+               "ApiVersion":"1",
+               "FamilyComplete":true,
+               "ApiCertificationUri":null,
+               "CertificationStatus":null,
+               "CertificationStartDate":null,
+               "CertificationExpirationDate":null,
+               "ApiFamilyType":"discovery",
+               "ApiDiscoveryEndpoints":[
+                  {
+                     "ApiDiscoveryId":"e2b408a7-539f-422c-98c1-f3eaefea4858",
+                     "ApiEndpoint":"https://auth.openbanking.midway.com.br/open-banking/discovery/v1/status"
+                  },
+                  {
+                     "ApiDiscoveryId":"54028795-574f-4fa9-a26d-38131f94d882",
+                     "ApiEndpoint":"https://auth.openbanking.midway.com.br/open-banking/discovery/v1/outages"
+                  }
+               ]
+            }
+         ],
+         "AuthorisationServerCertifications":[
+            {
+               "CertificationStartDate":"21/10/2022",
+               "CertificationExpirationDate":"21/10/2023",
+               "CertificationId":"96208fae-1db8-452a-a33a-2d5feea4de3d",
+               "AuthorisationServerId":"7a7a9a8d-f086-44b6-b81e-215d516c27c1",
+               "Status":"Self-Certified",
+               "ProfileVariant":"FAPI Adv. OP w/ Private Key, PAR",
+               "ProfileType":"Redirect",
+               "ProfileVersion":1,
+               "CertificationURI":"https://openid.net/wordpress-content/uploads/2022/10/Midway-Opus_Open_Banking_v1-BR_OB_Adv_OP_w_Private-Key_PAR-21-Oct-2022.zip"
+            },
+            {
+               "CertificationStartDate":"21/10/2022",
+               "CertificationExpirationDate":"21/10/2023",
+               "CertificationId":"bc20fe6c-c232-4a39-8769-531836b2b9a0",
+               "AuthorisationServerId":"7a7a9a8d-f086-44b6-b81e-215d516c27c1",
+               "Status":"Self-Certified",
+               "ProfileVariant":"DCR Signed payload - JWT",
+               "ProfileType":"DCR",
+               "ProfileVersion":1,
+               "CertificationURI":"https://openid.net/wordpress-content/uploads/2022/10/Midway-Opus_Open_Banking_v1-BR_OB_Adv_OP_DCR-21-Oct-2022.zip"
+            }
+         ]
+      }
+   ],
+   "OrgDomainClaims":[
+      {
+         "AuthorisationDomainName":"Open Banking",
+         "AuthorityName":"Banco Central do Brasil",
+         "RegistrationId":"",
+         "Status":"Active"
+      }
+   ],
+   "OrgDomainRoleClaims":[
+      {
+         "Status":"Inactive",
+         "AuthorisationDomain":"Open Banking",
+         "Role":"CCORR",
+         "RegistrationId":"09464032",
+         "Authorisations":[
+            {
+               "Status":"Inactive",
+               "MemberState":"BR"
+            }
+         ],
+         "RoleType":"Federation",
+         "Exclusive":false,
+         "Metadata":[
+            
+         ]
+      },
+      {
+         "Status":"Active",
+         "AuthorisationDomain":"Open Banking",
+         "Role":"CONTA",
+         "RegistrationId":"09464032",
+         "Authorisations":[
+            
+         ],
+         "RoleType":"Federation",
+         "Exclusive":false,
+         "Metadata":[
+            
+         ]
+      },
+      {
+         "Status":"Inactive",
+         "AuthorisationDomain":"Open Banking",
+         "Role":"DADOS",
+         "RegistrationId":"09464032",
+         "Authorisations":[
+            
+         ],
+         "RoleType":"Federation",
+         "Exclusive":false,
+         "Metadata":[
+            
+         ]
+      }
+   ]
+},{
    "OrganisationId":"e93badba-7da7-5cb8-8b85-88ddb2fb8bd7",
    "Status":"Active",
    "OrganisationName":"ZEMA CFI S/A",
