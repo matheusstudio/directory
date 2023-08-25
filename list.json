@@ -1,4 +1,153 @@
 [{
+   "OrganisationId":"e93badba-7da7-5cb8-8b85-88ddb2fb8bd7",
+   "Status":"Active",
+   "OrganisationName":"ZEMA CFI S/A",
+   "CreatedOn":"2021-01-07T16:19:15.654Z",
+   "LegalEntityName":"ZEMA CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A",
+   "CountryOfRegistration":"BR",
+   "CompanyRegister":"Cadastro Nacional da Pessoa Jurídica",
+   "Tag":[
+      "Outras Instituições de Crédito"
+   ],
+   "Size":null,
+   "RegistrationNumber":"05351887000186",
+   "RegistrationId":"05351887",
+   "RegisteredName":"ZEMA CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A",
+   "AddressLine1":"AVENIDA JOSE ANANIAS DE AGUIAR 5005",
+   "AddressLine2":"BOA VISTA",
+   "City":"ARAXÁ, MG",
+   "Postcode":"38184-200",
+   "Country":"BR",
+   "ParentOrganisationReference":"",
+   "AuthorisationServers":[
+      {
+         "AuthorisationServerId":"2ba35e89-a932-469f-85c5-4a0ba8b28304",
+         "AutoRegistrationSupported":false,
+         "AutoRegistrationNotificationWebhook":null,
+         "SupportsCiba":false,
+         "SupportsDCR":true,
+         "SupportsRedirect":true,
+         "CustomerFriendlyDescription":"A Zema Financeira é o braço financeiro do Grupo Zema, um dos grupos empresariais mais sólidos do Brasil, que possui mais de 98 anos de história, tradição e reconhecimento.  ",
+         "CustomerFriendlyLogoUri":"https://www.zema.com/file/general/logo.svg",
+         "CustomerFriendlyName":"ZEMA CFI S/A",
+         "DeveloperPortalUri":null,
+         "TermsOfServiceUri":null,
+         "NotificationWebhookAddedDate":null,
+         "OpenIDDiscoveryDocument":"https://auth1.zemafinanceira.com/.well-known/openid-configuration",
+         "Issuer":"https://auth1.zemafinanceira.com",
+         "PayloadSigningCertLocationUri":"https://keystore.directory.openbankingbrasil.org.br/e93badba-7da7-5cb8-8b85-88ddb2fb8bd7/84008602-3ca3-4dce-9504-9fa246f3dc73/application.jwks",
+         "CreatedAt":1691173805.000000000,
+         "ParentAuthorisationServerId":null,
+         "DeprecatedDate":null,
+         "RetirementDate":null,
+         "SupersededByAuthorisationServerId":null,
+         "ApiResources":[
+            {
+               "ApiResourceId":"3e3bb584-f349-4bad-9090-1ea8797e6dd3",
+               "ApiVersion":"2.0.0",
+               "FamilyComplete":true,
+               "ApiCertificationUri":"https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/05351887_Zema%20Financeira%20Openbanking%20v2_payments_v2_14-07-2023.json",
+               "CertificationStatus":"Self-Certified",
+               "CertificationStartDate":"14/07/2023",
+               "CertificationExpirationDate":"13/07/2024",
+               "ApiFamilyType":"payments-pix",
+               "ApiDiscoveryEndpoints":[
+                  {
+                     "ApiDiscoveryId":"278d3252-f9d6-4b9c-a0e0-e0c11798ceeb",
+                     "ApiEndpoint":"https://rs1.zemafinanceira.com/open-banking/payments/v2/pix/payments"
+                  },
+                  {
+                     "ApiDiscoveryId":"dd5c89bb-2d13-410b-a159-2466d02150d6",
+                     "ApiEndpoint":"https://rs1.zemafinanceira.com/open-banking/payments/v2/pix/payments/{paymentId}"
+                  }
+               ]
+            },
+            {
+               "ApiResourceId":"1b8e2644-e46b-42ef-9f57-cb6e530535fe",
+               "ApiVersion":"2.0.0",
+               "FamilyComplete":true,
+               "ApiCertificationUri":"https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/05351887_Zema%20Financeira%20Openbanking%20v2_payments_v2_14-07-2023.json",
+               "CertificationStatus":"Self-Certified",
+               "CertificationStartDate":"14/07/2023",
+               "CertificationExpirationDate":"13/07/2024",
+               "ApiFamilyType":"payments-consents",
+               "ApiDiscoveryEndpoints":[
+                  {
+                     "ApiDiscoveryId":"6ac17a44-ccfa-4112-82ac-871cb2329860",
+                     "ApiEndpoint":"https://rs1.zemafinanceira.com/open-banking/payments/v2/consents"
+                  },
+                  {
+                     "ApiDiscoveryId":"dfbe1cac-4cb8-4ee7-93cd-82568355ea4e",
+                     "ApiEndpoint":"https://rs1.zemafinanceira.com/open-banking/payments/v2/consents/{consentId}"
+                  }
+               ]
+            }
+         ],
+         "AuthorisationServerCertifications":[
+            {
+               "CertificationStartDate":"03/10/2022",
+               "CertificationExpirationDate":"03/10/2023",
+               "CertificationId":"fc7014c1-7f82-406d-a954-1fc6e062985c",
+               "AuthorisationServerId":"2ba35e89-a932-469f-85c5-4a0ba8b28304",
+               "Status":"Self-Certified",
+               "ProfileVariant":"FAPI Adv. OP w/ MTLS",
+               "ProfileType":"Redirect",
+               "ProfileVersion":1,
+               "CertificationURI":"https://openid.net/wordpress-content/uploads/2022/10/ZemaFinanceira_OpenBanking-v1_BR-OB-Adv-OP-MTLS_11-Oct-2022.zip"
+            },
+            {
+               "CertificationStartDate":"03/10/2022",
+               "CertificationExpirationDate":"03/10/2023",
+               "CertificationId":"1ff8acd5-a3ff-4380-b5bc-3674f706627b",
+               "AuthorisationServerId":"2ba35e89-a932-469f-85c5-4a0ba8b28304",
+               "Status":"Self-Certified",
+               "ProfileVariant":"DCR Signed payload - JWT",
+               "ProfileType":"DCR",
+               "ProfileVersion":1,
+               "CertificationURI":"https://openid.net/wordpress-content/uploads/2022/10/ZemaFinanceira_OpenBanking-v1_BR-OB-Adv-OP-DCR_11-Oct-2022.zip"
+            }
+         ]
+      }
+   ],
+   "OrgDomainClaims":[
+      {
+         "AuthorisationDomainName":"Open Banking",
+         "AuthorityName":"Banco Central do Brasil",
+         "RegistrationId":"05351887-OBB",
+         "Status":"Active"
+      }
+   ],
+   "OrgDomainRoleClaims":[
+      {
+         "Status":"Active",
+         "AuthorisationDomain":"Open Banking",
+         "Role":"CONTA",
+         "RegistrationId":"05351887-OBB-CONTA",
+         "Authorisations":[
+            
+         ],
+         "RoleType":"Federation",
+         "Exclusive":false,
+         "Metadata":[
+            
+         ]
+      },
+      {
+         "Status":"Active",
+         "AuthorisationDomain":"Open Banking",
+         "Role":"CCORR",
+         "RegistrationId":"05351887-OBB-CCORR",
+         "Authorisations":[
+            
+         ],
+         "RoleType":"Federation",
+         "Exclusive":false,
+         "Metadata":[
+            
+         ]
+      }
+   ]
+},{
    "OrganisationId":"c0f47d95-78e7-5f20-b0ea-ff8a75a44a76",
    "Status":"Active",
    "OrganisationName":"PICPAY",
