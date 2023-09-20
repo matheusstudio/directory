@@ -1,4 +1,508 @@
 [{
+    "OrganisationId": "b6a214c7-6332-5a41-8464-a281fb9a4ca0",
+    "Status": "Active",
+    "OrganisationName": "BANCO PAN",
+    "CreatedOn": "2021-01-07T16:19:16.562Z",
+    "LegalEntityName": "BANCO PAN S.A.",
+    "CountryOfRegistration": "BR",
+    "CompanyRegister": "Cadastro Nacional da Pessoa Jur\u00EDdica",
+    "Tag": [
+      "Institui\u00E7\u00F5es Banc\u00E1rias"
+    ],
+    "Size": null,
+    "RegistrationNumber": "59285411000113",
+    "RegistrationId": "59285411",
+    "RegisteredName": "BANCO PAN S.A.",
+    "AddressLine1": "Avenida Paulista 1374",
+    "AddressLine2": "Bela Vista",
+    "City": "S\u00E3o Paulo, SP",
+    "Postcode": "01310-100",
+    "Country": "BR",
+    "ParentOrganisationReference": "30306294000145",
+    "AuthorisationServers": [
+      {
+        "AuthorisationServerId": "612da9a3-ee82-4f9e-9919-fa8ba88800f9",
+        "AutoRegistrationSupported": true,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "O Banco PAN tem o objetivo de trazer um novo olhar para os desafios financeiros do brasileiro por meio de um portf\u00F3lio de produtos: conta digital, cart\u00E3o de cr\u00E9dito, empr\u00E9stimos, financiamento de ve\u00EDculos e mais.",
+        "CustomerFriendlyLogoUri": "https://www.bancopan.com.br/data/files/83/77/FC/2A/5DE5A71033FBD5979C288204/logo_pan_openbanking.svg",
+        "CustomerFriendlyName": "Banco PAN",
+        "DeveloperPortalUri": "https://api-openbanking.com.br/naoseaplica",
+        "TermsOfServiceUri": "https://www.developers.bancopan.com.br/naoseaplica.html",
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://auth-openbanking.bancopan.com.br/.well-known/openid-configuration",
+        "Issuer": null,
+        "PayloadSigningCertLocationUri": "https://auth-openbanking.bancopan.com.br/openid/connect/jwks.json",
+        "CreatedAt": 1611696813,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "6d223133-e918-4205-bf37-0ff294659870",
+            "ApiVersion": "1",
+            "FamilyComplete": false,
+            "ApiCertificationUri": null,
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "discovery",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "51348b00-16fe-456a-abb8-4427b07c2af9",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/discovery/v1/outages"
+              },
+              {
+                "ApiDiscoveryId": "fce3915c-45eb-488b-a7cd-fb8a2ddf907b",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/discovery/v1/status"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "31894601-90bc-4076-ae04-3fc3f13a1b75",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_personal_v2-OL_29-09-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "29/09/2022",
+            "CertificationExpirationDate": "29/09/2023",
+            "ApiFamilyType": "customers-personal",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "fb63d184-3cb4-4fc1-941e-e0ccad935325",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/customers/v2/personal/identifications"
+              },
+              {
+                "ApiDiscoveryId": "12ff6394-ac35-4b7d-adb8-56a1f0b032ae",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/customers/v2/personal/qualifications"
+              },
+              {
+                "ApiDiscoveryId": "f0912dfa-84e3-4c3a-8183-1aa59d7ef6b2",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/customers/v2/personal/financial-relations"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "5501101d-4fe5-438d-ae7a-cbfb563b03ce",
+            "ApiVersion": "1.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=jC5G9eRBlpXDH&public=true",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "20/09/2023",
+            "CertificationExpirationDate": "19/09/2024",
+            "ApiFamilyType": "opendata-insurance_personals",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "5a6fb961-5812-4dc8-8762-ef250fc545e3",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/opendata-insurance/v1/personals"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "5609da08-ec1f-46af-a8b5-db04d31735f6",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_accounts_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "62278b6d-e315-424e-9da5-96af6fb89b50",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+              },
+              {
+                "ApiDiscoveryId": "52951ef3-3efe-4cf9-b8e8-07cff6cfec8d",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+              },
+              {
+                "ApiDiscoveryId": "2f0b2f18-567f-44bf-a314-3560f81f71e4",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "111ad8b5-e608-4e8e-bada-5579e6425dbf",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/accounts/v2/accounts/{accountId}"
+              },
+              {
+                "ApiDiscoveryId": "e59636be-f55c-4d6e-8c53-b59233d24368",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+              },
+              {
+                "ApiDiscoveryId": "45c68901-f905-4088-b722-01d990ed85fa",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "a0d2c884-e960-4d6d-bf7d-b2bcfeebafa5",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_credit-card_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "credit-cards-accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "336a9388-5300-4268-97b2-a3b8a3d63d75",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "a06c4554-0d34-4419-bcd8-0f78399f6c20",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+              },
+              {
+                "ApiDiscoveryId": "067848b3-f9e5-40b8-98d6-49446c0a4839",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+              },
+              {
+                "ApiDiscoveryId": "ad904f58-687e-4b2f-b8b9-a691d4ea1d63",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+              },
+              {
+                "ApiDiscoveryId": "d141d291-b38d-420e-8a1d-42d3609cff16",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+              },
+              {
+                "ApiDiscoveryId": "772a44ec-23a6-451d-8c45-db8f10dadfaa",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "9c18c6cd-9184-4305-873f-4d786f6df67e",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "ddf4d830-19f6-4960-8338-9557d8aec12b",
+            "ApiVersion": "1",
+            "FamilyComplete": false,
+            "ApiCertificationUri": null,
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "admin",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "584a2c37-1739-473a-98b9-342fab72e9c8",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/admin/v1/metrics"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "10163ea6-d8c6-4e61-914b-7c82d5a49cde",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_financings_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "financings",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "b743dc7c-7cd9-4119-b57d-7dd006db5ee1",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/financings/v2/contracts"
+              },
+              {
+                "ApiDiscoveryId": "89c44e42-16ab-4e02-9601-efbb475f53b8",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/financings/v2/contracts/{contractId}"
+              },
+              {
+                "ApiDiscoveryId": "1c360a66-5f96-4851-bd43-da1767055376",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+              },
+              {
+                "ApiDiscoveryId": "2617cf85-4ca0-4a57-ae50-94790bb3ad4e",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+              },
+              {
+                "ApiDiscoveryId": "4fc54d09-f082-432b-a588-7cce65fa1de4",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "d5ae30d8-c02f-4af1-97bb-c67ee0f100ff",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/59285411_Banco%20Pan%20OpenFinance%20v1.2_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "e327d2b7-8042-49c2-9188-4d2bd312be93",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/payments/v2/pix/payments"
+              },
+              {
+                "ApiDiscoveryId": "1167d3fe-635f-46fe-80cf-b259cc94961c",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "138e7d0a-c187-4d6c-92d2-984f7f70fe41",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_consents_v2-OL_04-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "04/10/2022",
+            "CertificationExpirationDate": "04/10/2023",
+            "ApiFamilyType": "consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "245203bf-ee2b-4f67-afde-748c57e24857",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/consents/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "34f21508-7238-407b-9cba-ebef7c1ade0e",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/consents/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "4d0c614e-89ce-4e1e-b098-c1e6d6cf07c6",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/59285411_Banco%20Pan%20OpenFinance%20v1.2_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "80dfa1ed-ddc1-4e4a-b2bf-b822e233dcf0",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "1ffa3cbb-ca80-4e4a-b585-32bce6d742fb",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "a706d1df-1699-4ac8-8a9e-be5c46ebdcde",
+            "ApiVersion": "1",
+            "FamilyComplete": false,
+            "ApiCertificationUri": null,
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "products-services",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "94402ae3-7404-4aac-8b02-41e1470a5560",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/personal-accounts"
+              },
+              {
+                "ApiDiscoveryId": "1313fb0b-8a54-43de-a9c1-59378ff65526",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/personal-credit-cards"
+              },
+              {
+                "ApiDiscoveryId": "19b34fc4-9549-4e78-94b7-04d2c214e63a",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/personal-loans"
+              },
+              {
+                "ApiDiscoveryId": "cc50eca6-e987-4646-b16f-982e10d85546",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/personal-financings"
+              },
+              {
+                "ApiDiscoveryId": "1f09380e-0835-4a23-b28a-63ec88e5a74e",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/business-loans"
+              },
+              {
+                "ApiDiscoveryId": "874766da-9a1e-444f-a29e-ea098850b188",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/business-financings"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "a28d4246-aee9-4315-8af0-0ff8fbf80a1c",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/resources/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_resources_v2-OL_30-09-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "30/09/2022",
+            "CertificationExpirationDate": "30/09/2023",
+            "ApiFamilyType": "resources",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "f12727cd-d24e-4351-9e57-64a5eccc1443",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/resources/v2/resources"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "89c667d3-5a82-4262-aa18-b5650804d9d3",
+            "ApiVersion": "1.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=3CvLpx0mkvvUM&public=true",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "20/09/2023",
+            "CertificationExpirationDate": "19/09/2024",
+            "ApiFamilyType": "opendata-investments_bank-fixed-incomes",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "cb58ef9d-df9c-489f-9215-5b87f05b6950",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/opendata-investments/v1/bank-fixed-incomes"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "e87995eb-5bf5-49c0-8a07-fe70247069ff",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/59285411_Banco%20PAN%20Open%20Banking%20v1.0_loans_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "loans",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "c5e1d748-edbe-4d66-934c-367919073d78",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/loans/v2/contracts"
+              },
+              {
+                "ApiDiscoveryId": "15ef8099-cbd7-4e4a-8775-7da21a3797f4",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/loans/v2/contracts/{contractId}"
+              },
+              {
+                "ApiDiscoveryId": "e94a2e84-6ac3-44ab-8777-59251aceb0fc",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+              },
+              {
+                "ApiDiscoveryId": "4d066fdc-666a-4061-9498-e16ca451b029",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+              },
+              {
+                "ApiDiscoveryId": "6e34a8e7-cd21-40e8-87e7-98fc2812fed2",
+                "ApiEndpoint": "https://matls-api-openbanking.bancopan.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "11362c7a-452d-43b8-b2a5-f9ef7c2ccd85",
+            "ApiVersion": "1",
+            "FamilyComplete": false,
+            "ApiCertificationUri": null,
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "channels",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "d54dd52d-0b77-4d3d-b537-04cf53c009b7",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/channels/v1/electronic-channels"
+              },
+              {
+                "ApiDiscoveryId": "9d47e942-9bd2-41ff-85b2-9f629afba174",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/channels/v1/phone-channels"
+              },
+              {
+                "ApiDiscoveryId": "5ca1864c-c29a-4ef3-9569-7ed077878031",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/channels/v1/banking-agents"
+              },
+              {
+                "ApiDiscoveryId": "bcdd9edb-a642-4f70-894b-41f7da457361",
+                "ApiEndpoint": "https://api-openbanking.bancopan.com.br/open-banking/channels/v1/branches"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "04/08/2023",
+            "CertificationExpirationDate": "03/08/2024",
+            "CertificationId": "6f91f768-7b00-4669-9dde-b9e44b22bc23",
+            "AuthorisationServerId": "612da9a3-ee82-4f9e-9919-fa8ba88800f9",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wp-content/uploads/2023/08/Banco_Pan_SA-Banco_Pan_OpenFinance_v1.1-BR_OB_Adv_OP_MTLS_PAR-04-Aug-2023.zip"
+          },
+          {
+            "CertificationStartDate": "04/08/2023",
+            "CertificationExpirationDate": "03/08/2024",
+            "CertificationId": "e68e456e-c011-4bc0-a5a4-a5c0c94bcd14",
+            "AuthorisationServerId": "612da9a3-ee82-4f9e-9919-fa8ba88800f9",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wp-content/uploads/2023/08/Banco_Pan_SA-Banco_Pan_OpenFinance_v1.1-BR_OB_Adv_OP_Private_Key_PAR-04-Aug-2023.zip"
+          },
+          {
+            "CertificationStartDate": "04/08/2023",
+            "CertificationExpirationDate": "03/08/2024",
+            "CertificationId": "2cc2eadf-1846-4b7f-a082-c230ceef8b4d",
+            "AuthorisationServerId": "612da9a3-ee82-4f9e-9919-fa8ba88800f9",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Unsigned payload- JSON",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wp-content/uploads/2023/08/Banco_Pan_SA-Banco_Pan_OpenFinance_v1.1-BR_OB_Adv_OP_DCR-04-Aug-2023.zip"
+          }
+        ]
+      }
+    ],
+    "OrgDomainClaims": [
+      {
+        "AuthorisationDomainName": "Open Banking",
+        "AuthorityName": "Banco Central do Brasil",
+        "RegistrationId": "",
+        "Status": "Active"
+      }
+    ],
+    "OrgDomainRoleClaims": [
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "CONTA",
+        "RegistrationId": "59285411-OBB-CONTA",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      },
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "CCORR",
+        "RegistrationId": "59285411-OBB-CCORR",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      },
+      {
+        "Status": "Inactive",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "PAGTO",
+        "RegistrationId": "59285411-OBB-PAGTO",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      },
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "DADOS",
+        "RegistrationId": "59285411-OBB-DADOS",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      }
+    ]
+  },{
    "OrganisationId":"709138dd-6e9d-5f96-bfff-69a5b2cb3ec0",
    "Status":"Active",
    "OrganisationName":"BCO SAFRA S.A.",
