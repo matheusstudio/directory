@@ -1,4 +1,1152 @@
 [ {
+    "OrganisationId": "79717d71-0cf4-58f6-b2d0-370d5404d383",
+    "Status": "Active",
+    "OrganisationName": "BCO XP S.A.",
+    "CreatedOn": "2021-01-07T16:17:24.703Z",
+    "LegalEntityName": "BANCO XP S.A.",
+    "CountryOfRegistration": "BR",
+    "CompanyRegister": "Cadastro Nacional da Pessoa Jur\u00EDdica",
+    "Tag": [
+      "Institui\u00E7\u00F5es Banc\u00E1rias"
+    ],
+    "Size": null,
+    "RegistrationNumber": "33264668000103",
+    "RegistrationId": "33264668",
+    "RegisteredName": "BANCO XP S.A.",
+    "AddressLine1": "Av Ataulfo de Paiva 153",
+    "AddressLine2": "Leblon",
+    "City": "Rio de Janeiro, RJ",
+    "Postcode": "22440-033",
+    "Country": "BR",
+    "ParentOrganisationReference": "",
+    "AuthorisationServers": [
+      {
+        "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+        "AutoRegistrationSupported": true,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "O Banco XP \u00E9 um banco m\u00FAltiplo que tem as melhores solu\u00E7\u00F5es financeiras, tais como: conta corrente, cart\u00E3o de cr\u00E9dito, Investback, benef\u00EDcios em lojas parceiras, empr\u00E9stimos, c\u00E2mbio e muito mais, pensando em voc\u00EA e tamb\u00E9m no seu neg\u00F3cio!",
+        "CustomerFriendlyLogoUri": "https://openbanking-redirect.xpi.com.br/assets/xpi.svg",
+        "CustomerFriendlyName": "Banco XP S.A.",
+        "DeveloperPortalUri": null,
+        "TermsOfServiceUri": null,
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://banking-openfinance.xpi.com.br/orgs/xp/.well-known/openid-configuration",
+        "Issuer": "https://banking-openfinance.xpi.com.br/orgs/xp",
+        "PayloadSigningCertLocationUri": "https://keystore.directory.openbankingbrasil.org.br/79717d71-0cf4-58f6-b2d0-370d5404d383/41b07410-b6fc-47fb-afbd-91f102c40a9c/application.jwks",
+        "CreatedAt": 1630079022,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "8eb7f407-23e5-4101-91c3-53f8fa997887",
+            "ApiVersion": "1.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=nDAaUGRyDuJ2P&public=true",
+            "CertificationStatus": "Rejected",
+            "CertificationStartDate": "27/09/2023",
+            "CertificationExpirationDate": "26/09/2024",
+            "ApiFamilyType": "opendata-exchange_vet-values",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "a9720884-ed7a-4fbb-8fca-57cc5f6d8978",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/opendata-exchange/v1/vet-values"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "07a688ba-45ae-42d4-9840-5796bfcf883d",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_consents_v2-OL_07-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "07/10/2022",
+            "CertificationExpirationDate": "07/10/2023",
+            "ApiFamilyType": "consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "9b0194fd-4dfa-4227-a716-3c0985d58fe1",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/consents/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "efb7cde0-c9ca-419b-bb98-62e2c52fad89",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/consents/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "196b62ea-7317-474e-abc9-6d40ad000547",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "channels",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "e1c21acf-0940-46f1-9fe9-634410b68784",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/channels/v1/electronic-channels"
+              },
+              {
+                "ApiDiscoveryId": "b55cf060-3958-467b-9f2f-ee76d9813f13",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/channels/v1/phone-channels"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "61e10d86-9976-4c68-964a-5f63e00c3f63",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_resources_v2-OL_06-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "06/10/2022",
+            "CertificationExpirationDate": "06/10/2023",
+            "ApiFamilyType": "resources",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "1db403ba-d931-42bb-9b75-a29d42dd644a",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/resources/v2/resources"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "3844671b-6053-4b92-ae72-86cf598dded6",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/33264668_Payments%20API%20V%202.0.0%20-%20INIC-DICT-MANU-QRES-QRDN_payments_v2_31-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "3c8abcd3-a632-478b-8d7f-f9ad6ac0d79f",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/payments/v2/pix/payments"
+              },
+              {
+                "ApiDiscoveryId": "b1a1c903-05d2-4666-937c-c0f6cecd7720",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "515ae82d-2eb3-4624-9be6-a9d201e7ec13",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "discovery",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "e7034c28-6998-432a-aeca-1e18cae58230",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/discovery/v1/status"
+              },
+              {
+                "ApiDiscoveryId": "f2c9c2d2-4b92-4048-9f44-a74d3505f674",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/discovery/v1/outages"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "7d4fd264-a02a-4981-b042-0d72af21efe8",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_personal_v2-OL_06-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "06/10/2022",
+            "CertificationExpirationDate": "06/10/2023",
+            "ApiFamilyType": "customers-personal",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "c6c72bc7-394e-4a91-9226-42b0a72387ae",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/customers/v2/personal/qualifications"
+              },
+              {
+                "ApiDiscoveryId": "563403fb-c64a-4fcd-9b8d-ae519bdb0f83",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/customers/v2/personal/financial-relations"
+              },
+              {
+                "ApiDiscoveryId": "96893f02-0fff-4192-85dd-22ac9b634be8",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/customers/v2/personal/identifications"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "453914ff-9717-4a5f-b934-4de88849fea3",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Awaiting Certification",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "admin",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "7c1b086f-7dca-47e4-9706-60020b4f49ed",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/admin/v1/metrics"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "1050980a-0cd5-4524-afcb-f2ed82bb6840",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_credit-card_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "credit-cards-accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "73d6b8b6-b6d5-4a50-952e-19cf0d138592",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "07ec9bd9-e259-4f52-88be-f204beb4c249",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+              },
+              {
+                "ApiDiscoveryId": "49cbf2bd-5aa9-4df7-b7b8-da2895df5985",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+              },
+              {
+                "ApiDiscoveryId": "f9467cfa-b09b-471d-8979-fb0877c09f89",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "f2680d36-2c0c-4798-80f6-67abc15ccfc9",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+              },
+              {
+                "ApiDiscoveryId": "ec4b0b5a-0b39-4ece-9464-30852d877755",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+              },
+              {
+                "ApiDiscoveryId": "c93e453e-4b2c-4ed7-9444-edc38b162ba7",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "371d63c3-49c6-4cca-91da-f392d5e19d93",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "products-services",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "72238777-ab4d-4e4d-b5e6-4c6f998db36e",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/products-services/v1/personal-accounts"
+              },
+              {
+                "ApiDiscoveryId": "c55240e5-4c60-4fa5-b279-088a1156f9e3",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/products-services/v1/personal-loans"
+              },
+              {
+                "ApiDiscoveryId": "e04dd6c0-fdfb-4f4b-992a-d8d0ef4abf3a",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/products-services/v1/personal-credit-cards"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "0277de03-56ea-4309-af26-f8a7a0dad59c",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking_resources_v2-OL_06-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "06/10/2022",
+            "CertificationExpirationDate": "06/10/2023",
+            "ApiFamilyType": "loans",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "ccd5a00e-ad7b-418a-aa5e-26ead936f168",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/loans/v2/contracts"
+              },
+              {
+                "ApiDiscoveryId": "00be3066-9dfd-4f5f-8efe-bf06ff671cbc",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/loans/v2/contracts/{contractId}"
+              },
+              {
+                "ApiDiscoveryId": "5b58fd3b-ebc8-4cd5-8b24-df804a2026dc",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+              },
+              {
+                "ApiDiscoveryId": "6c23b06d-b434-48d0-8142-645971ecd89c",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+              },
+              {
+                "ApiDiscoveryId": "e8172b62-2963-4db8-b15c-f351424801f8",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "53c0f025-6089-4b16-8513-afd6cccb3ad4",
+            "ApiVersion": "1.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=m6Zkig8YKiEZt&public=true",
+            "CertificationStatus": "Rejected",
+            "CertificationStartDate": "27/09/2023",
+            "CertificationExpirationDate": "26/09/2024",
+            "ApiFamilyType": "opendata-exchange_online-rates",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "1b1315d6-c466-4ede-94a9-47c0807c8683",
+                "ApiEndpoint": "https://banking-openfinance.xpi.com.br/open-banking/opendata-exchange/v1/online-rates"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "7f962f1a-004a-413b-8081-ae938714ff95",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_accounts_v2-OL_19-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "19/10/2022",
+            "CertificationExpirationDate": "19/10/2023",
+            "ApiFamilyType": "accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "3f19bb1b-dd61-4e5b-a4ab-36204e0b360f",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}"
+              },
+              {
+                "ApiDiscoveryId": "5c681441-7a71-4597-be47-a5d4509513c9",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "e907a73e-9783-46f1-b315-be6fe7fbc575",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+              },
+              {
+                "ApiDiscoveryId": "6b38af79-45c3-4bbe-bc7c-d25ec7e24e56",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+              },
+              {
+                "ApiDiscoveryId": "43a032f8-19eb-4e39-b8a8-96e0e97a34a4",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "75332cce-6773-4bc6-a773-43c3d97d9f56",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "7241407a-1cf5-4f7f-9ef8-b07fc5a3ba67",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/33264668_Payments%20API%20V%202.0.0%20-%20INIC-DICT-MANU-QRES-QRDN_payments_v2_31-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "07fe9fb6-b001-42f9-b494-f74a9caeeba6",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "8d535750-1baf-4164-a3ea-c89098b1c0b9",
+                "ApiEndpoint": "https://matls-banking-openfinance.xpi.com.br/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "26138117-8814-46ac-b379-74181ce65e49",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_Private_Key_PAR-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "56d6e79a-8957-4747-8b81-ff487fc5f143",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_Private_Key-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "22/03/2023",
+            "CertificationExpirationDate": "21/03/2024",
+            "CertificationId": "ce7499ba-be26-4a32-a3ee-d9585a1bcf04",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-PAR-22-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "f0a1abbf-4dd0-497c-b10b-943406a8856c",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "dc479492-ff90-42dc-bb5c-c26910c5d5c7",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_MTLS_PAR-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "c79fbe01-1582-4cc3-8f85-c867e106df0c",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "8a8e4ffe-d314-4395-b424-c336942a30fd",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_MTLS-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "22/03/2023",
+            "CertificationExpirationDate": "21/03/2024",
+            "CertificationId": "ef4f72f1-adbf-4736-8425-6203afc223d9",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR_OB_Adv_OP_DCR-22-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "0a284dc6-257d-4dfa-9eb6-83385e4f8e7b",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-PAR-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "25/03/2022",
+            "CertificationExpirationDate": "25/03/2023",
+            "CertificationId": "90464875-4a40-4253-9560-4c4d7cdfe919",
+            "AuthorisationServerId": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_DCR-25-Mar-2022.zip"
+          }
+        ]
+      },
+      {
+        "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+        "AutoRegistrationSupported": false,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "A Rico \u00E9 refer\u00EAncia no mercado financeiro com nosso prop\u00F3sito de melhorar a vida das pessoas.",
+        "CustomerFriendlyLogoUri": "https://openbanking-redirect.xpi.com.br/assets/rico.svg",
+        "CustomerFriendlyName": "Banco XP S.A. (Rico)",
+        "DeveloperPortalUri": null,
+        "TermsOfServiceUri": null,
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://banking-openfinance.rico.com.vc/orgs/rico/.well-known/openid-configuration",
+        "Issuer": "https://banking-openfinance.rico.com.vc/orgs/rico",
+        "PayloadSigningCertLocationUri": "https://banking-openfinance.rico.com.vc/orgs/rico/jwks",
+        "CreatedAt": 1665112923,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "374bee4e-9b0a-43be-879e-cea5b19434ee",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "discovery",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "59837f60-cf04-480f-82d7-81bfb884e8f1",
+                "ApiEndpoint": "https://banking-openfinance.rico.com.vc/open-banking/discovery/v1/status"
+              },
+              {
+                "ApiDiscoveryId": "d1922608-ab43-4b9e-8e56-f0ca0d2f866b",
+                "ApiEndpoint": "https://banking-openfinance.rico.com.vc/open-banking/discovery/v1/outages"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "847cf672-82ea-4f04-bcde-eb4814e0653c",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "channels",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "f1d1686e-97d6-4583-9dd4-9f785c007f65",
+                "ApiEndpoint": "https://banking-openfinance.rico.com.vc/open-banking/channels/v1/electronic-channels"
+              },
+              {
+                "ApiDiscoveryId": "a34597cf-01d6-4eca-b058-0e6c34d84f1c",
+                "ApiEndpoint": "https://banking-openfinance.rico.com.vc/open-banking/channels/v1/phone-channels"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "9e7f145d-462a-4af6-8357-6cd19ba7370e",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/33264668_Payments%20API%20V%202.0.0%20-%20INIC-DICT-MANU-QRES-QRDN_payments_v2_31-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "7908a640-c0ae-4bab-8f2d-cf0f6823b808",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/payments/v2/pix/payments"
+              },
+              {
+                "ApiDiscoveryId": "bacb4494-8db5-4166-99fb-309c44640a3d",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/payments/v2/pix/payments/{paymentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "7eac1471-e77f-4fb9-a1f6-fde1ba2dd3e3",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_consents_v2-OL_07-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "07/10/2022",
+            "CertificationExpirationDate": "07/10/2023",
+            "ApiFamilyType": "consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "3ffb1689-eb60-4d6b-bef7-ec6b281a9030",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/consents/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "d0446f0e-eb9e-4e59-b88f-08bbe1beea22",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/consents/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "2a5259e0-4091-4560-b490-328e61f94075",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/33264668_Payments%20API%20V%202.0.0%20-%20INIC-DICT-MANU-QRES-QRDN_payments_v2_31-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "b79fa67c-1d71-42e6-9479-677393935fa5",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "28420268-9bc5-4006-bfa9-4d1fbe23502b",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "8a26fe6c-63a6-4860-b8b2-58a99ac4a2e9",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_accounts_v2-OL_19-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "19/10/2002",
+            "CertificationExpirationDate": "19/10/2003",
+            "ApiFamilyType": "accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "4d3ac5c1-4d4e-4436-80d1-8bd3ea65e111",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/accounts/v2/accounts/{accountId}"
+              },
+              {
+                "ApiDiscoveryId": "f9d3ee38-100d-4816-b2f7-32b2ee9b04c9",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "da35bf04-4d6b-49fa-8e53-c9e8fdd4768d",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/accounts/v2/accounts/{accountId}/balances"
+              },
+              {
+                "ApiDiscoveryId": "c0812d2d-939a-461f-b234-0d9176d8393a",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+              },
+              {
+                "ApiDiscoveryId": "aadda078-8e3f-4a38-a0e9-9a3a0f6df2d4",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/accounts/v2/accounts/{accountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "f902b95f-ef79-4279-9cb9-61924f47d21f",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "0b1214a5-fc1b-4a80-a918-09f7b598ea05",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_credit-card_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "credit-cards-accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "844fd273-cf3a-45ea-b5d7-6f1c26f87361",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "1ae3bcfc-1f3f-4cf0-974c-94a593365c6e",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+              },
+              {
+                "ApiDiscoveryId": "466eec24-6c15-42f7-af55-630f4626c6ae",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+              },
+              {
+                "ApiDiscoveryId": "f273c775-25f0-442b-9c9e-32de29209ee0",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "86b9c6a2-aebe-4693-9155-11d38b858896",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+              },
+              {
+                "ApiDiscoveryId": "b1c1604d-69ca-47ce-bdea-df8443e79573",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+              },
+              {
+                "ApiDiscoveryId": "b3ac6d11-0805-40e5-9720-799218f3564c",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "45ef9a39-1340-4a70-9d8a-e5c34eb4f330",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_personal_v2-OL_06-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "06/10/2022",
+            "CertificationExpirationDate": "06/10/2023",
+            "ApiFamilyType": "customers-personal",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "593c2db3-aeaf-4181-aa5c-d51891675f22",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/customers/v2/personal/qualifications"
+              },
+              {
+                "ApiDiscoveryId": "cf505642-9796-480b-bd45-f8a706f5a890",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/customers/v2/personal/financial-relations"
+              },
+              {
+                "ApiDiscoveryId": "0064ba34-45a3-450a-b880-3cf544345a06",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/customers/v2/personal/identifications"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "371e24db-d5e9-4bf0-96da-878d3a8729a7",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking_resources_v2-OL_06-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "06/10/2022",
+            "CertificationExpirationDate": "06/10/2023",
+            "ApiFamilyType": "resources",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "b7933440-d015-4b9f-a03b-4e13eb9c2788",
+                "ApiEndpoint": "https://matls-banking-openfinance.rico.com.vc/open-banking/resources/v2/resources"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "d82dcdde-5633-4aab-b479-61a379f199d6",
+            "ApiVersion": "1.0.2",
+            "FamilyComplete": true,
+            "ApiCertificationUri": null,
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "products-services",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "e13f9ae6-5fc3-4820-9631-3ec013cc127a",
+                "ApiEndpoint": "https://banking-openfinance.rico.com.vc/open-banking/products-services/v1/personal-accounts"
+              },
+              {
+                "ApiDiscoveryId": "ff70ba98-45d9-4565-a9df-3a87260cf37f",
+                "ApiEndpoint": "https://banking-openfinance.rico.com.vc/open-banking/products-services/v1/personal-credit-cards"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "5d6268d3-4fd6-437c-b08a-c5d538e8c878",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-PAR-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "8fcfb774-62ee-4d67-ad27-743ebf263e70",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "fe289dae-fa7e-4567-869e-7a02e5c0a30c",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_MTLS-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "22/03/2023",
+            "CertificationExpirationDate": "21/03/2024",
+            "CertificationId": "ae872c5a-4e39-494c-909c-4eff05248c25",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR_OB_Adv_OP_DCR-22-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "3500619d-d3fb-4aaa-9a72-c61d9e7d9f34",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_Private_Key_PAR-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "6b34f4df-7850-4288-9399-b0aa89ebd3cd",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_MTLS_PAR-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "22/03/2023",
+            "CertificationExpirationDate": "21/03/2024",
+            "CertificationId": "015f1e68-092b-4adc-8f29-b8543f31da5c",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-PAR-22-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "24/03/2022",
+            "CertificationExpirationDate": "24/03/2023",
+            "CertificationId": "c50ff2c5-960e-4792-a403-0e164581519c",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_Private_Key-24-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "25/03/2022",
+            "CertificationExpirationDate": "25/03/2023",
+            "CertificationId": "7467bac9-4182-40d9-afa7-9078280788c0",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_XP_OBv2-BR_OB_Adv_OP_DCR-25-Mar-2022.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "1ba6749c-0111-47a7-8d8d-51660a1d6fce",
+            "AuthorisationServerId": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-21-MAR-2023.zip"
+          }
+        ]
+      },
+      {
+        "AuthorisationServerId": "d0056aca-6180-4ae4-95fa-2e30a08b4a9a",
+        "AutoRegistrationSupported": false,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "O Banco XP \u00E9 um banco m\u00FAltiplo que tem as melhores solu\u00E7\u00F5es financeiras, tais como: conta corrente, cart\u00E3o de cr\u00E9dito, Investback, benef\u00EDcios em lojas parceiras, empr\u00E9stimos, c\u00E2mbio e muito mais, pensando em voc\u00EA e tamb\u00E9m no seu neg\u00F3cio!",
+        "CustomerFriendlyLogoUri": "https://openbanking-redirect.xpi.com.br/assets/xp_empresas.svg",
+        "CustomerFriendlyName": "Banco XP S.A. (XP Empresas)",
+        "DeveloperPortalUri": null,
+        "TermsOfServiceUri": null,
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://banking-openfinance-empresas.xpi.com.br/orgs/xp-empresas/.well-known/openid-configuration",
+        "Issuer": "https://banking-openfinance-empresas.xpi.com.br/orgs/xp-empresas",
+        "PayloadSigningCertLocationUri": "https://banking-openfinance-empresas.xpi.com.br/orgs/xp-empresas/jwks",
+        "CreatedAt": 1687820331,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "b5bc1ff4-4b28-41a9-902e-30f9dcc21969",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_resources_v2-OL_06-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "06/10/2022",
+            "CertificationExpirationDate": "06/10/2023",
+            "ApiFamilyType": "resources",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "d854131c-b9de-4270-9292-4afa060568cb",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/resources/v2/resources"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "e7ce0eec-26f8-439e-a034-26b0f03a5269",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_credit-card_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "credit-cards-accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "c00f5305-875a-4ec8-ab8c-8a51025cd6a1",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+              },
+              {
+                "ApiDiscoveryId": "27425732-e5a6-425a-8bf6-273eca1b36a4",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "5bd6fe03-3aa8-47c6-a52d-6986e0ef469d",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+              },
+              {
+                "ApiDiscoveryId": "92dbe60b-469e-4fab-a1f8-48fb2779293e",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+              },
+              {
+                "ApiDiscoveryId": "0b302218-fd14-4d28-8ce0-e483a4ab1908",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "b7f72c1b-901d-4200-9f19-89badeafd036",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+              },
+              {
+                "ApiDiscoveryId": "11383b03-12d8-4fde-99d8-6b354b7cdd5e",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "8b165837-ce97-4cbc-b6e5-bf9e4e3b5f86",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_personal_v2-OL_10-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "10/10/2022",
+            "CertificationExpirationDate": "10/10/2023",
+            "ApiFamilyType": "customers-business",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "ffa5dd7d-0ab5-48fc-b75d-83bc76997b6d",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/customers/v2/business/identifications"
+              },
+              {
+                "ApiDiscoveryId": "b51e6fae-d0ab-4c60-a5dd-a00ac00e4abd",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/customers/v2/business/qualifications"
+              },
+              {
+                "ApiDiscoveryId": "e742aac0-b64f-4479-ab3f-1150a1454a9d",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/customers/v2/business/financial-relations"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "292fc3c9-b427-453e-9491-0f6e2419ab6f",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_accounts_v2-OL_19-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "19/10/2022",
+            "CertificationExpirationDate": "19/10/2023",
+            "ApiFamilyType": "accounts",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "382981c5-f412-4634-969e-40c582ccc38c",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/accounts/v2/accounts"
+              },
+              {
+                "ApiDiscoveryId": "bd85a927-8291-485b-ba86-f87edf7edd66",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}"
+              },
+              {
+                "ApiDiscoveryId": "3cebb8eb-6742-4df7-b85f-7fec9170340a",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+              },
+              {
+                "ApiDiscoveryId": "73ccb642-ba9d-4ab3-b39c-1cd0bc39f6e5",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+              },
+              {
+                "ApiDiscoveryId": "c9d54512-f671-44bb-89c3-1f96ce676634",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+              },
+              {
+                "ApiDiscoveryId": "40e677ab-921d-4c4e-b6b6-50c07c8900f7",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "22bcf3fa-5203-48fb-82e8-a2b84fbae059",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/33264668_Payments%20API%20V%202.0.0%20-%20INIC-DICT-MANU-QRES-QRDN_payments_v2_31-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "6402a9b4-77b7-4263-a07b-5008721bca6b",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "01594c47-0487-4fc4-bfbe-d48200ed8e7f",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "1d61e94e-d116-44af-8e15-8711789e9dcc",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/33264668_Payments%20API%20V%202.0.0%20-%20INIC-DICT-MANU-QRES-QRDN_payments_v2_31-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "c5a8e6c7-a4d5-4146-aca2-4a770df1b2ee",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/payments/v2/pix/payments"
+              },
+              {
+                "ApiDiscoveryId": "e0e366f3-e8df-450c-832e-87060ea40f9a",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "5accf575-4b1e-4447-a6b7-9e767c4eab7d",
+            "ApiVersion": "2.0.1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/33264668_BANCO%20XP%20S.A.%20Open%20Banking%203.0_consents_v2-OL_07-10-2022.zip",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "07/10/2022",
+            "CertificationExpirationDate": "07/10/2023",
+            "ApiFamilyType": "consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "cbcaacbf-92f4-43f5-b4b2-e760b34270b0",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/consents/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "d2e8a4ab-2938-4d6d-8236-7d4ecfe9efee",
+                "ApiEndpoint": "https://matls-banking-openfinance-empresas.xpi.com.br/open-banking/consents/v2/consents/{consentId}"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "22/03/2023",
+            "CertificationExpirationDate": "21/03/2024",
+            "CertificationId": "d9733e08-02e0-4de7-9b9f-a04a487b2d94",
+            "AuthorisationServerId": "d0056aca-6180-4ae4-95fa-2e30a08b4a9a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR_OB_Adv_OP_DCR-22-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "c8d30053-46f1-4774-97c7-227d3fa97dc0",
+            "AuthorisationServerId": "d0056aca-6180-4ae4-95fa-2e30a08b4a9a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-PAR-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "f38f10a0-d636-4e2f-86e6-d7dfe9c144b7",
+            "AuthorisationServerId": "d0056aca-6180-4ae4-95fa-2e30a08b4a9a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "21/03/2023",
+            "CertificationExpirationDate": "20/03/2024",
+            "CertificationId": "12893649-0606-422d-b380-b026ed531f0e",
+            "AuthorisationServerId": "d0056aca-6180-4ae4-95fa-2e30a08b4a9a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-21-MAR-2023.zip"
+          },
+          {
+            "CertificationStartDate": "22/03/2023",
+            "CertificationExpirationDate": "21/03/2024",
+            "CertificationId": "47cd0ba2-21b8-4e19-b261-03b26c69ef92",
+            "AuthorisationServerId": "d0056aca-6180-4ae4-95fa-2e30a08b4a9a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 5.1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2023/03/Banco_XP-XP_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-PAR-22-MAR-2023.zip"
+          }
+        ]
+      }
+    ],
+    "OrgDomainClaims": [
+      {
+        "AuthorisationDomainName": "Open Banking",
+        "AuthorityName": "Banco Central do Brasil",
+        "RegistrationId": "",
+        "Status": "Active"
+      }
+    ],
+    "OrgDomainRoleClaims": [
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "DADOS",
+        "RegistrationId": "33264668-OBB-DADOS",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      },
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "PAGTO",
+        "RegistrationId": "33264668-OBB-PGTO",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      },
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "CONTA",
+        "RegistrationId": "33264668-OBB-CONTA",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      }
+    ]
+  },{
     "OrganisationId": "b024cf43-9ce6-52c4-8820-9b5d0bccb74c",
     "Status": "Active",
     "OrganisationName": "BCO C6 S.A.",
