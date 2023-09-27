@@ -1,4 +1,146 @@
-[{
+[ {
+    "OrganisationId": "b024cf43-9ce6-52c4-8820-9b5d0bccb74c",
+    "Status": "Active",
+    "OrganisationName": "BCO C6 S.A.",
+    "CreatedOn": "2021-01-07T16:20:27.199Z",
+    "LegalEntityName": "BANCO C6 S.A.",
+    "CountryOfRegistration": "BR",
+    "CompanyRegister": "Cadastro Nacional da Pessoa Jur\u00EDdica",
+    "Tag": [
+      "Institui\u00E7\u00F5es Banc\u00E1rias"
+    ],
+    "Size": null,
+    "RegistrationNumber": "31872495000172",
+    "RegistrationId": "31872495",
+    "RegisteredName": "BANCO C6 S.A.",
+    "AddressLine1": "Av. Nove de Julho 3186",
+    "AddressLine2": "Jardim Paulista",
+    "City": "Sao Paulo, SP",
+    "Postcode": "01406-000",
+    "Country": "BR",
+    "ParentOrganisationReference": "",
+    "AuthorisationServers": [
+      {
+        "AuthorisationServerId": "6a0ec228-70b7-4292-9e64-8fa731b2a730",
+        "AutoRegistrationSupported": true,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "Experimente o C6 Bank! Garanta sua conta e tenha uma rela\u00E7\u00E3o mais saud\u00E1vel com o seu dinheiro. Conta 100% digital em um app r\u00E1pido e em constante evolu\u00E7\u00E3o. Baixe o app. Sem anuidade. Saque sem tarifa. Saques gratuitos. Abra sua Conta.",
+        "CustomerFriendlyLogoUri": "https://cdn.c6bank.com.br/open-banking/c6bank-logo.svg",
+        "CustomerFriendlyName": "C6 Bank",
+        "DeveloperPortalUri": null,
+        "TermsOfServiceUri": "https://www.c6bank.com.br/termos-de-uso",
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://api.of.c6bank.com.br/auth/.well-known/openid-configuration",
+        "Issuer": null,
+        "PayloadSigningCertLocationUri": "https://api.of.c6bank.com.br/auth/jwks",
+        "CreatedAt": 1628274040,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "70be8c34-7eda-42ad-bf22-8288c9f382fb",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/31872495_5.0.8%20build:%20fc079f6449fcc4eba3954f37bbcf92710f8a8_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "80737c80-6f89-418c-89c4-a77e6cbef378",
+                "ApiEndpoint": "https://mtls.of.c6bank.com.br/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "5d78cc56-c32b-4642-aadd-1a7fbde2a447",
+                "ApiEndpoint": "https://mtls.of.c6bank.com.br/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "cc26c832-af48-4b4e-82e4-1a4db12e6736",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/31872495_5.0.8%20build:%20fc079f6449fcc4eba3954f37bbcf92710f8a8_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "096bb10e-3086-4f83-8ac9-a02b653584f4",
+                "ApiEndpoint": "https://mtls.of.c6bank.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+              },
+              {
+                "ApiDiscoveryId": "98591cd9-77ee-42bf-9d40-62e28c3f7251",
+                "ApiEndpoint": "https://mtls.of.c6bank.com.br/open-banking/payments/v2/pix/payments"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "17/05/2022",
+            "CertificationExpirationDate": "17/05/2023",
+            "CertificationId": "79269706-8b5a-4476-b611-42dbf2e4ebea",
+            "AuthorisationServerId": "6a0ec228-70b7-4292-9e64-8fa731b2a730",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/Banco_C6_SA-Banco_C6_SA_1.0-FAPI-BR-OB_Adv_OP_w_PrivateKey_PAR-19-Oct-2021.zip"
+          },
+          {
+            "CertificationStartDate": "13/10/2022",
+            "CertificationExpirationDate": "13/10/2023",
+            "CertificationId": "497a6880-da2e-4cdd-b893-e3edbdc7d473",
+            "AuthorisationServerId": "6a0ec228-70b7-4292-9e64-8fa731b2a730",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 2,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Banco_C6_S.A-Banco_C6_S.A-BR-OB_Adv._OP_DCR-Private_Key-13-Oct-2022.zip"
+          },
+          {
+            "CertificationStartDate": "14/10/2022",
+            "CertificationExpirationDate": "14/10/2023",
+            "CertificationId": "5f8bf7d9-ece0-4378-85c4-4fd8fc7c400b",
+            "AuthorisationServerId": "6a0ec228-70b7-4292-9e64-8fa731b2a730",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 2,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Banco_C6_S.A-Banco_C6_S.A-BR-OB_Adv._OP-Private_Key_PAR-14-Oct-2022-a423a4dc-aabc-49ac-a579-3ae280570fba.zip"
+          }
+        ]
+      }
+    ],
+    "OrgDomainClaims": [
+      {
+        "AuthorisationDomainName": "Open Banking",
+        "AuthorityName": "Banco Central do Brasil",
+        "RegistrationId": "",
+        "Status": "Active"
+      }
+    ],
+    "OrgDomainRoleClaims": [
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "CONTA",
+        "RegistrationId": "31872495-OBB-CONTA",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      }
+    ]
+  },{
     "OrganisationId": "31ee4f72-8769-5136-83e4-03f2dd4c935e",
     "Status": "Active",
     "OrganisationName": "BANCO INTER",
