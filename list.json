@@ -1,4 +1,332 @@
 [{
+    "OrganisationId": "31ee4f72-8769-5136-83e4-03f2dd4c935e",
+    "Status": "Active",
+    "OrganisationName": "BANCO INTER",
+    "CreatedOn": "2021-01-11T17:09:09.845Z",
+    "LegalEntityName": "BANCO INTER S.A.",
+    "CountryOfRegistration": "BR",
+    "CompanyRegister": "Cadastro Nacional da Pessoa Jur\u00EDdica",
+    "Tag": [
+      "Institui\u00E7\u00F5es Banc\u00E1rias"
+    ],
+    "Size": null,
+    "RegistrationNumber": "00416968000101",
+    "RegistrationId": "00416968",
+    "RegisteredName": "BANCO INTER S.A.",
+    "AddressLine1": "Avenida Barbacena 1219, ",
+    "AddressLine2": "Santo Agostinho",
+    "City": "Belo Horizonte, MG",
+    "Postcode": "30190-924",
+    "Country": "BR",
+    "ParentOrganisationReference": "",
+    "AuthorisationServers": [
+      {
+        "AuthorisationServerId": "d7e27a98-ef6c-4b79-b2d8-c2527eba8d84",
+        "AutoRegistrationSupported": true,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "Simplicidade pra voc\u00EA e para sua empresa Mais que um banco, uma plataforma de servi\u00E7os. Conta digital gratuita, plataforma de investimentos, seguros, cr\u00E9dito, shopping, cashback e muito mais!     bancointer.com.br",
+        "CustomerFriendlyLogoUri": "https://d2ga2iknz0in5b.cloudfront.net/inter-logos/512.svg",
+        "CustomerFriendlyName": "Banco Inter PF",
+        "DeveloperPortalUri": null,
+        "TermsOfServiceUri": null,
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://auth.openbanking.bancointer.com.br/oauth/.well-known/openid-configuration",
+        "Issuer": "https://api.openbanking.bancointer.com.br/oauth",
+        "PayloadSigningCertLocationUri": "https://api.openbanking.bancointer.com.br/oauth/jwks",
+        "CreatedAt": 1638909910,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "0cc1abbe-cc49-4d42-899e-a24027c715a4",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/00416968_OPBK%20Inter%20PF%202.0_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "602bedd8-023b-46c5-a001-5fe31fba07a8",
+                "ApiEndpoint": "https://api.openbanking.bancointer.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+              },
+              {
+                "ApiDiscoveryId": "4f87121b-a440-44e5-8111-8be5d82fdec4",
+                "ApiEndpoint": "https://api.openbanking.bancointer.com.br/open-banking/payments/v2/pix/payments"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "9a6b6999-dc7f-470a-ab8f-a9a2ac34c70e",
+            "ApiVersion": "1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/PF_-_Payments_api_phase_1_test-mtls-by_value-plain_response-cv8EEiOxiDXfw-02-Dec-2021.zip",
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "admin",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "79ba1c79-d6a9-4cfe-a18d-625158ed20f2",
+                "ApiEndpoint": "https://api.openbanking/bancointer.com.br/open-banking/admin/v1/metrics"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "9e0d2a29-a311-4556-9cbe-8a3c6de3313f",
+            "ApiVersion": "1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/PF_-_Payments_api_phase_1_test-mtls-by_value-plain_response-cv8EEiOxiDXfw-02-Dec-2021.zip",
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "discovery",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "308bc980-dd11-4a2d-bac6-5b45915cc490",
+                "ApiEndpoint": "https://api.openbanking.bancointer.com.br/open-banking/discovery/v1/status"
+              },
+              {
+                "ApiDiscoveryId": "f014fe30-4a44-4aaa-b59d-71d217b498a4",
+                "ApiEndpoint": "https://api.openbanking.bancointer.com.br/open-banking/discovery/v1/outages"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "9fcff634-98ed-4421-99ce-49bf7c9f7aa3",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/00416968_OPBK%20Inter%20PF%202.0_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "6b6ffcbc-7dec-437a-866f-1437830a881c",
+                "ApiEndpoint": "https://api.openbanking.bancointer.com.br/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "6d9cfc23-e082-47f7-aac3-7fe4dd1405f1",
+                "ApiEndpoint": "https://api.openbanking.bancointer.com.br/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "10/08/2023",
+            "CertificationExpirationDate": "09/08/2024",
+            "CertificationId": "d2ae8e8a-9001-49b5-b128-6fbbbf526ff3",
+            "AuthorisationServerId": "d7e27a98-ef6c-4b79-b2d8-c2527eba8d84",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://github.com/OpenBanking-Brasil/conformance/tree/main/submissions/functional/payments-webhook/1.0.0/00416968_Webhook-v1_webhook_v1_10-08-2023.json"
+          },
+          {
+            "CertificationStartDate": "18/12/2022",
+            "CertificationExpirationDate": "18/12/2023",
+            "CertificationId": "34429ea9-0be8-422e-8b1c-1f89b345cdb5",
+            "AuthorisationServerId": "d7e27a98-ef6c-4b79-b2d8-c2527eba8d84",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/12/BancoInter-Inter_OBB_Gateway_PF_v2.5.1-BR_OB_Adv_OP_w_MTLS-01-Dec-2022.zip"
+          },
+          {
+            "CertificationStartDate": "18/12/2022",
+            "CertificationExpirationDate": "18/12/2023",
+            "CertificationId": "3418a95f-065c-4a86-acd8-e4dcbd15a333",
+            "AuthorisationServerId": "d7e27a98-ef6c-4b79-b2d8-c2527eba8d84",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/12/BancoInter-Inter_OBB_Gateway_PF_v2.5.1-BR_OB_Adv_OP_DCR-01-Dec-2022.zip"
+          }
+        ]
+      },
+      {
+        "AuthorisationServerId": "edb215da-d1f1-47f0-b794-62a7d798ba6a",
+        "AutoRegistrationSupported": true,
+        "AutoRegistrationNotificationWebhook": null,
+        "SupportsCiba": false,
+        "SupportsDCR": true,
+        "SupportsRedirect": true,
+        "CustomerFriendlyDescription": "Conta Digital PJ completa, gratuita e sem burocracias.  A conta empresarial que oferece vantagens para voc\u00EA e para o seu neg\u00F3cio. Aproveite o melhor das solu\u00E7\u00F5es da sua Conta Digital e conte com a parceria que s\u00F3 o Inter oferece. bancointer.com.br",
+        "CustomerFriendlyLogoUri": "https://d2ga2iknz0in5b.cloudfront.net/inter-logos/inter_empresas_1.svg",
+        "CustomerFriendlyName": "Banco Inter PJ",
+        "DeveloperPortalUri": null,
+        "TermsOfServiceUri": null,
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://auth-business.openbanking.bancointer.com.br/oauth/.well-known/openid-configuration",
+        "Issuer": "https://auth-business.openbanking.bancointer.com.br/oauth",
+        "PayloadSigningCertLocationUri": "https://api-business.openbanking.bancointer.com.br/oauth/jwks",
+        "CreatedAt": 1638910237,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [
+          {
+            "ApiResourceId": "7de6fe3a-5831-4649-89bd-cd053719eee6",
+            "ApiVersion": "1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/PJ_-_Payments_api_phase_1_test-mtls-by_value-plain_response-6TPVKGyZ65yOc-02-Dec-2021.zip",
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "admin",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "d713146e-8b99-47eb-b8ab-90b2edd16660",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/admin/v1/metrics"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "973522bc-e63d-480b-a9b3-1d5cc0ba3cad",
+            "ApiVersion": "1",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/PJ_-_Payments_api_phase_1_test-mtls-by_value-plain_response-6TPVKGyZ65yOc-02-Dec-2021.zip",
+            "CertificationStatus": null,
+            "CertificationStartDate": null,
+            "CertificationExpirationDate": null,
+            "ApiFamilyType": "discovery",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "2e632f28-edaf-437d-80a5-c022595ae659",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/discovery/v1/status"
+              },
+              {
+                "ApiDiscoveryId": "a9cb5c8a-9e2a-4287-aff3-3cf8bdee040c",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/discovery/v1/outages"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "f698ced9-12eb-4daa-9e91-5ec0c1266b3b",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/00416968_OPBK%20Inter%20PJ%202.0_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-consents",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "2a2f269b-ab8f-41ff-806c-9412ef403f73",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/payments/v2/consents"
+              },
+              {
+                "ApiDiscoveryId": "01e64f93-bea0-4540-846f-807fd883da7c",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/payments/v2/consents/{consentId}"
+              }
+            ]
+          },
+          {
+            "ApiResourceId": "9522b6b4-a15e-4256-b3c5-c171f10da0e4",
+            "ApiVersion": "2.0.0",
+            "FamilyComplete": true,
+            "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/00416968_OPBK%20Inter%20PJ%202.0_payments_v2_30-01-2023.json",
+            "CertificationStatus": "Self-Certified",
+            "CertificationStartDate": "15/02/2023",
+            "CertificationExpirationDate": "15/02/2024",
+            "ApiFamilyType": "payments-pix",
+            "ApiDiscoveryEndpoints": [
+              {
+                "ApiDiscoveryId": "c5857412-085d-443e-b4d4-8adf126df3fd",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/payments/v2/pix/payments"
+              },
+              {
+                "ApiDiscoveryId": "182050b5-a03d-4265-9710-65964e100e28",
+                "ApiEndpoint": "https://api-business.openbanking.bancointer.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+              }
+            ]
+          }
+        ],
+        "AuthorisationServerCertifications": [
+          {
+            "CertificationStartDate": "10/08/2023",
+            "CertificationExpirationDate": "09/08/2024",
+            "CertificationId": "815a43d0-7766-4348-a486-55b918e27619",
+            "AuthorisationServerId": "edb215da-d1f1-47f0-b794-62a7d798ba6a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://github.com/OpenBanking-Brasil/conformance/tree/main/submissions/functional/payments-webhook/1.0.0/00416968_Webhook-v1_webhook_v1_10-08-2023.json"
+          },
+          {
+            "CertificationStartDate": "18/12/2022",
+            "CertificationExpirationDate": "18/12/2023",
+            "CertificationId": "91998e41-81db-421f-8a98-852dcbe54676",
+            "AuthorisationServerId": "edb215da-d1f1-47f0-b794-62a7d798ba6a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "DCR Signed payload - JWT",
+            "ProfileType": "DCR",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/12/BancoInter-Inter_OBB_Gateway_PF_v2.5.1-BR_OB_Adv_OP_DCR-01-Dec-2022.zip"
+          },
+          {
+            "CertificationStartDate": "18/12/2022",
+            "CertificationExpirationDate": "18/12/2023",
+            "CertificationId": "1a2fcae2-06b2-490d-9e0a-bb5981a143bc",
+            "AuthorisationServerId": "edb215da-d1f1-47f0-b794-62a7d798ba6a",
+            "Status": "Self-Certified",
+            "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+            "ProfileType": "Redirect",
+            "ProfileVersion": 1,
+            "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/12/BancoInter-Inter_OBB_Gateway_PF_v2.5.1-BR_OB_Adv_OP_w_MTLS-01-Dec-2022.zip"
+          }
+        ]
+      }
+    ],
+    "OrgDomainClaims": [
+      {
+        "AuthorisationDomainName": "Open Banking",
+        "AuthorityName": "Banco Central do Brasil",
+        "RegistrationId": "",
+        "Status": "Active"
+      }
+    ],
+    "OrgDomainRoleClaims": [
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "PAGTO",
+        "RegistrationId": "00416968-OBB-PAGTO",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      },
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "CONTA",
+        "RegistrationId": "416968-OBB-CONTA",
+        "Authorisations": [
+          {
+            "Status": "Active",
+            "MemberState": "BR"
+          }
+        ],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": []
+      }
+    ]
+  },{
     "OrganisationId": "b6a214c7-6332-5a41-8464-a281fb9a4ca0",
     "Status": "Active",
     "OrganisationName": "BANCO PAN",
