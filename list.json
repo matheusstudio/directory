@@ -1,4 +1,202 @@
 [{
+"OrganisationId": "b6e68e03-c85d-54e8-8649-6e9bf9bb5dd8",
+"Status": "Active",
+"OrganisationName": "BCO AGIBANK S.A.",
+"CreatedOn": "2021-01-07T16:25:26.240Z",
+"LegalEntityName": "BANCO AGIBANK S.A.",
+"CountryOfRegistration": "BR",
+"CompanyRegister": "Cadastro Nacional da Pessoa Jurídica",
+"Tag": [
+"Instituições Bancárias"
+],
+"Size": null,
+"RegistrationNumber": "10664513000150",
+"RegistrationId": "10664513",
+"RegisteredName": "BANCO AGIBANK S.A.",
+"AddressLine1": "Rua Mariante 25",
+"AddressLine2": "Rio Branco",
+"City": "Porto Alegre, RS",
+"Postcode": "90430-181",
+"Country": "BR",
+"ParentOrganisationReference": "",
+"AuthorisationServers": [
+{
+"AuthorisationServerId": "0e91628e-45a0-4908-85a9-685e16e026fb",
+"AutoRegistrationSupported": true,
+"AutoRegistrationNotificationWebhook": null,
+"SupportsCiba": false,
+"SupportsDCR": true,
+"SupportsRedirect": true,
+"CustomerFriendlyDescription": "Nossa história começou há 20 anos com o objetivo de tornar serviços financeiros acessíveis a todos os brasileiros. Hoje somos uma plataforma aberta, que facilita a vida das pessoas oferecendo conta completa, loja de descontos, investimentos e muito mais.",
+"CustomerFriendlyLogoUri": "https://www.agibank.com.br/logo.svg",
+"CustomerFriendlyName": "Agibank",
+"DeveloperPortalUri": "https://developers.agibank.com.br/",
+"TermsOfServiceUri": "https://www.agibank.com.br/tos.pdf",
+"NotificationWebhookAddedDate": null,
+"OpenIDDiscoveryDocument": "https://auth.agibank.com.br/.well-known/openid-configuration",
+"Issuer": null,
+"PayloadSigningCertLocationUri": "https://auth.agibank.com.br/jwks",
+"CreatedAt": 1628255205,
+"ParentAuthorisationServerId": null,
+"DeprecatedDate": null,
+"RetirementDate": null,
+"SupersededByAuthorisationServerId": null,
+"ApiResources": [
+{
+"ApiResourceId": "12295ee2-d261-4f3b-a33b-5998f6308f95",
+"ApiVersion": "1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://auth.agibank.com.br/open-banking/admin/v1/metrics",
+"CertificationStatus": "Awaiting Certification",
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "admin",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "3241368d-af0a-4112-8d09-7066ffdf0789",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/admin/v1/metrics"
+}
+]
+},
+{
+"ApiResourceId": "bbef11d3-432a-48a7-9700-fd9046c03e93",
+"ApiVersion": "1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://auth.agibank.com.br/open-banking/discovery/v1/status",
+"CertificationStatus": "Awaiting Certification",
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "discovery",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a323b294-e069-4a4c-b445-1344da894d10",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/discovery/v1/status"
+},
+{
+"ApiDiscoveryId": "8505fe62-deb0-4f86-b595-231b674d9691",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/discovery/v1/outages"
+}
+]
+},
+{
+"ApiResourceId": "848af88d-ea6f-47d5-9025-95b3e4f5db92",
+"ApiVersion": "2.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/10664513_Agibank%201.0.0_payments_v2_27-01-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "15/02/2023",
+"CertificationExpirationDate": "15/02/2024",
+"ApiFamilyType": "payments-consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "f0f4879d-9a6b-4afb-aaf5-33242b68c745",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/payments/v2/consents"
+},
+{
+"ApiDiscoveryId": "466c1a8b-2bef-4ee8-a25f-71f37bc9d6e8",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/payments/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "1a3b3ca0-6224-4d6d-a05b-b299928ae017",
+"ApiVersion": "2.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/10664513_Agibank%201.0.0_payments_v2_27-01-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "15/02/2023",
+"CertificationExpirationDate": "15/02/2024",
+"ApiFamilyType": "payments-pix",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "4f30cd93-3b19-4e14-9743-804777f20bfa",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/payments/v2/pix/payments"
+},
+{
+"ApiDiscoveryId": "5bd44bae-e061-4efe-baae-0450ba3e59ca",
+"ApiEndpoint": "https://auth.agibank.com.br/open-banking/payments/v2/pix/payments/{paymentId}"
+}
+]
+}
+],
+"AuthorisationServerCertifications": [
+{
+"CertificationStartDate": "04/11/2021",
+"CertificationExpirationDate": "04/11/2022",
+"CertificationId": "b8ad6bb4-dbd8-496d-888a-882edf28d3d2",
+"AuthorisationServerId": "0e91628e-45a0-4908-85a9-685e16e026fb",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Signed payload - JWT",
+"ProfileType": "DCR",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Banco_Agibank_SA-Agibank_1.0-BR-OB_Adv_OP_DCR-01-Nov-2021.zip"
+},
+{
+"CertificationStartDate": "13/10/2021",
+"CertificationExpirationDate": "13/10/2022",
+"CertificationId": "d979a630-ff49-48c2-9c5c-2dc3543efe9d",
+"AuthorisationServerId": "0e91628e-45a0-4908-85a9-685e16e026fb",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/Banco_Agibank_SA-Agibank-BR-OB_Adv_OP-MTLS_PAR-13-Oct-2021.zip"
+},
+{
+"CertificationStartDate": "13/10/2021",
+"CertificationExpirationDate": "13/10/2022",
+"CertificationId": "0615d8a5-6da9-42df-a153-fc295626a9b5",
+"AuthorisationServerId": "0e91628e-45a0-4908-85a9-685e16e026fb",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/Banco_Agibank_SA-Agibank-BR-OB_Adv_OP-Private_Key_PAR-13-Oct-2021.zip"
+}
+]
+}
+],
+"OrgDomainClaims": [
+{
+"AuthorisationDomainName": "Open Banking",
+"AuthorityName": "Banco Central do Brasil",
+"RegistrationId": "",
+"Status": "Active"
+}
+],
+"OrgDomainRoleClaims": [
+{
+"Status": "Active",
+"AuthorisationDomain": "Open Banking",
+"Role": "CCORR",
+"RegistrationId": "10664513-OBB-CCORR",
+"Authorisations": [
+{
+"Status": "Active",
+"MemberState": "BR"
+}
+],
+"RoleType": "Federation",
+"Exclusive": false,
+"Metadata": []
+},
+{
+"Status": "Active",
+"AuthorisationDomain": "Open Banking",
+"Role": "CONTA",
+"RegistrationId": "10664513-OBB-CONTA",
+"Authorisations": [
+{
+"Status": "Active",
+"MemberState": "BR"
+}
+],
+"RoleType": "Federation",
+"Exclusive": false,
+"Metadata": []
+}
+]
+},{
 "AuthorisationServerId": "8197a3c9-11ad-4cfd-9bbf-4d6ad5d51f83",
 "AutoRegistrationSupported": true,
 "AutoRegistrationNotificationWebhook": null,
