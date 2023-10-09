@@ -1,4 +1,3781 @@
 [ {
+"OrganisationId": "0bd0b05e-ce18-5105-bbe9-ddf16a79eff9",
+"Status": "Active",
+"OrganisationName": "BANCO BTG PACTUAL S.A.",
+"CreatedOn": "2021-01-11T17:12:43.469Z",
+"LegalEntityName": "BANCO BTG PACTUAL S.A.",
+"CountryOfRegistration": "BR",
+"CompanyRegister": "Cadastro Nacional da Pessoa Jurídica",
+"Tag": [
+"Instituições Bancárias",
+"Habilitada Iniciacao de Pagamento"
+],
+"Size": "S1",
+"RegistrationNumber": "30306294000145",
+"RegistrationId": "30306294",
+"RegisteredName": "BANCO BTG PACTUAL S.A.",
+"AddressLine1": "Praia de Botafogo  501  Torre Corcovado 501",
+"AddressLine2": "Botafogo",
+"City": "RJ, RJ",
+"Postcode": "22.250-040",
+"Country": "BR",
+"ParentOrganisationReference": "",
+"AuthorisationServers": [
+{
+"AuthorisationServerId": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+"AutoRegistrationSupported": true,
+"AutoRegistrationNotificationWebhook": null,
+"SupportsCiba": false,
+"SupportsDCR": true,
+"SupportsRedirect": true,
+"CustomerFriendlyDescription": "O BTG Empresas é feito para empreendedores que possuem pequenas ou médias empresas e buscam soluções financeiras para ajudar no crescimento de seus negócios.",
+"CustomerFriendlyLogoUri": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/btgempresas/btgempresas.svg",
+"CustomerFriendlyName": "BTG Empresas",
+"DeveloperPortalUri": "https://developer.btgpactual.com/",
+"TermsOfServiceUri": null,
+"NotificationWebhookAddedDate": null,
+"OpenIDDiscoveryDocument": "https://open.btgmaisbusiness.com/.well-known/openid-configuration",
+"Issuer": null,
+"PayloadSigningCertLocationUri": "https://open.btgmaisbusiness.com/jwks",
+"CreatedAt": 1612137932,
+"ParentAuthorisationServerId": null,
+"DeprecatedDate": null,
+"RetirementDate": null,
+"SupersededByAuthorisationServerId": null,
+"ApiResources": [
+{
+"ApiResourceId": "f7467c22-12e3-405f-bf9d-678ef01b08c1",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS-BUSINESS_loans_v2-OL_05-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "05/10/2022",
+"CertificationExpirationDate": "05/10/2023",
+"ApiFamilyType": "loans",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "2d4f36e8-3595-4f45-88f3-798588d001f5",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/loans/v2/contracts"
+},
+{
+"ApiDiscoveryId": "5997b333-a9f6-44cc-a263-518730784e1d",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "1c006311-767c-4dcb-8604-e22689f2d552",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "635be54e-6e4b-4b82-89e8-bd0182da656e",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "a6554b5a-fe4a-42c3-b77a-6b4f080566d3",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "59309221-c875-40d5-b06f-267556268aa9",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/variable-incomes/1.0.0/30306294_BTG-Empresas-Fase-4B_variable-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "f8e99da7-de03-4e96-971c-16bee7fa5a06",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/variable-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "43c3d72c-974b-495d-b70d-d7bc3a6666db",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "ab5c8e47-8207-4244-8165-60d2c2c6ab82",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "ef5bd1a5-21fb-44d2-9dfb-489ac1484048",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "a1ae7d35-0d5e-4cef-b4a7-664deda84352",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "639d7fa4-4d83-407f-a072-b36ba493a926",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/variable-incomes/v1/broker-notes/{brokerNoteId}"
+}
+]
+},
+{
+"ApiResourceId": "e9f99a73-8c3b-4d01-90b8-0253b941d5b3",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=5hCTMaMsDx8VQ&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_online-rates",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "8a813180-ce20-4509-8ca6-c26830b4c736",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/online-rates"
+}
+]
+},
+{
+"ApiResourceId": "dd1b29ef-898e-41bf-a145-3ee363e2d4dd",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS-BUSINESS_business_v2-OL_11-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "11/10/2022",
+"CertificationExpirationDate": "11/10/2023",
+"ApiFamilyType": "customers-business",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7cf1291f-fa70-4c58-af58-3eb58244d375",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/customers/v2/business/financial-relations"
+},
+{
+"ApiDiscoveryId": "d95844fd-08e1-42ea-ab47-3d3ce9f22794",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/customers/v2/business/identifications"
+},
+{
+"ApiDiscoveryId": "f0081a36-aad0-4777-a878-46a4dff0e8a7",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/customers/v2/business/qualifications"
+}
+]
+},
+{
+"ApiResourceId": "7a0756d4-3ad1-4332-b34a-6c0c3611e878",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "products-services",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "b35fc25a-8dab-4a45-97ce-2e933d1827b9",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/personal-accounts"
+},
+{
+"ApiDiscoveryId": "8f6ed279-8be5-44f8-9924-fcd35ce030b7",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/business-accounts"
+},
+{
+"ApiDiscoveryId": "88884422-ca0b-49ae-b609-028d5ed4e108",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/personal-loans"
+},
+{
+"ApiDiscoveryId": "a54841d0-53de-4716-81f4-c27d40d878bf",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/business-loans"
+},
+{
+"ApiDiscoveryId": "de33a183-6d28-49ac-8093-434c9e61afe7",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/personal-financings"
+},
+{
+"ApiDiscoveryId": "b6e59f80-6054-4eb7-9445-73747000b683",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/business-financings"
+},
+{
+"ApiDiscoveryId": "4030135f-4a54-42ef-ab79-4ec64df26ba0",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/personal-invoice-financings"
+},
+{
+"ApiDiscoveryId": "c7cd7120-3d3b-432b-b31f-dba04d321c6e",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/business-invoice-financings"
+},
+{
+"ApiDiscoveryId": "f59e7b36-b694-4f98-b528-aa705ddb86c8",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/personal-credit-cards"
+},
+{
+"ApiDiscoveryId": "5a4d6ae2-0ce0-44f2-ac86-56dac6508352",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/business-credit-cards"
+},
+{
+"ApiDiscoveryId": "ac0b9884-fe90-422e-97db-7667dff5d0f1",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+},
+{
+"ApiDiscoveryId": "a4e68062-b1b7-45b7-8897-14c1dba4933c",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/products-services/v1/business-unarranged-account-overdraft"
+}
+]
+},
+{
+"ApiResourceId": "cdb75329-7f4d-4fcc-8bf4-25726dd43467",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.1.0/30306294_BTG-Empresas-Fase-4B_consents_v2.1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7e21e22b-a944-45e2-a9f6-8f7f0c9446a6",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/consents/v2/consents"
+},
+{
+"ApiDiscoveryId": "8264d0d1-ac33-4d8c-9f5e-9446d566ba62",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/consents/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "47444e88-81be-45cb-aa04-3d6ef88db4c3",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/treasure-title/1.0.0/30306294_BTG-Empresas-Fase-4B_treasure-title_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "9e9586c2-9e29-4d26-a9bf-28392b0168d5",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/treasure-titles/v1/investments"
+},
+{
+"ApiDiscoveryId": "9f210aac-07e0-46ee-99a7-1c9a3a292747",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "bd6515c9-6e6c-462a-887b-a937a1aa12aa",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "5f0d4ccf-4dc8-4857-ac19-c9728dfe6c1f",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "1e7521a3-2956-4c09-9731-f97bf27b3c13",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "715ced86-383f-44df-ac0f-30af2d80faf8",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-fixed-incomes/1.0.0/30306294_BTG-Empresas-Fase-4B_credit-fixed-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "6867980a-c06b-4ca0-8704-07170e8e2cd7",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "e597d2b0-a914-407c-a7fe-490e175e39eb",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "46ab925c-662b-4e8e-837a-8687bcf6f8dd",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "f23e5e19-8724-40db-a717-bade00ff8940",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "0a12ff9b-a48c-40e7-9fcc-f81843ad836c",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "deeb6657-d97d-48c6-83e7-05d42e71f60a",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/bank-fixed-incomes/1.0.0/30306294_BTG-Empresas-Fase-4B_bank-fixed-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "5d8cb83c-c338-4389-884f-94f9cb99a3b0",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "2a40c030-ad07-4fbb-a036-442cac1c460c",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "08ee3f8d-ae71-4bf3-bf9f-cf4602fab78e",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "c02dd1a1-5919-4b97-b105-49f800c77825",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "96a6fca3-ef98-4f53-8407-7e9aba216957",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "c22aec4e-1fff-4633-9f20-86375a53c2f4",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/unarranged-overdraft/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20BUSINESS_unarranged-overdraft_v2-OL_05-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "05/10/2022",
+"CertificationExpirationDate": "05/10/2023",
+"ApiFamilyType": "unarranged-accounts-overdraft",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "955ab401-e1b9-4d9e-a3ba-8919dc187293",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+},
+{
+"ApiDiscoveryId": "a3491029-95cb-42a1-a0f6-a8a5d1bab2b6",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts"
+},
+{
+"ApiDiscoveryId": "5c02d34b-26b4-4dcc-9e6f-924ad96257e6",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "c99da4c1-84b7-4877-83e9-84526d57a28f",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "2a550f61-7785-4d17-b5d8-2e1dba0d5d39",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+}
+]
+},
+{
+"ApiResourceId": "d373ae62-cc7a-44a0-9cc6-2b900b6150c8",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/funds/1.0.0/30306294_BTG-Empresas-Fase-4B_funds_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "8cb04b9a-f453-4ba2-8f38-f678c8006fcf",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/funds/v1/investments"
+},
+{
+"ApiDiscoveryId": "9c0aa0ad-eacf-423e-9a8b-5140cf2f6ee5",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "71d4323a-088c-4b78-bb3f-70e44b614a83",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "969402bb-7afa-444e-a9ce-af56c4503362",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "3e997b21-f343-4dc5-85bb-f16ed52e9fce",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "dbd458a9-c6bd-49b7-94a9-f2090505720a",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS-BUSINESS_financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "2e7d207f-7077-4c0c-8e25-7dfd3517a252",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "087977cd-ef75-4ba2-bd58-1e4e2444ae76",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "faa73462-21ff-40b2-9df0-8012ec858377",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "35be4330-4400-48bd-b8ab-ef479ca8443f",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "daf89e30-212f-4c1c-acca-f454fafb6794",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "7efea7d8-63d1-434c-b3a8-194807d92b26",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=nppUUEW3sP766&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_vet-values",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7991b565-eddb-4a94-860b-109e2b862975",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/vet-values"
+}
+]
+},
+{
+"ApiResourceId": "4c251acd-45fe-4a79-bb62-da9caf7d5cd0",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS-BUSINESS_accounts_v2-OL_10-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "10/10/2022",
+"CertificationExpirationDate": "10/10/2023",
+"ApiFamilyType": "accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "ce7d7c1f-213b-448b-9a8d-cd667b2b7456",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "d513dcb7-e030-4c5e-8a65-da6981a9af2c",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}"
+},
+{
+"ApiDiscoveryId": "6fdc2243-8262-47f9-aad8-dbc84254027c",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/balances"
+},
+{
+"ApiDiscoveryId": "cac0106a-9641-4397-ad00-37e8bea4a3bf",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions"
+},
+{
+"ApiDiscoveryId": "2a7b63ee-0e99-443d-878a-a740157f88b5",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "ab82a799-7ae0-4d49-9f86-a6823977f28f",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+}
+]
+},
+{
+"ApiResourceId": "be3e9aa8-5807-48db-bc39-3afa1f29fc2d",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "discovery",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d960e01f-b0cf-44be-83b2-304f4b5046f7",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/discovery/v1/status"
+},
+{
+"ApiDiscoveryId": "fafb608d-d76c-48cd-a4d4-ee4ba6287dbc",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/discovery/v1/outages"
+}
+]
+},
+{
+"ApiResourceId": "8f31819e-4a73-40f3-a59b-7ec3b5a63b9d",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/invoice-financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS-BUSINESS_invoice-financings_v2-OL_05-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "05/10/2022",
+"CertificationExpirationDate": "05/10/2023",
+"ApiFamilyType": "invoice-financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "35fa604a-abb9-4e82-8619-8a01ccdbabda",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "69029661-4a69-4200-a557-1b4b606d5f9c",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "02eff063-3196-43f9-bbc5-3ab2cb9e4c94",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "1292127d-d175-4f96-8ea1-50fe420e1d95",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "0ae0d3d2-db38-4d74-a5fb-5225022ebeb8",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "6437c687-673f-46cd-a983-6a5447febe1c",
+"ApiVersion": "2.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/30306294_Banco%20BTG%20Pactual%20–%20BTG%20Empresas%20Open%20Finance%20v2.0_payments_v2_01-02-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "01/02/2023",
+"CertificationExpirationDate": "01/02/2024",
+"ApiFamilyType": "payments-pix",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "ddf5ba8e-b315-445d-a954-8fe8015cb41f",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/payments/v2/pix/payments"
+},
+{
+"ApiDiscoveryId": "731a06af-aeff-4309-9437-aab89f1331e1",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/payments/v2/pix/payments/{paymentId}"
+}
+]
+},
+{
+"ApiResourceId": "702bd96b-c63b-407a-8e7a-9442496cf527",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "channels",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "38738a8c-665d-41d8-88b1-c36fca53d974",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/channels/v1/branches"
+},
+{
+"ApiDiscoveryId": "e2652379-dd2b-47ad-b8a0-65080de2eeee",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/channels/v1/electronic-channels"
+},
+{
+"ApiDiscoveryId": "35c147c5-7a3e-47ea-8571-562e88462987",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/channels/v1/phone-channels"
+},
+{
+"ApiDiscoveryId": "3381b046-e9cc-4ffb-b1c9-94a422f12b14",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/channels/v1/banking-agents"
+},
+{
+"ApiDiscoveryId": "40654a7f-066a-4a62-af34-f53de1545ffc",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/channels/v1/shared-automated-teller-machines"
+}
+]
+},
+{
+"ApiResourceId": "ca298ba0-2851-453d-aa4c-3475de9ef35a",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "admin",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a7973039-577d-42fa-9fab-0b05c5ebf498",
+"ApiEndpoint": "https://btgmaisbusiness.openbanking.btgpactual.com/open-banking/admin/v1/metrics"
+}
+]
+},
+{
+"ApiResourceId": "fd4c4fa4-77e7-49d4-a274-40e6a0d1d070",
+"ApiVersion": "2.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/30306294_Banco%20BTG%20Pactual%20–%20BTG%20Empresas%20Open%20Finance%20v2.0_payments_v2_01-02-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "01/02/2023",
+"CertificationExpirationDate": "01/02/2024",
+"ApiFamilyType": "payments-consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "b2f5fee8-b152-4f1d-8625-1146b9efde71",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/payments/v2/consents"
+},
+{
+"ApiDiscoveryId": "12ef781f-bf68-4864-930f-25a6cc68c02d",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/payments/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "0fae6a6b-4899-4351-b82d-77c935661518",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS-BUSINESS_credit-card_v2-OL_07-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "07/10/2022",
+"CertificationExpirationDate": "07/10/2023",
+"ApiFamilyType": "credit-cards-accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "52a7af6a-bbfc-4459-9662-3e5e2e81a058",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "1ce94731-e118-4d82-a777-7f7396ed3a12",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+},
+{
+"ApiDiscoveryId": "74138d22-229d-4b3a-b72b-ae1139236d83",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+},
+{
+"ApiDiscoveryId": "14f5b91c-9eba-4f90-b787-6618eaec4518",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "a250e43f-3dbe-4627-a360-939091e4b39f",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+},
+{
+"ApiDiscoveryId": "2f162849-0679-43e0-b1c6-d929f1be344b",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+},
+{
+"ApiDiscoveryId": "5908482a-b4a5-4840-9de4-8fb3aeb481c1",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+}
+]
+},
+{
+"ApiResourceId": "13f97b40-a380-49e1-8045-340c05fa7a76",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.1.0/30306294_BTG-Empresas-Fase-4B_resources_v2.1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "resources",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d828959e-b998-40de-8282-9b30c66c44af",
+"ApiEndpoint": "https://api.business.ob.btgpactual.com/open-banking/resources/v2/resources"
+}
+]
+}
+],
+"AuthorisationServerCertifications": [
+{
+"CertificationStartDate": "19/11/2021",
+"CertificationExpirationDate": "19/11/2022",
+"CertificationId": "7409688f-2fb3-45d3-bc0f-aac123cffaa3",
+"AuthorisationServerId": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Signed payload - JWT",
+"ProfileType": "DCR",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BTG-MAIS_OPEN-BANKING_BR-OB-Adv-OP-DCR_19-NOV-2021.zip"
+},
+{
+"CertificationStartDate": "16/09/2022",
+"CertificationExpirationDate": "16/09/2023",
+"CertificationId": "21b9fb75-0619-42c1-b7f5-8865ae724fbe",
+"AuthorisationServerId": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Unsigned payload- JSON",
+"ProfileType": "DCR",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-BUSINESS_OPEN-BANKING_BR-OB-Adv-OP-DCR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "07/11/2021",
+"CertificationExpirationDate": "07/11/2022",
+"CertificationId": "f1c911a9-6b63-4585-b7f7-7b133c2ce8cd",
+"AuthorisationServerId": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_BTG_Pactual_S.A.-BTG_Mais_Business_Open_Banking-BR_OB_Adv._OP_w_Private_Key_PAR-07-Jul-2021.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "17950f8f-4cdd-41ab-a1d8-73b6dfb61b77",
+"AuthorisationServerId": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-BUSINESS_OPEN-BANKING_BR-OB-Adv-OP-w-Private-Key-PAR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "a5c86cd2-7fa8-4a4c-8b26-24ffa7603c1c",
+"AuthorisationServerId": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-BUSINESS_OPEN-BANKING_BR-OB-Adv-OP-w-MTLS-PAR_16-SET-2022.zip"
+}
+]
+},
+{
+"AuthorisationServerId": "b397dd9c-62b2-4632-bce7-85f56666c083",
+"AutoRegistrationSupported": true,
+"AutoRegistrationNotificationWebhook": null,
+"SupportsCiba": false,
+"SupportsDCR": true,
+"SupportsRedirect": true,
+"CustomerFriendlyDescription": "O BTG Banking é um banco completo, uma plataforma que aprende com você e entende as suas necessidades para entregar soluções financeiras inteligentes que resolvem o seu dia a dia enquanto você planeja o seu futuro.",
+"CustomerFriendlyLogoUri": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/btgbanking/btgbanking.svg",
+"CustomerFriendlyName": "BTG Banking",
+"DeveloperPortalUri": "https://developer.btgpactual.com/",
+"TermsOfServiceUri": null,
+"NotificationWebhookAddedDate": null,
+"OpenIDDiscoveryDocument": "https://open.btgmais.com/.well-known/openid-configuration",
+"Issuer": null,
+"PayloadSigningCertLocationUri": "https://open.btgmais.com/jwks",
+"CreatedAt": 1612138101,
+"ParentAuthorisationServerId": null,
+"DeprecatedDate": null,
+"RetirementDate": null,
+"SupersededByAuthorisationServerId": null,
+"ApiResources": [
+{
+"ApiResourceId": "99f7bbda-307b-49c5-95f2-8f82f9f1b704",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "channels",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "2b5372c0-ea4f-41b1-8a6b-1fb6a175886e",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/channels/v1/branches"
+},
+{
+"ApiDiscoveryId": "e7f37862-75fb-45bc-8169-d03026c508fb",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/channels/v1/electronic-channels"
+},
+{
+"ApiDiscoveryId": "4762eeff-b15b-40be-80fb-b231fda40a65",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/channels/v1/phone-channels"
+},
+{
+"ApiDiscoveryId": "45847226-0bd4-4de6-a209-def6a4feeb2b",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/channels/v1/banking-agents"
+},
+{
+"ApiDiscoveryId": "2cd4c2f7-2c86-4163-ae34-0842c0a4ebc5",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/channels/v1/shared-automated-teller-machines"
+}
+]
+},
+{
+"ApiResourceId": "eaf77e64-cbb2-47cb-adcb-d42532a8cf97",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_credit-card_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "credit-cards-accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "60327a9d-bcbb-4320-8483-7992be3e0db3",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "930f5756-8585-4d75-b56a-21d90bda1e92",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+},
+{
+"ApiDiscoveryId": "6704454e-d166-47ad-bad6-5a46d753846c",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+},
+{
+"ApiDiscoveryId": "22f49e1c-9ea9-461d-9c4e-b56439347ba6",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+},
+{
+"ApiDiscoveryId": "c881b250-185d-47a6-a26b-4454a8a372a3",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "74c76feb-4b7d-4e20-8bb1-070a34fdf013",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+},
+{
+"ApiDiscoveryId": "47655c89-fa6c-4d2e-a7df-327928657f1f",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+}
+]
+},
+{
+"ApiResourceId": "348023b5-e763-4b2d-bb47-9e3fe84446bf",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-fixed-incomes/1.0.0/30306294_BTG-Banking-Fase-4B_credit-fixed-incomes_v1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d95db4d5-b41d-43e5-ab1d-f9dc06081989",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "1a27cfdb-1e59-4b42-be68-c7dbf092d1d6",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "493ee1e2-ddc5-407b-897c-06bf4dd848af",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "674c1576-880b-4e6b-a975-061b5601baea",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "e17beb54-9efe-4577-8a9a-3a4f17a375a3",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "d84c1f56-df9a-4081-9a5e-5065e94ab679",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "admin",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "dbfdaa7b-111c-48a8-92bd-491b580f4a8c",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/admin/v1/metrics"
+}
+]
+},
+{
+"ApiResourceId": "bf1217bb-50ea-43cf-a73b-4fa46bee8148",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/invoice-financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_invoice-financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "invoice-financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "8cff9bbe-57d1-4454-87c4-e6dcf1549af9",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "d17f46ac-26e1-49aa-a81e-be959390495d",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "f48ee987-fbb6-4575-a6a7-15d612a394f8",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "2ba5fa19-3047-454f-8b99-a48db8f13a22",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "4e37fa76-87f1-4114-a540-90a2e8e124e3",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "e7c9716b-e4bb-4bbb-9b9b-8737eb046075",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/treasure-titles/1.0.0/30306294_BTG-Banking-Fase-4B_treasure-titles_v1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d8794c5b-26fb-41ed-a53a-c201dfca9b88",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/treasure-titles/v1/investments"
+},
+{
+"ApiDiscoveryId": "07e15636-096f-4ea7-bab2-e8d6e5d013d4",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "09aabd67-f367-4b7c-becd-eba547ca2776",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "e2b81b60-c41b-4686-bb1f-42a4d1d5a9ec",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "b7df54dc-7e18-472f-a74e-f0b05dae0e9a",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "44175496-1ddf-4e8a-8540-7bc29444251d",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_loans_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "loans",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "468ca6c2-92ae-477b-8f86-3ecb50d5e74c",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/loans/v2/contracts"
+},
+{
+"ApiDiscoveryId": "9fbd3764-6882-4db5-9801-89a268a7c1ba",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "0c752473-f4ca-45e7-8d52-e8baee5852d7",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "e91f8c9a-e0d1-404a-85e0-d19c81758cb4",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "e967f128-af9d-4860-b77a-5f474639e223",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "031bf486-232e-4d5b-aeff-1ac619eb8a32",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "discovery",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "3b7deaa7-5684-41eb-a49e-37f0f9724448",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/discovery/v1/status"
+},
+{
+"ApiDiscoveryId": "0208ac76-2081-44ce-ab8a-798ff6fa5330",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/discovery/v1/outages"
+}
+]
+},
+{
+"ApiResourceId": "df00b744-b94a-442d-abf2-c7e6f3f0e61e",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=8N9knzNWHztWB&public=true",
+"CertificationStatus": "Rejected",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a6d6dc9b-3c81-45c2-a91d-89a6b74da7fb",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/opendata-investments/v1/funds"
+}
+]
+},
+{
+"ApiResourceId": "441510ba-8748-4293-b966-84b36cfe42f0",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_accounts_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "b8c69a8b-63b8-4c5e-abc9-4973bffe4716",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "c4b74a41-6fab-47b5-b020-b9b09f7b639c",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}"
+},
+{
+"ApiDiscoveryId": "c2819ece-16ee-44c7-ad0f-3753819bfe30",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/balances"
+},
+{
+"ApiDiscoveryId": "578a29af-1783-489b-8f89-ec3a726f7072",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions"
+},
+{
+"ApiDiscoveryId": "789e1422-32ab-4657-9a9c-b4253eaf8ab1",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "805586e4-9ee2-4326-b4d7-f37f7bfc06b9",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+}
+]
+},
+{
+"ApiResourceId": "df84ddb0-7d51-465a-a633-b9875e8c07d2",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "products-services",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "ebded93d-26e9-47df-8952-c5f9ba4ce160",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/personal-accounts"
+},
+{
+"ApiDiscoveryId": "36e9c694-3a5c-4569-9ba0-155d1ea37fc7",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/business-accounts"
+},
+{
+"ApiDiscoveryId": "d2531a69-37ab-4791-8d46-2d22a8624116",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/personal-loans"
+},
+{
+"ApiDiscoveryId": "d5ddc76f-6553-4590-a0c1-12909d91f869",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/business-loans"
+},
+{
+"ApiDiscoveryId": "e2e2682b-808c-443a-bc21-d4ac4e88b5e6",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/personal-financings"
+},
+{
+"ApiDiscoveryId": "b2db1f2b-8469-4ebc-a3f9-0fec3caf1a13",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/business-financings"
+},
+{
+"ApiDiscoveryId": "10a2bae4-8bba-4009-ab69-5438c0d021cc",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/personal-invoice-financings"
+},
+{
+"ApiDiscoveryId": "77726093-85cf-4fc2-9326-2342eb1266d8",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/business-invoice-financings"
+},
+{
+"ApiDiscoveryId": "fc405d8d-aed0-464f-ac29-c10763e5c929",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/personal-credit-cards"
+},
+{
+"ApiDiscoveryId": "587de281-c18d-4766-b6e1-ecb7da863c67",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/business-credit-cards"
+},
+{
+"ApiDiscoveryId": "124ea2b7-616a-4971-9b66-567d68f9c40c",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+},
+{
+"ApiDiscoveryId": "bf62ec60-b0df-475a-864b-deba02a78bb3",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/products-services/v1/business-unarranged-account-overdraft"
+}
+]
+},
+{
+"ApiResourceId": "9233d9cb-de3e-47b1-a28b-10c6bd096647",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_personal_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "customers-personal",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "b9f29376-8fd6-4aaf-8ba0-79da5f3cdf90",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/customers/v2/personal/identifications"
+},
+{
+"ApiDiscoveryId": "b6445ba0-a859-4fd8-9849-7d951a4e298f",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/customers/v2/personal/qualifications"
+},
+{
+"ApiDiscoveryId": "39a1b986-3fe7-4124-aa6f-19bcf20469f7",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/customers/v2/personal/financial-relations"
+}
+]
+},
+{
+"ApiResourceId": "0f892e68-1f2e-4c17-afc1-08f9d22744f2",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.1.0/30306294_BTG-Banking-Fase-4B_consents_v2.1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "4f71f586-14e0-46e7-bcf8-c9a40d22c1e2",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/consents/v2/consents/{consentId}"
+},
+{
+"ApiDiscoveryId": "d85bbfe6-f8eb-4c4b-907e-8c15a14582ea",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/consents/v2/consents"
+}
+]
+},
+{
+"ApiResourceId": "18f5c651-f6fc-41aa-8ce0-9adb62053912",
+"ApiVersion": "2.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/30306294_Banco%20BTG%20Pactual%20–%20BTG%20Banking%20Open%20Finance%20v2.0_payments_v2_14-02-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "14/02/2023",
+"CertificationExpirationDate": "14/02/2024",
+"ApiFamilyType": "payments-consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "6929ee55-afa5-40bb-9e46-f1182473630d",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/payments/v2/consents"
+},
+{
+"ApiDiscoveryId": "59c86dc7-27e4-43f1-aa68-3f963b5c8860",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/payments/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "05b52321-a5e8-49cc-a3d0-9655d9fc8145",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/bank-fixed-incomes/1.0.0/30306294_BTG-Banking-Fase-4B_bank-fixed-incomes_v1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "26a74b99-8aa9-4465-9287-925dc1ab0062",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "53a3c67e-a587-4d8c-a25d-0cedd5bd20f8",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "8c391a94-becf-4a79-8ab6-7cfa67b4de06",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "a3ed685e-7c5c-45b2-b26e-9c8f035e1d38",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "3387ee9c-7c96-4d10-8e00-fd7d3b13ce63",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "39dcec37-e322-4ae3-a8dd-8ceb7efbe780",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/variable-incomes/1.0.0/30306294_BTG-Banking-Fase-4B_variable-incomes_v1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "405ae902-0abb-415e-aea2-18029028abe7",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/variable-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "2f1fdc6f-2e98-4160-93be-a3a35fe64fbb",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "f5456b86-232a-4a8b-9c4e-11c0ae5a0b63",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "36ba3909-d085-481e-bee5-281060327f00",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "957ea77a-7834-48fc-a916-931a5c99ddf2",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "12868c7e-7afd-467a-a6a4-c037869bbb42",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/variable-incomes/v1/broker-notes/{brokerNoteId}"
+}
+]
+},
+{
+"ApiResourceId": "1b7c5fa9-20a9-4def-af79-0c5459c2bff0",
+"ApiVersion": "2.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/2.0.0/30306294_Banco%20BTG%20Pactual%20–%20BTG%20Banking%20Open%20Finance%20v2.0_payments_v2_14-02-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "14/02/2023",
+"CertificationExpirationDate": "14/02/2024",
+"ApiFamilyType": "payments-pix",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "013e0bc1-28ac-4809-8846-e3f874c4087e",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/payments/v2/pix/payments"
+},
+{
+"ApiDiscoveryId": "91780439-ff07-401d-bff0-d8f513067ff4",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/payments/v2/pix/payments/{paymentId}"
+}
+]
+},
+{
+"ApiResourceId": "25f2a7de-246e-4caa-9ac2-e101c2a50476",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/unarranged-overdraft/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_unarranged-overdraft_v2-OL_07-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "07/10/2022",
+"CertificationExpirationDate": "07/10/2023",
+"ApiFamilyType": "unarranged-accounts-overdraft",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "9e971659-b857-4f18-946f-adcac94b1737",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts"
+},
+{
+"ApiDiscoveryId": "0484130d-8d51-4b43-9d24-582663abed5a",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "8b7eb5c6-2bd0-4f2d-8e54-3d6711195700",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "799caaf8-7c60-4c98-8345-692acc50391e",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "e4c5a743-55af-425b-a904-8a87cda50e20",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "254ba391-cb4b-459f-9e2d-731d5d25ee1b",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20MAIS_financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "6e9e6830-d177-4657-b549-9c100cd5d7ca",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "3cd17338-045f-42e2-bad8-3d81eacff9d7",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "c4da3fd6-9d09-43f3-92cc-e0fe2d7e9f6e",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "15d55172-d3f7-48e1-89f0-e41ddce7962e",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "ffc35259-e139-435e-8dd4-fdfddd9dcc9e",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "4ee1f0f1-5196-4155-a6f4-f306d0b4fd65",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/funds/1.0.0/30306294_BTG-Banking-Fase-4B_funds_v1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "74c1791a-d25d-4718-9cd5-769d53e84216",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/funds/v1/investments"
+},
+{
+"ApiDiscoveryId": "be2c619c-9faf-462c-af96-a05196706a85",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "119cc1b6-62c1-47cb-a3b5-9eb1f97b14d8",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "9696d6a2-985d-416e-b64b-a27f5f397123",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "1fbdf2c3-1726-418d-8b18-a1676334bc68",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "400c52e5-0495-4182-a75a-034793c8838a",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=SS6QEN6Tb23mF&public=true",
+"CertificationStatus": "Warning",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "8c26e5e4-ca0c-4f5d-9616-32a330f52c02",
+"ApiEndpoint": "https://btgmais.openbanking.btgpactual.com/open-banking/opendata-investments/v1/bank-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "bcdb3cbf-a26f-4cb1-baf2-8493484cb64a",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.1.0/30306294_BTG-Banking-Fase-4B_resources_v2.1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "resources",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "4995daa0-caa6-43c1-8500-1ee0f5bf565f",
+"ApiEndpoint": "https://api.mais.ob.btgpactual.com/open-banking/resources/v2/resources"
+}
+]
+}
+],
+"AuthorisationServerCertifications": [
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "564f2f47-1680-4410-a9bf-fe0d5e3f1403",
+"AuthorisationServerId": "b397dd9c-62b2-4632-bce7-85f56666c083",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-MAIS_OPEN-BANKING_BR-OB-Adv-OP-w-Private-Key-PAR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "14/09/2022",
+"CertificationExpirationDate": "14/09/2023",
+"CertificationId": "4e4036af-cd7c-4b70-a6c7-1b4994a8de15",
+"AuthorisationServerId": "b397dd9c-62b2-4632-bce7-85f56666c083",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Unsigned payload- JSON",
+"ProfileType": "DCR",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-MAIS_OPEN-BANKING_BR-OB-Adv-OP-DCR_14-SET-2022.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "23857f9a-e750-4aae-92f2-eb7ce4eb23c6",
+"AuthorisationServerId": "b397dd9c-62b2-4632-bce7-85f56666c083",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-MAIS_OPEN-BANKING_BR-OB-Adv-OP-w-MTLS-PAR_15-SET-2022.zip"
+},
+{
+"CertificationStartDate": "19/11/2021",
+"CertificationExpirationDate": "19/11/2022",
+"CertificationId": "d4b5def0-04cd-497e-9b94-839cef9b50e2",
+"AuthorisationServerId": "b397dd9c-62b2-4632-bce7-85f56666c083",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Signed payload - JWT",
+"ProfileType": "DCR",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BTG-MAIS_OPEN-BANKING_BR-OB-Adv-OP-DCR_19-NOV-2021.zip"
+},
+{
+"CertificationStartDate": "07/11/2021",
+"CertificationExpirationDate": "07/11/2022",
+"CertificationId": "9871ff84-32b5-476e-a96a-a1d086ca792d",
+"AuthorisationServerId": "b397dd9c-62b2-4632-bce7-85f56666c083",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_BTG_Pactual_S.A.-BTG_Mais_Open_Banking_1.0.0-BR_OB_Adv._OP_w_Private_Key_PAR-07-Jul-2021.zip"
+}
+]
+},
+{
+"AuthorisationServerId": "ecfee7e8-733e-4bf4-af2a-e72f97d6591e",
+"AutoRegistrationSupported": true,
+"AutoRegistrationNotificationWebhook": null,
+"SupportsCiba": false,
+"SupportsDCR": true,
+"SupportsRedirect": true,
+"CustomerFriendlyDescription": "O BTG Pactual (BPAC11) é o maior banco de investimentos da América Latina e atua nos mercados de Investment Banking, Corporate Lending, Sales & Trading, Wealth Management e Asset Management.",
+"CustomerFriendlyLogoUri": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/corporate/btg_pactual_corporate_logo.svg",
+"CustomerFriendlyName": "BTG Corporate",
+"DeveloperPortalUri": "https://developer.btgpactual.com/",
+"TermsOfServiceUri": null,
+"NotificationWebhookAddedDate": null,
+"OpenIDDiscoveryDocument": "https://open.corporate.btgpactual.com/.well-known/openid-configuration",
+"Issuer": null,
+"PayloadSigningCertLocationUri": "https://open.corporate.btgpactual.com/jwks",
+"CreatedAt": 1612137568,
+"ParentAuthorisationServerId": null,
+"DeprecatedDate": null,
+"RetirementDate": null,
+"SupersededByAuthorisationServerId": null,
+"ApiResources": [
+{
+"ApiResourceId": "e0bb8df7-ec68-48cb-a4ae-9923c4fdbcde",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "f559f9a4-fa46-4117-8758-278b7d0cd691",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "f3e80150-ff9b-49f0-bc5b-9a272186e233",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "8b981723-21d2-4731-b0c7-4cfb0b63573c",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "3638e062-3d75-432f-8917-14a1a57e9b79",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "a1a064fb-b46a-4f8c-856f-0822fc809de7",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "51297688-c638-41b5-a606-67e2a16eebbf",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=kUaENcGDwwOIS&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-pension_survival-coverages",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "f4b437f7-df9c-4a68-b612-0ca5e4dbe0c7",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-pension/v1/survival-coverages"
+}
+]
+},
+{
+"ApiResourceId": "45e4f9c9-b46e-4855-83ac-bd5054cafc47",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=TNRtdnyWFkFTI&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_vet-values",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "eece440c-e567-4a3f-8471-fa1965fb763a",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/vet-values"
+}
+]
+},
+{
+"ApiResourceId": "1a9f3cef-5a03-4dcf-9b16-8331bb3a00e8",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/invoice-financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_invoice-financings_v2-OL_30-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "30/09/2022",
+"CertificationExpirationDate": "30/09/2023",
+"ApiFamilyType": "invoice-financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "15a09a33-7806-4157-affd-cd119b78d0c2",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "4cf36774-a9b4-48de-9f9a-5c5c5c884928",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "069971b3-321d-4ffe-9118-68e1d965be27",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "46bcc23d-8579-4a2a-a650-f983a7440fe2",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "a15fde9d-ec36-44c1-96f5-ae5d6c9803b0",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "105342fb-e37d-4e48-9aad-ec97adbd8311",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=6KgUyGOp6B2uH&public=true",
+"CertificationStatus": "Rejected",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "0202f684-8710-466d-bf78-ce7862714997",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-investments/v1/credit-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "6ecfcee3-c222-4655-87d7-42d1edca5a48",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_accounts_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d9139507-96b3-463e-b6ca-2c02c158f0b9",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "11d9618a-e6a5-44d2-91aa-a1911fa335f8",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}"
+},
+{
+"ApiDiscoveryId": "012b9543-d835-476b-bd56-7a4ef045b0d2",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/balances"
+},
+{
+"ApiDiscoveryId": "f93698f2-2264-4729-8468-bf7dc9615a69",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions"
+},
+{
+"ApiDiscoveryId": "054bcec7-2213-47a9-a13d-56b19d9c390b",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "4a5b7f6e-ac6c-435d-8436-25e609aeb608",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+}
+]
+},
+{
+"ApiResourceId": "cc07226f-a788-4d97-93eb-34334616da03",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "channels",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "535aabb8-5bd5-43d2-a5cb-d625bde21c26",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/channels/v1/branches"
+},
+{
+"ApiDiscoveryId": "ee4e5ffc-9485-4862-bf6e-a38f021394f6",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/channels/v1/electronic-channels"
+},
+{
+"ApiDiscoveryId": "eb4942d2-9c3a-4655-969e-8ed4e8009b75",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/channels/v1/phone-channels"
+},
+{
+"ApiDiscoveryId": "88877688-f7a8-478b-bb5f-025882f16724",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/channels/v1/banking-agents"
+},
+{
+"ApiDiscoveryId": "00c55e11-0e11-4e6c-a75d-cc284ca90eac",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/channels/v1/shared-automated-teller-machines"
+}
+]
+},
+{
+"ApiResourceId": "0885c9c7-407e-4581-95de-475b7a90e471",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.1.0/30306294_BTG-Corporate-Fase-4B_resources_v2.1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "resources",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "377cb9f4-6157-493f-b28c-c4632efebceb",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/resources/v2/resources"
+}
+]
+},
+{
+"ApiResourceId": "63051451-0a06-43ac-840f-5dd5f8af5291",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/funds/1.0.0/30306294_BTG-Corporate-Fase-4B_funds_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "da73c777-ba79-498e-a4aa-14dc1cc84de1",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/funds/v1/investments"
+},
+{
+"ApiDiscoveryId": "75f81d81-d862-4a35-83a3-44189068b32a",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/funds/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "3ba8a805-bc23-4a19-a6a6-a8005b61464d",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "9730143b-4982-4f15-976d-9a2ad5f846c0",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "99a30733-5612-4c28-a76d-d36e1c5b1e36",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "e9430751-64a5-474d-b5ee-fe25ed8d981a",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=SHZn4icHP7iq2&public=true",
+"CertificationStatus": "Rejected",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "6f4cebdc-fc96-4551-a075-c614f0bcd613",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-investments/v1/funds"
+}
+]
+},
+{
+"ApiResourceId": "f12921d5-8636-4b88-b8bd-83dd2dd69c12",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=ZB4gnkW7VWum9&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "8a63cbb2-1f5d-4f49-9149-58e1a38207c2",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-investments/v1/treasure-titles"
+}
+]
+},
+{
+"ApiResourceId": "2f44cbd7-c1b5-4db7-ae6a-bbfc91258b11",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/variable-incomes/1.0.0/30306294_BTG-Corporate-Fase-4B_variable-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "5cab0a80-9244-4d8b-be9a-e3504df6899d",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/variable-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "420e9414-7a31-4b37-9465-3cae01e6e1b5",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "e85e019b-25c7-4d89-acb4-bcfc1d3e77fb",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "7c894eb3-a711-4688-8d5e-41982f1dbac7",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "b81d0b7d-02fc-4d56-9fa4-dc45dcdfc3b2",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "993b37a1-8091-4497-87ce-4ce8a088cfef",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/variable-incomes/v1/broker-notes/{brokerNoteId}"
+}
+]
+},
+{
+"ApiResourceId": "1295a2ad-e853-430f-b543-ab4d771334de",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=iFzueHxzVqDuo&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "5a3a90ba-8bc0-4740-b918-fc41c0c93ffe",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-investments/v1/variable-incomes"
+}
+]
+},
+{
+"ApiResourceId": "bd519dd5-46cd-48a9-b20f-ff879c67aa68",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_loans_v2-OL_06-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "06/10/2022",
+"CertificationExpirationDate": "06/10/2023",
+"ApiFamilyType": "loans",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7a02160c-0cbf-4ee9-b643-279b4527b753",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/loans/v2/contracts"
+},
+{
+"ApiDiscoveryId": "9963b2a7-be97-4003-8b81-13694a162173",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "cc981cb0-d471-4490-9f01-a8e15e2df1f4",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "bb683df0-06c2-4236-ba96-063994c1b4ee",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "979edac1-1d10-444b-aa6f-e4da08fe7f34",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "67f205ac-5c88-43a1-a9f7-a627b133e0a3",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.1.0/30306294_BTG-Corporate-Fase-4B_consents_v2.1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "ef15402f-7aaa-4c1c-a20e-fd8a6481b1a0",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/consents/v2/consents"
+},
+{
+"ApiDiscoveryId": "e9dc0de8-7f07-4b1e-b4e7-fb6cf12621bc",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/consents/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "089c35de-27a9-4315-a451-989dffc22e03",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "products-services",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "101aa647-9031-4a6f-8386-e8dfd56baec0",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/business-invoice-financings"
+},
+{
+"ApiDiscoveryId": "ab5db671-4741-4bd7-b6a1-b799519d6f7b",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/personal-credit-cards"
+},
+{
+"ApiDiscoveryId": "444cb5ec-8521-4e96-9fbf-9159fff40723",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/business-credit-cards"
+},
+{
+"ApiDiscoveryId": "f51abc16-668f-4b04-b939-dc98d78c7ad3",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+},
+{
+"ApiDiscoveryId": "39fe4424-92b3-469a-9d6e-8335eb1ed541",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/business-unarranged-account-overdraft"
+},
+{
+"ApiDiscoveryId": "53f1b7a1-b388-4ad0-bb8a-0341216e1ec0",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/personal-accounts"
+},
+{
+"ApiDiscoveryId": "2f5c6bcf-7af6-4c1f-98be-2cd06a6e767c",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/business-accounts"
+},
+{
+"ApiDiscoveryId": "745b7089-7722-4a4d-8617-a1b3353d2b2e",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/personal-loans"
+},
+{
+"ApiDiscoveryId": "594a8cc4-0b9d-4396-b1ab-ba06543045c0",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/business-loans"
+},
+{
+"ApiDiscoveryId": "cb3af7a6-3329-4dd3-8ff9-d2e375ff2007",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/personal-financings"
+},
+{
+"ApiDiscoveryId": "5903bffd-ef76-400e-b694-3e4ecae1ce28",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/business-financings"
+},
+{
+"ApiDiscoveryId": "61b32bfd-c040-4141-b9db-4fd2b74ed6f9",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/products-services/v1/personal-invoice-financings"
+}
+]
+},
+{
+"ApiResourceId": "f36a210a-1af5-4fa4-8882-5841f7a00d68",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "discovery",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7e330030-f239-4b89-b677-9af6ecf37a3a",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/discovery/v1/status"
+},
+{
+"ApiDiscoveryId": "52b2dc55-9ab6-44eb-8d61-6c313726201f",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/discovery/v1/outages"
+}
+]
+},
+{
+"ApiResourceId": "b18f3b12-cead-4cfc-99c5-cbc24a9e0daa",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/unarranged-overdraft/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_unarranged-overdraft_v2-OL_04-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2022",
+"CertificationExpirationDate": "04/10/2023",
+"ApiFamilyType": "unarranged-accounts-overdraft",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "76390d43-5aac-449e-b42a-631012b0bd4f",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts"
+},
+{
+"ApiDiscoveryId": "33eb3ac0-f73b-4a35-b830-24a19cab13cd",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "5b3b5c67-5e82-4899-9e21-f1f873976c4c",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "961563b7-b7cf-47c6-b86a-37ad7c34c1cf",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "501e71f8-975a-4d66-9cb8-fad307f38e89",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "5bb19aab-7051-4ef8-86f9-73a8f2b19519",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/bank-fixed-incomes/1.0.0/30306294_BTG-Corporate-Fase-4B_bank-fixed-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "e9d6dee3-726e-4917-bd5c-74ecfee84607",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "e7e0e126-5eda-4ed4-9a8c-8c6e27a24348",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "918bece7-fc26-4d0f-9a81-9a827c44a463",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "c94d9c0d-2658-4f05-95ab-c54f9510ec60",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "a0b2e958-7443-43c5-ba1d-610b4b5eb0e6",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "8e7c1f08-a2f5-476f-bbbf-a68c64a321b7",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/treasure-title/1.0.0/30306294_BTG-Corporate-Fase-4B_treasure-title_v1_25-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "25/09/2023",
+"CertificationExpirationDate": "24/09/2024",
+"ApiFamilyType": "treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7e2191f2-c11f-450b-aa55-49104fb54fd8",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/treasure-titles/v1/investments"
+},
+{
+"ApiDiscoveryId": "6c944fd3-3d2b-4151-8696-cb601ca3859d",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "d00419b6-0185-4a00-a426-562cadcde888",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "8eb2c5ff-2f37-4bf2-ab6b-b07e07c9784d",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "ac51c1ac-438a-47d3-ab21-2753befaa2ba",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "07acfdfc-838e-4dcd-807f-f85ff813a3c7",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "admin",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "c11ccbca-cd1c-4ed5-97fa-377ed3a9fb93",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/admin/v1/metrics"
+}
+]
+},
+{
+"ApiResourceId": "d7e1c7a8-7176-4d42-89b3-cf414bec29b6",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_credit-card_v2-OL_07-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "07/10/2022",
+"CertificationExpirationDate": "07/10/2023",
+"ApiFamilyType": "credit-cards-accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a661bef7-470e-41f4-a051-b72af66fbac0",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "fa5b14fd-a5c0-47e3-bdcf-af35cfa35857",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+},
+{
+"ApiDiscoveryId": "c79ea661-f843-466a-ad40-2989c447986a",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+},
+{
+"ApiDiscoveryId": "5a39bc4f-ed85-4ad9-9b6e-7d59903d94cf",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "0ae1fbd1-b886-43db-afcd-f7d53a812ceb",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+},
+{
+"ApiDiscoveryId": "4c4e46d7-45bd-4870-a6dd-692076be1e8c",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+},
+{
+"ApiDiscoveryId": "97bd4498-9a87-4070-b464-b6194377ce7d",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+}
+]
+},
+{
+"ApiResourceId": "33795142-ffb1-460c-8b3e-2d41561634ba",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=KHIe6GPT6cOsF&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_online-rates",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "af69d87b-11ef-48a8-81bd-ce58f5602f7f",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/online-rates"
+}
+]
+},
+{
+"ApiResourceId": "60001b2c-b2ad-4bf5-ae42-ee9515883c3a",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20CORPORATE_business_v2-OL_11-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "11/10/2022",
+"CertificationExpirationDate": "11/10/2023",
+"ApiFamilyType": "customers-business",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a4818db9-a24c-4faf-84bc-490bbba28e45",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/customers/v2/business/identifications"
+},
+{
+"ApiDiscoveryId": "b5816413-f2cd-400f-a827-4ea6c7331f86",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/customers/v2/business/qualifications"
+},
+{
+"ApiDiscoveryId": "aa20308f-c334-47ce-b132-27f0f7b3939c",
+"ApiEndpoint": "https://api.corporate.ob.btgpactual.com/open-banking/customers/v2/business/financial-relations"
+}
+]
+},
+{
+"ApiResourceId": "be3ff065-f083-4559-950a-41927a442220",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=JHFh1vgPgvK7P&public=true",
+"CertificationStatus": "Warning",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "34c8da9e-e8ce-43bf-a8ff-9f47580d9f51",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/opendata-investments/v1/bank-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "45effac6-f0a5-44a9-aa7b-646498ea23a9",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-fixed-incomes/1.0.0/30306294_BTG-Corporate-Fase-4B_credit-fixed-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "712cdc0f-8c01-4150-962b-7d671058cb4f",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "2e8c6944-0eaa-424d-a33b-2dfcf86e31e3",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "a50d16b6-6619-4789-bca3-89fe02ec3bfb",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "490c68c4-429b-4692-8d57-21b094dee893",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "fd782b4a-0f81-46ba-98f8-10fcd56e8bc9",
+"ApiEndpoint": "https://btgpactual.openbanking.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+}
+],
+"AuthorisationServerCertifications": [
+{
+"CertificationStartDate": "19/11/2021",
+"CertificationExpirationDate": "19/11/2022",
+"CertificationId": "c4b9c712-5b75-43bf-80da-475488a899c5",
+"AuthorisationServerId": "ecfee7e8-733e-4bf4-af2a-e72f97d6591e",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Signed payload - JWT",
+"ProfileType": "DCR",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BTG-CORPORATE_OPEN-BANKING_BR-OB-Adv-OP-DCR_19-NOV-2021.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "57d4c07b-9b6f-4471-b0be-be6f0a083f36",
+"AuthorisationServerId": "ecfee7e8-733e-4bf4-af2a-e72f97d6591e",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-CORPORATE_OPEN-BANKING_BR-OB-Adv-OP-w-MTLS-PAR_17-SET-2022.zip"
+},
+{
+"CertificationStartDate": "07/07/2021",
+"CertificationExpirationDate": "07/07/2022",
+"CertificationId": "c45f3927-33a3-4d28-9ad6-91f4c43eadf1",
+"AuthorisationServerId": "ecfee7e8-733e-4bf4-af2a-e72f97d6591e",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_BTG_Pactual_S.A.-BTG_Corporate_Open_Banking_1.0.0-BR_OB_Adv._OP_w_Private_Key_PAR-07-Jul-2021.zip"
+},
+{
+"CertificationStartDate": "16/09/2022",
+"CertificationExpirationDate": "16/09/2023",
+"CertificationId": "495ad5d2-65ad-4161-a30c-f1bae02bfb40",
+"AuthorisationServerId": "ecfee7e8-733e-4bf4-af2a-e72f97d6591e",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Unsigned payload- JSON",
+"ProfileType": "DCR",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-CORPORATE_OPEN-BANKING_BR-OB-Adv-OP-DCR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "42d70c6a-6c86-4938-a8e1-dee5a9c31775",
+"AuthorisationServerId": "ecfee7e8-733e-4bf4-af2a-e72f97d6591e",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-CORPORATE_OPEN-BANKING_BR-OB-Adv-OP-w-Private-Key-PAR_17-SET-2022.zip"
+}
+]
+},
+{
+"AuthorisationServerId": "2caec6e4-9ee2-402d-ad73-465198bd9250",
+"AutoRegistrationSupported": true,
+"AutoRegistrationNotificationWebhook": null,
+"SupportsCiba": false,
+"SupportsDCR": true,
+"SupportsRedirect": true,
+"CustomerFriendlyDescription": "Plataforma online de investimentos do BTG Pactual, com foco em Experiência do Cliente, Segurança e Excelência. Voltada especialmente para varejo e varejo de alta renda no Brasil.",
+"CustomerFriendlyLogoUri": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/btginvestimentos/btginvestimentos.svg",
+"CustomerFriendlyName": "BTG Investimentos",
+"DeveloperPortalUri": "https://developer.btgpactual.com/",
+"TermsOfServiceUri": null,
+"NotificationWebhookAddedDate": null,
+"OpenIDDiscoveryDocument": "https://open.btgpactualdigital.com/.well-known/openid-configuration",
+"Issuer": null,
+"PayloadSigningCertLocationUri": "https://open.btgpactualdigital.com/jwks",
+"CreatedAt": 1612139322,
+"ParentAuthorisationServerId": null,
+"DeprecatedDate": null,
+"RetirementDate": null,
+"SupersededByAuthorisationServerId": null,
+"ApiResources": [
+{
+"ApiResourceId": "90b4473f-3f29-48d8-be31-b2da3cf9d946",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=rcGARuJX6Sqym&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_online-rates",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "703bf003-d0c8-4be7-be02-1d44633e0caf",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/online-rates"
+}
+]
+},
+{
+"ApiResourceId": "64498e8c-ef6d-434b-a42f-f22cc074792d",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/funds/1.0.0/30306294_BTG-Investimentos-Fase-4B_funds_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "332844d6-63a9-42c7-9469-6aa77913013d",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/funds/v1/investments"
+},
+{
+"ApiDiscoveryId": "6be2742f-8108-48ee-9993-5616845973a7",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "e0458f88-1ebd-44c2-8f38-b8747cb3dad6",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "314a353b-ef54-46d0-9051-39838775cffb",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "aff47a14-8595-43fb-99a9-4d7182f4b093",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "0bc87c55-b50e-4572-9e55-36d2432937dd",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "discovery",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "12df4ef8-56ab-44c6-ab0b-ef17bbaa3d53",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/discovery/v1/status"
+},
+{
+"ApiDiscoveryId": "d5c649e3-a1e1-45e0-ae83-9ad288d74e36",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/discovery/v1/outages"
+}
+]
+},
+{
+"ApiResourceId": "8d072e15-e56b-4e99-b72e-872b772edba9",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=gn3vySv26DChF&public=true",
+"CertificationStatus": "Warning",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "be2f2313-9218-4bf8-ab71-c5a8a8c405e5",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-investments/v1/bank-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "ce056d63-b40b-4136-b690-a4d353a1a2f5",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-fixed-incomes/1.0.0/30306294_BTG-Investimentos-Fase-4B_credit-fixed-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "334f6d3b-5d99-41cf-884c-8fdd8b8af245",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "88dd4c92-5cf9-4110-b74b-8f45ab14a833",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "c63b9867-a3f7-4340-98ab-880a11ab10bb",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "38317e69-47af-46b4-ae77-f2837dd1ebf4",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "2b2cb105-0e8e-4383-ac40-ea8b415a94fd",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "525bb4e5-a08e-479d-a7e6-adac5019cbc0",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.1.0/30306294_BTG-Investimentos-Fase-4B_consents_v2.1_28-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "28/09/2023",
+"CertificationExpirationDate": "27/09/2024",
+"ApiFamilyType": "consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d5e0221b-f5cf-45e2-b65e-3833bda99a5c",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/consents/v2/consents"
+},
+{
+"ApiDiscoveryId": "4554a8c9-4c79-4923-9209-4a4580530cb6",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/consents/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "6635563f-8c9e-4892-ad6e-870a6fe632a0",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/invoice-financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20DIGITAL_invoice-financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "invoice-financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a36f3cff-790b-41a5-8420-e476cc5d12b4",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "bc4ef67c-247e-434d-a768-d127abab5ec3",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "c166a2a8-5daf-4b34-ab38-0f4dd178316a",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "2d09cb0a-bd20-4d80-b572-0e8f19f6e82f",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "6c2bfc11-8372-40f3-8d10-1c6876aa7105",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "de0c161a-f7d2-438e-bac8-f86b8ba97d19",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20DIGITAL_loans_v2-OL_06-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "06/10/2022",
+"CertificationExpirationDate": "06/10/2023",
+"ApiFamilyType": "loans",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "6102ac43-485b-42f9-bac5-b181e4f29d83",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/loans/v2/contracts"
+},
+{
+"ApiDiscoveryId": "db6b2801-c3da-4b68-accf-c9f475f9425e",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "c87e4f6c-28d1-4082-a66b-d608bd26c4dc",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "3b6a4bcf-853b-4467-b26e-8b9e5e3a791c",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "e1438578-a50e-4a5e-a4c8-34ca5a78199a",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "47fca9bf-3267-4445-99ec-29e415ce9b00",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/unarranged-overdraft/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20DIGITAL_unarranged-overdraft_v2-OL_04-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2022",
+"CertificationExpirationDate": "04/10/2023",
+"ApiFamilyType": "unarranged-accounts-overdraft",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "5cd3b3bc-063e-4de6-9546-34df77334a12",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts"
+},
+{
+"ApiDiscoveryId": "831bb2a3-a541-4bcd-8c5e-0fc8184e7013",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "7f4f523f-d0a0-4f43-b921-31bd01a88b4e",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "c5da0f2f-086b-4339-9abb-2a107c841ef6",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "821caab4-a2dd-4012-be56-a2ee9a02d257",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "ad44813a-fa2e-4105-b4e2-23c5203a60df",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20DIGITAL_accounts_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "019ffc46-bbe6-4378-be15-3ee468324ff4",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "e2a02cca-709e-4071-b210-3c849998543b",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}"
+},
+{
+"ApiDiscoveryId": "d650528f-e619-43db-a95c-88b57b60bb4c",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/balances"
+},
+{
+"ApiDiscoveryId": "6ae4e2c0-1a28-4a06-8e20-162b1144db68",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions"
+},
+{
+"ApiDiscoveryId": "d2eb3567-8f88-481a-ad31-a28f82d260ea",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "9941246c-5e08-4ebd-ae8e-313f6f14a758",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+}
+]
+},
+{
+"ApiResourceId": "b2b72a84-ac90-4b8e-9c15-91eea1475f3e",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20DIGITAL_financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "4bd95911-a9cd-499b-8de6-170bf8973bae",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "895b0d48-49eb-45f2-8af4-dc6c4072fb12",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "209958bf-c00a-4569-aacb-65b97bb739fc",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "a5fbaae7-3014-4051-9900-838b9014be6e",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "1fc7f009-a0eb-42ea-a764-453136d37741",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "e9a66c73-9ead-43eb-9d0e-9ba58697463e",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/bank-fixed-incomes/1.0.0/30306294_BTG-Investimentos-Fase-4B_bank-fixed-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "3e851579-bfc6-4149-be2f-443e543ee181",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "79e685be-d556-419f-89be-bdfede14fc69",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "c3d286af-781b-4060-92ce-8bfc1d35b5b5",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "46d5fb3b-ed06-45cf-ae4f-61f8373afe4c",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "02631a75-5443-44c9-9d30-c5728e007edc",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "ab56876e-b521-4b6b-80e8-fdfc9c6907fc",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=VNpIRy5b7ZCCk&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-pension_survival-coverages",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "3affe3c8-e6a8-4990-ac04-27284aba860d",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-pension/v1/survival-coverages"
+}
+]
+},
+{
+"ApiResourceId": "ed09cc1b-c0a2-47a3-8bf9-90f4446c5aa7",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=k8vPYezHvYLVs&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "17664425-5294-49a1-a2d1-6391a4f0470c",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-investments/v1/credit-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "3a2950f9-990d-4bce-904f-b2dcf4d6ae91",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/variable-incomes/1.0.0/30306294_BTG-Investimentos-Fase-4B_variable-incomes_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "102e9138-0ff7-4744-a969-26653684b9e4",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/variable-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "c368eb66-aa28-4bd6-969b-883d52b4cf9d",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "7ef78833-8bad-4449-a806-d8267e6442c8",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "4d29b9c7-652f-4e0c-bcb0-6c01e450bc29",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "2ee85846-9c05-4651-9f59-060fe4d289da",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "611ebb6b-8253-4e1f-90cf-4e3174206321",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/variable-incomes/v1/broker-notes/{brokerNoteId}"
+}
+]
+},
+{
+"ApiResourceId": "f09b9828-7aae-44f2-ab5a-8ac1888c4f88",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "admin",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "f8d62371-13a5-41e7-a42a-ee00628b2b39",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/admin/v1/metrics"
+}
+]
+},
+{
+"ApiResourceId": "b0b41ae8-417f-40e7-ae4e-4edf42d84a30",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.1.0/30306294_BTG-Investimentos-Fase-4B_resources_v2.1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "resources",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "f9315e9c-7521-4465-a640-8e7300798379",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/resources/v2/resources"
+}
+]
+},
+{
+"ApiResourceId": "5e33ceaf-9d2f-4beb-bc6f-104027d49cf2",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "products-services",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "67d93109-a0f4-4aef-9cf1-0e0a694c343c",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/personal-accounts"
+},
+{
+"ApiDiscoveryId": "79217c6f-71d9-4e1a-8f02-83908f7d1a45",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/business-accounts"
+},
+{
+"ApiDiscoveryId": "29d4e9c2-2cb3-4028-a4ca-ae81a997d7a1",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/personal-loans"
+},
+{
+"ApiDiscoveryId": "fbd13b46-9ca4-4ebb-b6a4-8ffa5aef8b19",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/business-loans"
+},
+{
+"ApiDiscoveryId": "ab052be1-ceac-4bda-b6c4-e575972288f3",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/personal-financings"
+},
+{
+"ApiDiscoveryId": "6d1a2d6e-9134-479f-88c3-813c242a2cd2",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/business-financings"
+},
+{
+"ApiDiscoveryId": "f793b6b9-516c-49a7-8787-7f002c30e4d1",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/personal-invoice-financings"
+},
+{
+"ApiDiscoveryId": "a0e0769d-fc84-4211-8c2c-86e33e3deb2b",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/business-invoice-financings"
+},
+{
+"ApiDiscoveryId": "e350083f-e8b8-4ee7-bb16-5cb54a9033d4",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/personal-credit-cards"
+},
+{
+"ApiDiscoveryId": "0b018cb9-6eb8-4679-82cc-257bcc6d26be",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/business-credit-cards"
+},
+{
+"ApiDiscoveryId": "16f6315e-e609-4599-a3c3-8e917d4f816e",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+},
+{
+"ApiDiscoveryId": "d35e3fe6-1044-4017-ba9c-5f6daf00bcc1",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/products-services/v1/business-unarranged-account-overdraft"
+}
+]
+},
+{
+"ApiResourceId": "0b5c3703-3cce-4b58-9dc7-8aeff95cd01a",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=1UczAaB7g76tA&public=true",
+"CertificationStatus": "Rejected",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "572e7ee7-35de-452a-b74d-261f6cfe9f83",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-investments/v1/funds"
+}
+]
+},
+{
+"ApiResourceId": "cd9f1b36-2e39-494b-b73c-cb84300ab145",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0_DIGITAL_credit-card_v2-OL_06-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "06/10/2022",
+"CertificationExpirationDate": "06/10/2023",
+"ApiFamilyType": "credit-cards-accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a1366db2-3daf-4ede-833f-40a2fb52d527",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "02410c81-6597-4592-87f0-c42e7b06491c",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+},
+{
+"ApiDiscoveryId": "59b1d461-57bc-438c-8cd8-ed1dcf44e713",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+},
+{
+"ApiDiscoveryId": "be2a3d8b-1f51-440f-adb5-18e9c6af54a4",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+},
+{
+"ApiDiscoveryId": "9b76d549-0dee-4a9b-bc54-e0d0a931cfaa",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "2c957b69-fe99-4e40-b116-207fe96792b8",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+},
+{
+"ApiDiscoveryId": "7d8a1242-1d56-420e-a3f7-3f58380f230d",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+}
+]
+},
+{
+"ApiResourceId": "83f04b18-5b6b-4e7c-a231-972c8b397fb3",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "channels",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7f7f8a31-03b6-44f9-9c41-8f638b287c0f",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/channels/v1/branches"
+},
+{
+"ApiDiscoveryId": "374c3e1f-8c9e-4a45-9077-b47a763e773f",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/channels/v1/electronic-channels"
+},
+{
+"ApiDiscoveryId": "55712442-1018-4313-81e1-1219e0c4392d",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/channels/v1/phone-channels"
+},
+{
+"ApiDiscoveryId": "843d69cd-b39a-424a-9efb-705cdc790780",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/channels/v1/banking-agents"
+},
+{
+"ApiDiscoveryId": "49a96217-ab0c-47f7-860a-65378cda1ead",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/channels/v1/shared-automated-teller-machines"
+}
+]
+},
+{
+"ApiResourceId": "9612c9c1-86b1-4a4e-8d81-fb58a9e47de5",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=r9mCz2cn9I6oZ&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "64500543-7efc-4079-a72a-5d4ca0f1398d",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-investments/v1/treasure-titles"
+}
+]
+},
+{
+"ApiResourceId": "823a781b-1d07-4710-a33e-e6453fcaefd4",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/treasure-title/1.0.0/30306294_BTG-Investimentos-Fase-4B_treasure-title_v1_22-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "22/09/2023",
+"CertificationExpirationDate": "21/09/2024",
+"ApiFamilyType": "treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "46673b59-574c-4fd1-948c-a62a0f8c6ed1",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/treasure-titles/v1/investments"
+},
+{
+"ApiDiscoveryId": "ba6e68a7-0e40-4c8b-bf4b-190bb162ec01",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "017e6630-11e2-4146-9d14-d610131aa072",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "edd1bb2f-169a-46c2-a902-10631b0c5e95",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "6f6cfc35-4baf-4680-866e-d9388141e932",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "701a9b6d-eff3-4a16-b207-3ec020a501a9",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=FXsIoIaNYxShL&public=true",
+"CertificationStatus": "Warning",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "874f911c-bb52-43d9-b1db-aca8ddc44dd3",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-investments/v1/variable-incomes"
+}
+]
+},
+{
+"ApiResourceId": "09addb0b-d7d5-4fb6-b87a-db6722bb4033",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=3EquibkaTrP33&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_vet-values",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "ea3c0cd6-9017-4aea-84d8-dc82e94efcab",
+"ApiEndpoint": "https://btgpactualdigital.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/vet-values"
+}
+]
+},
+{
+"ApiResourceId": "0cee2fd3-e844-4fa6-891b-5ddde1b6b318",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20DIGITAL_personal_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "customers-personal",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "779fd7bc-72f8-4d2c-8317-10178985b7b6",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/customers/v2/personal/identifications"
+},
+{
+"ApiDiscoveryId": "0e77c353-7ac2-46d1-b7f4-293daca44b06",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/customers/v2/personal/qualifications"
+},
+{
+"ApiDiscoveryId": "72ff56af-044c-46d0-943a-8eb0c7e99791",
+"ApiEndpoint": "https://api.digital.ob.btgpactual.com/open-banking/customers/v2/personal/financial-relations"
+}
+]
+}
+],
+"AuthorisationServerCertifications": [
+{
+"CertificationStartDate": "07/07/2021",
+"CertificationExpirationDate": "07/07/2022",
+"CertificationId": "a621caf8-7938-468e-b463-a8ee417fbdef",
+"AuthorisationServerId": "2caec6e4-9ee2-402d-ad73-465198bd9250",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_BTG_Pactual_S.A.-BTG_Pactual_Digital_Open_Banking_1.0.0-BR_OB_Adv._OP_w_Private_Key_PAR-07-Jul-2021.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "7ec0ae34-a123-407a-a9e3-63e609e7c0f8",
+"AuthorisationServerId": "2caec6e4-9ee2-402d-ad73-465198bd9250",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-DIGITAL_OPEN-BANKING_BR-OB-Adv-OP-w-MTLS-PAR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "19/11/2021",
+"CertificationExpirationDate": "19/11/2022",
+"CertificationId": "1c672923-29ea-4060-bf7c-3b2cd1454dd8",
+"AuthorisationServerId": "2caec6e4-9ee2-402d-ad73-465198bd9250",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Signed payload - JWT",
+"ProfileType": "DCR",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BTG-DIGITAL_OPEN-BANKING_BR-OB-Adv-OP-DCR_19-NOV-2021.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "f5ab9e26-ea8b-43a7-b9e8-98cb5fe29a21",
+"AuthorisationServerId": "2caec6e4-9ee2-402d-ad73-465198bd9250",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-DIGITAL_OPEN-BANKING_BR-OB-Adv-OP-w-Private-Key-PAR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "16/09/2022",
+"CertificationExpirationDate": "16/09/2023",
+"CertificationId": "2bef2749-73c7-494a-baa2-e1bdedae6491",
+"AuthorisationServerId": "2caec6e4-9ee2-402d-ad73-465198bd9250",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Unsigned payload- JSON",
+"ProfileType": "DCR",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-DIGITAL_OPEN-BANKING_BR-OB-Adv-OP-DCR_16-SET-2022.zip"
+}
+]
+},
+{
+"AuthorisationServerId": "699d679e-3932-493e-88b9-9c5d46eb98cf",
+"AutoRegistrationSupported": true,
+"AutoRegistrationNotificationWebhook": null,
+"SupportsCiba": false,
+"SupportsDCR": true,
+"SupportsRedirect": true,
+"CustomerFriendlyDescription": "Com o BTG Pactual Wealth Management, você tem uma das equipes mais premiadas em gestão patrimonial e acesso a produtos globais para atingir seus objetivos.",
+"CustomerFriendlyLogoUri": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/wm/btg_pactual_wealth_management_logo.svg",
+"CustomerFriendlyName": "BTG Wealth Management",
+"DeveloperPortalUri": "https://developer.btgpactual.com/",
+"TermsOfServiceUri": null,
+"NotificationWebhookAddedDate": null,
+"OpenIDDiscoveryDocument": "https://open.wm.btgpactual.com/.well-known/openid-configuration",
+"Issuer": null,
+"PayloadSigningCertLocationUri": "https://open.wm.btgpactual.com/jwks",
+"CreatedAt": 1612138949,
+"ParentAuthorisationServerId": null,
+"DeprecatedDate": null,
+"RetirementDate": null,
+"SupersededByAuthorisationServerId": null,
+"ApiResources": [
+{
+"ApiResourceId": "6d934049-6c89-4431-911e-17feecc298eb",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "products-services",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a83764c5-c855-4be2-86a6-c5b516388300",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-accounts"
+},
+{
+"ApiDiscoveryId": "5c19df92-7e4e-4da0-bd47-9e672094c4a3",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/business-accounts"
+},
+{
+"ApiDiscoveryId": "12a7724b-180f-4055-8611-045200dff72b",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-loans"
+},
+{
+"ApiDiscoveryId": "a2e0638a-e9ce-420b-bb7c-a23d2168cc1e",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/business-loans"
+},
+{
+"ApiDiscoveryId": "f905b466-740c-4231-a83b-628f06052023",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-financings"
+},
+{
+"ApiDiscoveryId": "4093f663-3e95-4ed9-82c1-10404b938d7a",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/business-financings"
+},
+{
+"ApiDiscoveryId": "79a6d2fa-037b-42f5-b239-aa43a71961df",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-invoice-financings"
+},
+{
+"ApiDiscoveryId": "87171d2a-8338-4000-b9c1-d28a631c4159",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/business-invoice-financings"
+},
+{
+"ApiDiscoveryId": "58c02b7c-eafe-46c4-b72c-253fa51111aa",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-credit-cards"
+},
+{
+"ApiDiscoveryId": "5204a6e6-55b1-427e-82a3-589538d60507",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/business-credit-cards"
+},
+{
+"ApiDiscoveryId": "802622d7-8b59-4eae-b4e6-29325ac1be82",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+},
+{
+"ApiDiscoveryId": "e60255be-703b-4173-a43a-b40a043e0c2c",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/business-unarranged-account-overdraft"
+}
+]
+},
+{
+"ApiResourceId": "b4055ac5-fdc7-4d01-995a-91c4e131bbdb",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/variable-incomes/1.0.0/30306294_BTG-WM-Fase-4B_variable-incomes_v1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "5a64062d-8602-4080-979a-9e9e35720297",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/variable-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "7948aa51-cd1d-4ad1-8c15-de62bfd19bb3",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "d756806b-e44d-4563-9053-d73e4c55c163",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "fe3990d6-c0f0-4f83-8d61-3a4df9086acf",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "441c8af4-46a0-41bd-a86f-b6855c3a7659",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/variable-incomes/v1/investments/{investmentId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "f7e52cfc-0925-4589-bd8f-7914672df9cd",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/variable-incomes/v1/broker-notes/{brokerNoteId}"
+}
+]
+},
+{
+"ApiResourceId": "993e4aa8-4842-44d0-95b0-2d8303c37dc4",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20WM_financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7d23a378-400a-4d50-a850-b01080287e1b",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "d8ff4182-27aa-4e45-970b-d3e0edda5836",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "53188ebf-8688-4db9-a261-989a786149f8",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "18054212-77df-43bd-a880-00ecd43e6a79",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "1f5932c7-c56b-483f-81bc-8235bf60a406",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/financings/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "f54fc5a0-c943-4852-9ef2-355c491a2217",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.1.0/30306294_BTG-WM-Fase-4B_resources_v2.1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "resources",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "194033db-2a5f-4805-8594-1a75d9afc26a",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/resources/v2/resources"
+}
+]
+},
+{
+"ApiResourceId": "f93aadf4-130f-41a5-afae-a51e0f8a3349",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0_WM_loans_v2-OL_27-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "27/09/2022",
+"CertificationExpirationDate": "27/09/2023",
+"ApiFamilyType": "loans",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "76ca063b-05c7-4288-951a-da5f44aaa02c",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/loans/v2/contracts"
+},
+{
+"ApiDiscoveryId": "d9ffeb2a-1c0e-44e5-a207-28527379f9ca",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "6ae16c45-4291-4511-a021-87f6ee290838",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "6c82bf4b-c8ae-4b62-a31f-7f7a8a23c495",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "49f08996-b2b7-42ff-b4e5-f977fd27493c",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/loans/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "a5f9481c-ed38-4f54-8ccd-4f2561a26751",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0_WM_credit-card_v2-OL_04-10-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2022",
+"CertificationExpirationDate": "04/10/2023",
+"ApiFamilyType": "credit-cards-accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "61d699bf-9649-4c80-bc4f-85c3613d479e",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "a388002f-805b-46c1-bbb7-c16bb7fe3ece",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+},
+{
+"ApiDiscoveryId": "45068c77-2c31-4558-9e9c-86e2d1a69f22",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+},
+{
+"ApiDiscoveryId": "abd72c96-2890-4fc4-ad4b-658e29ac67d9",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+},
+{
+"ApiDiscoveryId": "d8f3b7d4-baf0-45bd-9509-87cc3acf0dcb",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "b0e85c3c-de69-4a7c-9c6b-51136a03884f",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+},
+{
+"ApiDiscoveryId": "17cb31c3-4cd9-40a9-abef-75f126cb0768",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+}
+]
+},
+{
+"ApiResourceId": "ac8104a1-dff0-4fb2-a1d6-7f7cbb92a7cd",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=16hH5wU556Zbo&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_vet-values",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d1ec204e-1948-4ec7-b3e6-8450b07e4c83",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/vet-values"
+}
+]
+},
+{
+"ApiResourceId": "e397bc37-1a11-4b72-94f7-4b5034b56bfc",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=cqHRZXwvXUmxd&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_variable-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "9e4d727b-fcb8-47dd-8e99-9be7990a3a07",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-investments/v1/variable-incomes"
+}
+]
+},
+{
+"ApiResourceId": "5b452aab-3674-401a-98db-8383bb5be5f5",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=uyC3xNUTaD34R&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-pension_survival-coverages",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "9d645703-aa40-4dd0-9ff2-c3ad4edf435a",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-pension/v1/survival-coverages"
+}
+]
+},
+{
+"ApiResourceId": "be36bedb-3914-4e28-ab79-fdc8d172f11c",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=xobjCLkTZnfTE&public=true",
+"CertificationStatus": "Warning",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-exchange_online-rates",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "d046ae47-ca53-4c86-bbb7-c9cd03068b2c",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-exchange/v1/online-rates"
+}
+]
+},
+{
+"ApiResourceId": "f45c719c-e282-4c21-bc66-fae9ec46acfa",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/bank-fixed-incomes/1.0.0/30306294_BTG-WM-Fase-4B_bank-fixed-incomes_v1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "efb2eee2-232f-44d1-bb50-13123b340bf0",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "2df5893e-764d-4a7b-a6f8-01f54ff61300",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "c9aac12d-f326-4c32-8f52-c5408bb76f76",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "3796acdf-3da0-4d52-bbc6-b93d2004bdec",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "31d4dca4-f632-4704-8d0f-cbc9847f7c65",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/bank-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "a25dc69f-c691-484f-be27-bcfa04adcc13",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "admin",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "9b3ecd60-04df-4adc-b8c5-2ec181823392",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/admin/v1/metrics"
+}
+]
+},
+{
+"ApiResourceId": "b1994667-0ae7-4a36-a9d1-e4ade6ea1e03",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "channels",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "66af036c-4933-45b7-a401-fdf93a349c8e",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/channels/v1/branches"
+},
+{
+"ApiDiscoveryId": "038b101e-666a-40f4-a17a-58b1a282ac97",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/channels/v1/electronic-channels"
+},
+{
+"ApiDiscoveryId": "6ad6db3b-1668-4cdc-b6a0-89bdf39e8ca9",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/channels/v1/phone-channels"
+},
+{
+"ApiDiscoveryId": "577a9702-f8c3-4573-992d-646127a41878",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/channels/v1/banking-agents"
+},
+{
+"ApiDiscoveryId": "7f88f675-54bf-43d0-8f29-0002df9d9711",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/channels/v1/shared-automated-teller-machines"
+}
+]
+},
+{
+"ApiResourceId": "52285852-f1d9-4ce5-97f1-0a90973a865c",
+"ApiVersion": "1",
+"FamilyComplete": false,
+"ApiCertificationUri": null,
+"CertificationStatus": null,
+"CertificationStartDate": null,
+"CertificationExpirationDate": null,
+"ApiFamilyType": "discovery",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "edb4d474-2698-4ac6-940c-9f2325890956",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/discovery/v1/status"
+},
+{
+"ApiDiscoveryId": "9ef27b00-d833-44d4-adec-cea33165c639",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/discovery/v1/outages"
+}
+]
+},
+{
+"ApiResourceId": "f70546bb-e16c-483f-afa5-eabe13b9197d",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/funds/1.0.0/30306294_BTG-WM-Fase-4B_funds_v1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "c4839cd6-e4e5-4e43-9b2d-583e06253aa9",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/funds/v1/investments"
+},
+{
+"ApiDiscoveryId": "8a8d6f7c-4357-4f87-902b-210ce806fad6",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "ee165d89-2a79-4d1a-9d4c-12e5a06d28e3",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "ce8001be-5001-4d2f-9486-c3d5d350b845",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "b566e2c0-bf2f-477d-b4ff-12d056817df1",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/funds/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "3fdba8a3-d3f6-484b-b348-ad65221e8080",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=vVNWU2SzYiuuV&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_bank-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "e3f9557e-f51e-4430-9d91-d0966694992f",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-investments/v1/bank-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "82b83aec-0944-4503-8221-53b069d7aac0",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=M9UB2Z4JZN9HI&public=true",
+"CertificationStatus": "Warning",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "64f2c477-57f3-422d-b99d-ecac8d989c52",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-investments/v1/credit-fixed-incomes"
+}
+]
+},
+{
+"ApiResourceId": "d133808c-5b83-4fb3-8e71-12b29e4d7b43",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-fixed-incomes/1.0.0/30306294_BTG-WM-Fase-4B_credit-fixed-incomes_v1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "credit-fixed-incomes",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "96c0d061-698b-4ea8-b34a-7172d731ed2c",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments"
+},
+{
+"ApiDiscoveryId": "e3acb10e-2293-4339-a89a-c995de3a3b24",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "18776bf9-9b30-4e7d-963b-d1c762d9de11",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "e517e8b2-99a5-40b5-aaa8-aec25857fe0c",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "6a1e2bef-1389-478e-ae90-3267fbd12d1f",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/credit-fixed-incomes/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "7e6a1e81-65eb-4810-bbb4-a2a47585eb8d",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=E4n2gI1uGNsBg&public=true",
+"CertificationStatus": "Rejected",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_funds",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "059ecfdd-3011-40f8-a70d-787344fa300c",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-investments/v1/funds"
+}
+]
+},
+{
+"ApiResourceId": "1b6469c8-be5a-4cb6-abec-2fdf9c7806bb",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/treasure-title/1.0.0/30306294_BTG-WM-Fase-4B_treasure-title_v1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "a0560f73-3b72-4f78-97fa-a50608729648",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/treasure-titles/v1/investments"
+},
+{
+"ApiDiscoveryId": "a1e7f936-9127-40bd-948e-c6f21b5a3e00",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}"
+},
+{
+"ApiDiscoveryId": "c503de49-5730-468e-b5cf-6c4464b09ba4",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/balances"
+},
+{
+"ApiDiscoveryId": "e046718f-d21e-4b9c-8c48-6c00a10e12ce",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions"
+},
+{
+"ApiDiscoveryId": "47fea1f4-9c72-4ae6-a811-376d1c328cf1",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/treasure-titles/v1/investments/{investmentId}/transactions-current"
+}
+]
+},
+{
+"ApiResourceId": "000107e1-cae7-4076-95b3-499864c0912a",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20WM_personal_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "customers-personal",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "5ef6e1ba-8e07-4526-a568-daeb9c88e6ee",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/customers/v2/personal/identifications"
+},
+{
+"ApiDiscoveryId": "ca885169-73b8-467b-9aa6-019d0b82f98e",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/customers/v2/personal/qualifications"
+},
+{
+"ApiDiscoveryId": "c84018d3-3b55-4628-b9f9-8b4b82a1fec2",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/customers/v2/personal/financial-relations"
+}
+]
+},
+{
+"ApiResourceId": "e7a7f168-5a76-4693-9238-1110871f3c8d",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/unarranged-overdraft/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0_unarranged-overdraft_v2-OL_27-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "27/09/2022",
+"CertificationExpirationDate": "27/09/2023",
+"ApiFamilyType": "unarranged-accounts-overdraft",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "81cb010c-d7fd-46c3-8c86-6e38f9da57cd",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts"
+},
+{
+"ApiDiscoveryId": "ca02d5f9-37a6-4adb-8072-f53ef4d8cdd0",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "8c02030d-2829-4b71-9548-7312b210f48b",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+},
+{
+"ApiDiscoveryId": "e6888873-6044-4bf7-95b3-1d25e7348ead",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "9f1e5d02-cf1f-40f0-bd43-4b55229ee105",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+}
+]
+},
+{
+"ApiResourceId": "b87b749b-bbfc-45ff-abbd-540f3ff519bf",
+"ApiVersion": "1.0.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=WGo1ZmxVQsr6W&public=true",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "04/10/2023",
+"CertificationExpirationDate": "03/10/2024",
+"ApiFamilyType": "opendata-investments_treasure-titles",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "09dbb9e1-f79a-4685-bda8-febd6522b19a",
+"ApiEndpoint": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/opendata-investments/v1/treasure-titles"
+}
+]
+},
+{
+"ApiResourceId": "6cc38af0-effa-4caa-9d5d-da980c29c6ef",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20WM_accounts_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "accounts",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "7eb162c4-d70b-4674-bf40-758ba6bdf446",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/accounts/v2/accounts"
+},
+{
+"ApiDiscoveryId": "fb490aaf-c725-4105-86b7-a2ff86e161af",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}"
+},
+{
+"ApiDiscoveryId": "53fe5fb4-ea75-4874-a5e0-bfa4d64c0c6c",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/balances"
+},
+{
+"ApiDiscoveryId": "b27cf956-5d43-4e64-80fb-cd204fc64dea",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions"
+},
+{
+"ApiDiscoveryId": "5e9e2885-07d0-46eb-8523-b1ee0ebdb060",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+},
+{
+"ApiDiscoveryId": "8fb946b9-4894-4a18-a63c-6529743b6fca",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+}
+]
+},
+{
+"ApiResourceId": "92c76a09-5228-49c7-82da-89a6c2975ee3",
+"ApiVersion": "2.1.0",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.1.0/30306294_BTG-WM-Fase-4B_consents_v2.1_23-09-2023.json",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "23/09/2023",
+"CertificationExpirationDate": "22/09/2024",
+"ApiFamilyType": "consents",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "3a09c6dc-3ef2-4eba-b426-86c37c09e13c",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/consents/v2/consents"
+},
+{
+"ApiDiscoveryId": "03010e3d-f677-4460-9253-813e6a799df3",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/consents/v2/consents/{consentId}"
+}
+]
+},
+{
+"ApiResourceId": "10a0164a-28a9-464a-8dc8-9970323dc91c",
+"ApiVersion": "2.0.1",
+"FamilyComplete": true,
+"ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/invoice-financings/2.0.1/30306294_Banco%20BTG%20Pactual%20Open%20Banking%20v2.0%20-%20WM_invoice-financings_v2-OL_29-09-2022.zip",
+"CertificationStatus": "Self-Certified",
+"CertificationStartDate": "29/09/2022",
+"CertificationExpirationDate": "29/09/2023",
+"ApiFamilyType": "invoice-financings",
+"ApiDiscoveryEndpoints": [
+{
+"ApiDiscoveryId": "074b37aa-8604-4b2c-80ee-f8f832bdbaa9",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+},
+{
+"ApiDiscoveryId": "c2f45056-76d0-486f-a03b-56d35ea1b3e5",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+},
+{
+"ApiDiscoveryId": "0c968365-69b9-4e70-a08d-f9cf0a9af207",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts"
+},
+{
+"ApiDiscoveryId": "6a768336-b22b-4493-ab70-7533fbc276dc",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}"
+},
+{
+"ApiDiscoveryId": "8d8ec76d-a356-45c1-acc5-83bab23d2f08",
+"ApiEndpoint": "https://api.wm.ob.btgpactual.com/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+}
+]
+}
+],
+"AuthorisationServerCertifications": [
+{
+"CertificationStartDate": "16/09/2022",
+"CertificationExpirationDate": "16/09/2023",
+"CertificationId": "7190a409-8e47-4ed9-acfb-fac06a1f6f75",
+"AuthorisationServerId": "699d679e-3932-493e-88b9-9c5d46eb98cf",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Unsigned payload- JSON",
+"ProfileType": "DCR",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-WM_OPEN-BANKING_BR-OB-Adv-OP-DCR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "19/11/2021",
+"CertificationExpirationDate": "19/11/2022",
+"CertificationId": "e09b81ea-887f-4329-be12-967976ab60a3",
+"AuthorisationServerId": "699d679e-3932-493e-88b9-9c5d46eb98cf",
+"Status": "Self-Certified",
+"ProfileVariant": "DCR Signed payload - JWT",
+"ProfileType": "DCR",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BTG-WM_OPEN-BANKING_BR-OB-Adv-OP-DCR-19-NOV-2021.zip"
+},
+{
+"CertificationStartDate": "07/07/2021",
+"CertificationExpirationDate": "07/07/2022",
+"CertificationId": "0e33683f-340a-4d11-aff4-e5714107a4be",
+"AuthorisationServerId": "699d679e-3932-493e-88b9-9c5d46eb98cf",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 1,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_BTG_Pactual_S.A.-BTG-Pactual_WM_Open_Banking_1.0.0-BR_OB_Adv._OP_w_Private_Key_PAR-07-Jul-2021.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "ff2ebc2c-3ac6-4a1f-980f-038008658d9d",
+"AuthorisationServerId": "699d679e-3932-493e-88b9-9c5d46eb98cf",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-WM_OPEN-BANKING_BR-OB-Adv-OP-w-MTLS-PAR_16-SET-2022.zip"
+},
+{
+"CertificationStartDate": "01/10/2022",
+"CertificationExpirationDate": "01/10/2023",
+"CertificationId": "e719f424-d0d0-4667-9d9f-6c0300c1ece5",
+"AuthorisationServerId": "699d679e-3932-493e-88b9-9c5d46eb98cf",
+"Status": "Self-Certified",
+"ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+"ProfileType": "Redirect",
+"ProfileVersion": 5,
+"CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/BTG-WM_OPEN-BANKING_BR-OB-Adv-OP-w-Private-Key-PAR_16-SET-2022.zip"
+}
+]
+}
+],
+"OrgDomainClaims": [
+{
+"AuthorisationDomainName": "Open Banking",
+"AuthorityName": "Banco Central do Brasil",
+"RegistrationId": "",
+"Status": "Active"
+}
+],
+"OrgDomainRoleClaims": [
+{
+"Status": "Active",
+"AuthorisationDomain": "Open Banking",
+"Role": "DADOS",
+"RegistrationId": "30306294-OBB-DADOS",
+"Authorisations": [],
+"RoleType": "Federation",
+"Exclusive": false,
+"Metadata": []
+},
+{
+"Status": "Active",
+"AuthorisationDomain": "Open Banking",
+"Role": "PAGTO",
+"RegistrationId": "30306294-OBB-PAGTO",
+"Authorisations": [],
+"RoleType": "Federation",
+"Exclusive": false,
+"Metadata": []
+},
+{
+"Status": "Active",
+"AuthorisationDomain": "Open Banking",
+"Role": "CONTA",
+"RegistrationId": "30306294-OBB-CONTA",
+"Authorisations": [],
+"RoleType": "Federation",
+"Exclusive": false,
+"Metadata": []
+}
+]
+},{
    "OrganisationId":"777b3ece-75ea-5fa7-a464-dd29b141e99e",
    "Status":"Active",
    "OrganisationName":"Confederacao Nacional das Cooperativas do Sicoob",
